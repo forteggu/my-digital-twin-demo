@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sftp-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sftp-server
+  template:
+    metadata:
+      labels:
+        app: sftp-server
+    spec:
+      containers:
+      - name: sftp-server
+        image: atmoz/sftp
+        ports:
+        - containerPort: 22
+        env:
+        - name: SFTP_USERS
+          value: "user:password:1001"
+        volumeMounts:
+        - mountPath: /home/user
+          name: sftp-data
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "1"
+          limits:
+            memory: "1Gi"
+            cpu: "2"
+      volumes:
+      - name: sftp-data
+        hostPath:
+          path: /mnt/sftp_data
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sftp-server
+spec:
+  selector:
+    app: sftp-server
+  ports:
+    - protocol: TCP
+      port: 22
+      targetPort: 22
+  type: NodePort
