@@ -48,8 +48,10 @@ metadata:
 spec:
   selector:
     app: woocommerce
+  type: NodePort
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
-  type: NodePort
+      nodePort: 30001
+

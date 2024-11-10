@@ -1,19 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sftp-server
+  name: my-digital-twin-sftp-server-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sftp-server
+      app: my-digital-twin-sftp-server
   template:
     metadata:
       labels:
-        app: sftp-server
+        app: my-digital-twin-sftp-server
+        group: shared-group
     spec:
       containers:
-      - name: sftp-server
+      - name: my-digital-twin-sftp-server-container
         image: atmoz/sftp
         ports:
         - containerPort: 22
@@ -25,25 +26,13 @@ spec:
           name: sftp-data
         resources:
           requests:
-            memory: "512Mi"
-            cpu: "1"
+            memory: "128Mi"
+            cpu: "500m"
           limits:
-            memory: "1Gi"
-            cpu: "2"
+            memory: "256Mi"
+            cpu: "1"
       volumes:
       - name: sftp-data
-        hostPath:
-          path: /mnt/sftp_data
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: sftp-server
-spec:
-  selector:
-    app: sftp-server
-  ports:
-    - protocol: TCP
-      port: 22
-      targetPort: 22
-  type: NodePort
+        persistentVolumeClaim:
+          claimName: my-digital-twin-sftp-volume-claim
+

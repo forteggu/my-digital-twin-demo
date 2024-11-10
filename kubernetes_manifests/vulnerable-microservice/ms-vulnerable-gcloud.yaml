@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-digital-twin-vulnerable-microservice-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-digital-twin-vulnerable-microservice
+  template:
+    metadata:
+      labels:
+        app: my-digital-twin-vulnerable-microservice
+        group: shared-group
+    spec:
+      containers:
+      - name: my-digital-twin-vulnerable-microservice-container
+        image: gcr.io/helical-ion-441012-v0/vulnerable-service:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: NODE_ENV
+          value: development
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "500m"
+          limits:
+            memory: "256Mi"
+            cpu: "1"

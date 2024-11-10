@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: loadbalancer-service
+spec:
+  type: LoadBalancer
+  selector:
+    group: shared-group # Apunta a todos los servicios con etiquetas compartidas
+  ports:
+    - name: ftp
+      protocol: TCP
+      port: 21
+      targetPort: 21
+    - name: sftp
+      protocol: TCP
+      port: 22
+      targetPort: 22
+    - name: vuln-ms
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
