@@ -20,27 +20,22 @@ spec:
           claimName: my-digital-twin-ftp-volume-claim
       containers:
       - name: my-digital-twin-ftp-container
-        image: fauria/vsftpd
+        image: stilliard/pure-ftpd
         ports:
         - containerPort: 21
-          protocol: TCP
-          name: "ftp-server-port"
-        volumeMounts:
-        - mountPath: "/home/vsftpd"
-          name: my-digital-twin-ftp-storage
+          name: ftp-port
+        - containerPort: 21100
+          name: pasv-min-port
+        - containerPort: 21110
+          name: pasv-max-port
         env:
-        - name: FTP_USER
+        - name: FTP_USER_NAME
           value: "mydigitaltwinuser"
-        - name: FTP_PASS
+        - name: FTP_USER_PASS
           value: "sevensectorunir"
-        - name: FTP_SECURE
-          value: "NO"
-        - name: PASV_ADDRESS
-          value: "" # DNS interno del LoadBalancer
-        - name: PASV_MIN_PORT
-          value: "21100"
-        - name: PASV_MAX_PORT
-          value: "21110"
+        volumeMounts:
+        - name: my-digital-twin-ftp-storage
+          mountPath: "/home/ftpusers"
         resources:
           requests:
             cpu: "100m"

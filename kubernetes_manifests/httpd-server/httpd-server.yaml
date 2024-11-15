@@ -1,26 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: vulnerable-microservice
+  name: my-digital-twin-httpd-server-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: vulnerable-microservice
+      app: my-digital-twin-httpd-server
   template:
     metadata:
       labels:
-        app: vulnerable-microservice
+        app: my-digital-twin-httpd-server
         group: shared-group
     spec:
       containers:
-      - name: vulnerable-microservice
-        image: ms-vuln-2:latest
+      - name: my-digital-twin-httpd-container
+        image: gcr.io/helical-ion-441012-v0/httpd:1.0
         ports:
-        - containerPort: 3000
-        env:
-        - name: NODE_ENV
-          value: development
+        - containerPort: 80
         resources:
           requests:
             cpu: "100m"
@@ -28,3 +25,4 @@ spec:
           limits:
             cpu: "200m"
             memory: "128Mi"
+
