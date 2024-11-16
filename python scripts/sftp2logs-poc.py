@@ -10,6 +10,7 @@ with open('./datasets/sftp.log', 'r') as f:
 patterns = {
     "failed_password_log": r"Failed password for (?:invalid )?(?:user )?(?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
     "invalid_user_log": r"Invalid user (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
+    "accepted_password": r"Accepted password for (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
     "generic_connection_log": r"(?P<log_head>[\w\s]+) (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
     "general_log": r"(?P<log_head>[\w\s]+)",
 }
@@ -56,11 +57,6 @@ mapped_data = mapped_data[["log_type", "log_head", "user", "ip", "port", "log_ta
 
 # Combinar los datos
 df_logs = pd.concat([df_logs, mapped_data], ignore_index=True)
-
-
-
-
-#TODO: change counter to failed_attempt_count so that it is taken into account for the failed attempts counting
 
 
 #--------------------------------------------------------------------------------original processing
@@ -111,6 +107,17 @@ for index, row in df_logs.iterrows():
             invalid_count = 1
         df_logs.at[index, 'failed_attempt_count'] = invalid_count
 
+    elif row['log_type'] == "accepted_password":
+        if row['ip'] == current_ip_invalid:
+            if invalid_count >3 or failed_count>3 :
+                df_logs.at[index,'label'] = "anomaly"
+            else :
+                df_logs.at[index,'label'] = "normal"
+            df_logs.at[index, 'failed_attempt_count'] = 0
+            df_logs.at[index, 'current_ip_invalid'] = 0
+            invalid_count = 0
+            failed_count = 0
+
     else:
         # Reiniciar contadores para otros tipos de logs
         # current_ip_failed = None
@@ -119,6 +126,7 @@ for index, row in df_logs.iterrows():
         # invalid_count = 0
         generic_log_count+=1
         
+#MEJORA: en vez de utilizar un simple contador, almacenar las ips y los usuarios en diferentes objetos o diccionarios o db y mantener así un registro más claro
 
 # Mostrar resultados
 print(df_logs)
