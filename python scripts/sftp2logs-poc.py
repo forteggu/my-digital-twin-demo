@@ -105,7 +105,7 @@ for index, row in df_logs.iterrows():
             df_logs.at[index, 'label'] = 'anomaly'
         else:
             df_logs.at[index, 'label'] = 'normal'
-        df_logs['ip_attempt_count'] = ip_count
+        df_logs.at[index,'ip_attempt_count'] = ip_count
             
     elif log_type in ["invalid_user_log"]:
         redis_db.hincrby(f"{ip}", "count_ip", 1)
