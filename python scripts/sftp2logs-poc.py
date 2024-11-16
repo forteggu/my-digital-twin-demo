@@ -145,4 +145,4 @@ print(f"Tiempo: {time.time() - start_time} segundos")
 print(df_logs)
 
 # Guardar en CSV
-df_logs.to_csv('outputs/structured_sftp_logs_with_counts.csv', index=False)
+df_logs.to_csv('processed_datasets/structured_sftp_logs_with_counts.csv', index=False)

@@ -75,7 +75,6 @@ df_logs = pd.concat([df_logs, mapped_data], ignore_index=True)
 # Inicializar la columna de conteo de intentos fallidos
 df_logs['failed_password_attempt_count'] = 0
 df_logs['ip_attempt_count'] = 0
-df_logs['label'] = 'normal'
 
 # Contar intentos fallidos consecutivos por IP y usuario
 current_ip_failed = None
@@ -101,31 +100,16 @@ for index, row in df_logs.iterrows():
         # Incrementar conteos en Redis
         redis_db.hincrby(f"{ip}", "count_ip", 1)
         ip_count = int(redis_db.hget(f"{ip}", "count_ip") or 0)
-        if ip_count >= max_ip_tries_before_suspcious:
-            df_logs.at[index, 'label'] = 'anomaly'
-        else:
-            df_logs.at[index, 'label'] = 'normal'
-        df_logs['ip_attempt_count'] = ip_count
+        df_logs.at[index,'ip_attempt_count'] = ip_count
             
     elif log_type in ["invalid_user_log"]:
         redis_db.hincrby(f"{ip}", "count_ip", 1)
         ip_count = int(redis_db.hget(f"{ip}", "count_ip") or 0)
         df_logs.at[index, 'ip_attempt_count'] = ip_count
-        # Aplicar reglas de etiquetado
-        if ip_count >= max_ip_tries_before_suspcious:
-            df_logs.at[index, 'label'] = 'anomaly'
-        else:
-            df_logs.at[index, 'label'] = 'normal'
 
     elif log_type in ["failed_password_log"]:
         redis_db.hincrby(f"{ip}:{user}", "count_user_password", 1)
         password_count = int(redis_db.hget(f"{ip}:{user}", "count_user_password") or 0)
-        df_logs.at[index, 'failed_password_attempt_count'] = password_count
-        # Aplicar reglas de etiquetado
-        if password_count >= max_password_tries_before_suspcious:
-            df_logs.at[index, 'label'] = 'anomaly'
-        else:
-            df_logs.at[index, 'label'] = 'normal'
         df_logs.at[index, 'failed_password_attempt_count'] = password_count
         df_logs.at[index, 'ip_attempt_count'] = ip_count
     elif log_type == "accepted_password":
@@ -133,11 +117,6 @@ for index, row in df_logs.iterrows():
         ip_count = int(redis_db.hget(f"{ip}", "count_ip") or 0)
         password_count = int(redis_db.hget(f"{ip}:{user}", "count_user_password") or 0)
         df_logs.at[index, 'ip_attempt_count'] = ip_count
-        # Aplicar reglas de etiquetado
-        if ip_count >= max_ip_tries_before_suspcious:
-            df_logs.at[index, 'label'] = 'anomaly'
-        else:
-            df_logs.at[index, 'label'] = 'normal'           
         redis_db.hdel(f"{ip}:{user}", "count_user") # Reiniciar conteos después de una contraseña aceptada
 
 # Mostrar resultados
@@ -145,4 +124,4 @@ print(f"Tiempo: {time.time() - start_time} segundos")
 print(df_logs)
 
 # Guardar en CSV
-df_logs.to_csv('outputs/structured_sftp_logs_with_counts.csv', index=False)
+df_logs.to_csv('processed_datasets/labelless_structured_sftp_logs_with_counts.csv', index=False)
