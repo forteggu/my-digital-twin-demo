@@ -29,3 +29,6 @@ spec:
     - name: passive-ports2
       port: 21110
       targetPort: 21110
+    - name: fluentd
+      port: 9880
+      targetPort: 9880

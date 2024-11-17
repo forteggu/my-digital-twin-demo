@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Logs</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .log {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualizador de Logs y Predicciones</h1>
+    <div id="logs"></div>
+
+    <script>
+        const socket = io();
+        const logsContainer = document.getElementById('logs');
+
+        // Escuchar eventos y actualizar la página
+        socket.on('events', (events) => {
+            logsContainer.innerHTML = ''; // Limpiar logs anteriores
+            events.forEach(event => {
+                const logDiv = document.createElement('div');
+                logDiv.className = 'log';
+                logDiv.innerHTML = `<strong>Log:</strong> ${event.raw_log} <br> <strong>Predicción:</strong> ${event.predicted_label}`;
+                logsContainer.appendChild(logDiv);
+            });
+        });
+    </script>
+</body>
+</html>
