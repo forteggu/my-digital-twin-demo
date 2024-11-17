@@ -8,13 +8,10 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 const PORT = 3000;
+// const EVENT_API_URL = 'http://event-receiver-service:8082/events'; // URL del receptor de eventos
 const EVENT_API_URL = 'http://localhost:8000/events'; // URL del receptor de eventos
 
-// Middleware para servir archivos estáticos
-// Middleware para servir archivos estáticos desde la carpeta "public"
-app.use(express.static('public'));
-
-// Endpoint raíz que redirige a index.html
+// Servir el archivo index.html directamente desde el directorio actual
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });

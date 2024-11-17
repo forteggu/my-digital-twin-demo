@@ -2,5 +2,5 @@ product-service/node_modules
 db_data/*
 python scripts/datasets
 python scripts/processed_datasets
-notification_manager/server/node_modules/
-notification_manager/visualizer/node_modules/
+notifications_manager/server/node_modules/
+notifications_manager/visualizer/node_modules/

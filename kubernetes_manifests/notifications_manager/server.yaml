@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: event-receiver
+  labels:
+    app: event-receiver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: event-receiver
+  template:
+    metadata:
+      labels:
+        app: event-receiver
+    spec:
+      containers:
+      - name: event-receiver
+        image: gcr.io/helical-ion-441012-v0/event-receiver:1.0
+        ports:
+        - containerPort: 8000
+        resources:
+          requests:
+            cpu: "50m"
+            memory: "64Mi"
+          limits:
+            cpu: "75m"
+            memory: "128Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: event-receiver-service
+spec:
+  selector:
+    app: event-receiver
+  ports:
+    - protocol: TCP
+      port: 8082
+      targetPort: 8000
+  type: ClusterIP

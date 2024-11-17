@@ -7,6 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 import redis
 import re
 import requests
+import argparse
 
 EVENT_RECEIVER_URL = "http://localhost:8000/log-event/"
 
@@ -106,7 +107,7 @@ def predict_with_model(features_df):
     return predictions
 
 # Función para manejar logs en streaming
-def stream_pod_logs(namespace, pod_name, container_name=None):
+def stream_pod_logs(namespace, pod_name, container_name=None,only_live=False):
     try:
         # Cargar configuración de Kubernetes
         config.load_kube_config()
@@ -118,12 +119,15 @@ def stream_pod_logs(namespace, pod_name, container_name=None):
         w = watch.Watch()
         print(f"Streaming logs en tiempo real del pod {pod_name} en el namespace {namespace}...")
 
+        params = {"follow": True}
+        if only_live:
+            params["since_seconds"] = 1  # Solo logs en tiempo real
         for line in w.stream(
             v1.read_namespaced_pod_log,
             name=pod_name,
             namespace=namespace,
             container=container_name,
-            follow=True
+             **params
         ):
             # Estructurar y procesar la línea
             structured_df = structure_line(line)
@@ -147,9 +151,17 @@ def stream_pod_logs(namespace, pod_name, container_name=None):
 
 # Main
 if __name__ == "__main__":
+
+        # Configurar argumentos del script
+    parser = argparse.ArgumentParser(description="Stream de logs de un pod en Kubernetes")
+    parser.add_argument("--only-live", action="store_true", help="Si se establece, solo obtiene logs en vivo")
+
+    args = parser.parse_args()
+
+
     namespace = "default"
     pod_name = "my-digital-twin-sftp-server-deployment-5f98586588-szq7d"
     container_name = None
 
     # Habilitar streaming en vivo de logs
-    stream_pod_logs(namespace, pod_name, container_name)
+    stream_pod_logs(namespace, pod_name, container_name, only_live=args.only_live)
