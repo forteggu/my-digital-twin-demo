@@ -10,11 +10,20 @@ let events = [];
 // Middleware para parsear JSON
 app.use(bodyParser.json());
 
-// Endpoint para recibir eventos
+const MAX_LOGS = 5000; // Limitar a 1000 logs
+
 app.post('/log-event', (req, res) => {
     const event = req.body;
-    if (event.raw_log && event.predicted_label) {
+
+    if (event.timestamp && event.raw_log && event.predicted_label) {
+        // Agregar evento al arreglo
         events.push(event);
+
+        // Si excede el límite, eliminar el más antiguo
+        if (events.length > MAX_LOGS) {
+            events.shift(); // Elimina el primer elemento (más antiguo)
+        }
+
         console.log('Evento recibido:', event);
         res.status(200).json({ status: 'received', event });
     } else {

@@ -111,5 +111,5 @@ X_test['true_label'] = y_test.values
 print(X_test[['predicted_label', 'true_label']].head())
 
 # Guardar resultados
-X_test.to_csv('model_outputs/sftp_test_results.csv', index=False)
-print("Resultados guardados en 'model_outputs/sftp_test_results.csv'.")
+X_test.to_csv('model_outputs/sftp_model_training_results.csv', index=False)
+print("Resultados guardados en 'model_outputs/sftp_model_training_results.csv'.")

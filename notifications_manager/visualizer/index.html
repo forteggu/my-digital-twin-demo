@@ -8,29 +8,61 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 20px;
         }
-        .log {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .anomaly {
+            background-color: #ffcccc; /* Resaltar anomalías */
         }
     </style>
 </head>
 <body>
-    <h1>Visualizador de Logs y Predicciones</h1>
-    <div id="logs"></div>
+    <h1>Visualizador de Logs</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>Raw Log</th>
+                <th>Predicción</th>
+            </tr>
+        </thead>
+        <tbody id="logs">
+            <!-- Los eventos se insertarán aquí dinámicamente -->
+        </tbody>
+    </table>
 
     <script>
         const socket = io();
         const logsContainer = document.getElementById('logs');
 
-        // Escuchar eventos y actualizar la página
+        // Escuchar eventos y actualizar la tabla
         socket.on('events', (events) => {
             logsContainer.innerHTML = ''; // Limpiar logs anteriores
             events.forEach(event => {
-                const logDiv = document.createElement('div');
-                logDiv.className = 'log';
-                logDiv.innerHTML = `<strong>Log:</strong> ${event.raw_log} <br> <strong>Predicción:</strong> ${event.predicted_label}`;
-                logsContainer.appendChild(logDiv);
+                const logRow = document.createElement('tr');
+                logRow.className = event.predicted_label === 'anomaly' ? 'anomaly' : '';
+
+                logRow.innerHTML = `
+                    <td>${event.timestamp}</td>
+                    <td>${event.raw_log}</td>
+                    <td>${event.predicted_label}</td>
+                `;
+
+                logsContainer.appendChild(logRow);
             });
         });
     </script>

@@ -119,15 +119,14 @@ def stream_pod_logs(namespace, pod_name, container_name=None,only_live=False):
         w = watch.Watch()
         print(f"Streaming logs en tiempo real del pod {pod_name} en el namespace {namespace}...")
 
-        params = {"follow": True}
-        if only_live:
-            params["since_seconds"] = 1  # Solo logs en tiempo real
         for line in w.stream(
             v1.read_namespaced_pod_log,
             name=pod_name,
             namespace=namespace,
             container=container_name,
-             **params
+            follow=True,
+            since_seconds=1 if only_live else None,
+            timestamps=True  # Incluye timestamps en los logs
         ):
             # Estructurar y procesar la línea
             structured_df = structure_line(line)
