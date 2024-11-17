@@ -9,7 +9,8 @@ import re
 import requests
 import argparse
 
-EVENT_RECEIVER_URL = "http://localhost:8000/log-event/"
+#EVENT_RECEIVER_URL = "http://localhost:8000/log-event/"
+EVENT_RECEIVER_URL = "http://34.65.255.107:8000/log-event/"
 
 # Inicializar entorno y variables
 redis_db = redis.Redis(host='localhost', port=6379, decode_responses=True)
