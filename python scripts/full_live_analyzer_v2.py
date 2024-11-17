@@ -45,6 +45,10 @@ def send_event(row):
     user = row["user"]
     ip = row["ip"]
     
+    if isinstance(raw_log, str) and isinstance(timestamp, str) and raw_log.startswith(timestamp):
+        raw_log = raw_log[len(timestamp):].strip()  # Quitar el timestamp del inicio del raw_log
+
+
     """Enviar un evento al receptor"""
     event = {
         "timestamp": timestamp,
