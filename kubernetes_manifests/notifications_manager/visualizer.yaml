@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: log-visualizer
-        image: gcr.io/helical-ion-441012-v0/log-visualizer:1.0
+        image: gcr.io/helical-ion-441012-v0/log-visualizer:3.0
         ports:
         - containerPort: 3000
         resources:

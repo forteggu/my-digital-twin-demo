@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: event-receiver
-        image: gcr.io/helical-ion-441012-v0/event-receiver:1.0
+        image: gcr.io/helical-ion-441012-v0/event-receiver:3.0
         ports:
         - containerPort: 8000
         resources:
@@ -36,6 +36,6 @@ spec:
     app: event-receiver
   ports:
     - protocol: TCP
-      port: 8082
-      targetPort: 8000
-  type: ClusterIP
+      port: 8000          # Puerto público expuesto
+      targetPort: 8000    # Puerto interno del contenedor
+  type: LoadBalancer
