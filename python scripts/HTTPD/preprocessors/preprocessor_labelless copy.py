@@ -13,32 +13,20 @@ redis_db.flushdb()
 print("Base de datos Redis vaciada.")
 
 # Leer logs desde el archivo
-with open('../datasets/sftp.log', 'r') as f:
+with open('../datasets/http.log', 'r') as f:
+    print(f"Total de líneas en el archivo: {len(log_lines)}")
     log_lines = f.readlines()
     print(f"Total de líneas en el archivo: {len(log_lines)}")
 
-# Patrones de log
-patterns = {
-    "failed_password_log": r"Failed password for (?:invalid )?(?:user )?(?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
-    "invalid_user_log": r"Invalid user (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
-    "accepted_password": r"Accepted password for (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
-    "generic_connection_log": r"(?P<log_head>[\w\s]+) (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
-    "general_log": r"(?P<log_head>[\w\s]+)",
-}
+# Patrón para dividir los logs HTTP
+pattern = r'^(?P<ip>\d+\.\d+\.\d+\.\d+) - - \[(?P<timestamp>[^\]]+)\] "(?P<method>\w+) (?P<request>[^\s]+) (?P<protocol>HTTP\/\d\.\d)" (?P<response_code>\d+) (?P<response_body_size>[\d\-]+)'
 
 # Procesar logs
 structured_logs = []
-
 for log in log_lines:
-    log = log.strip()  # Eliminar espacios en blanco
-    structured = {"log_type": None, "log_head": None, "user": None, "ip": None, "port": None, "log_tail": None, "raw_log": log}
-    for log_type, pattern in patterns.items():
-        match = re.match(pattern, log)
-        if match:
-            structured.update(match.groupdict())
-            structured["log_type"] = log_type
-            break
-    structured_logs.append(structured)
+    match = re.match(pattern, log.strip())
+    if match:
+        structured_logs.append(match.groupdict())
 
 # Convertir a DataFrame
 df_logs = pd.DataFrame(structured_logs)
