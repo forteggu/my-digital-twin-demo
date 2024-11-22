@@ -45,10 +45,10 @@ for line in log_data:
     match = log_pattern.match(line)
     if match:
         log_entry = match.groupdict()
-
+        log_entry.pop("protocol", None)
         # Exclude the protocol from the parsed log entry
         #del log_entry["protocol"]
-
+    
         # Convert size to integer where applicable
         log_entry["size"] = int(log_entry["size"]) if log_entry["size"].isdigit() else None
         
@@ -72,7 +72,7 @@ output_file = os.path.join(output_dir, os.path.basename(file_name) + "_parsed.cs
 # Write to CSV
 with open(output_file, mode="w", newline="") as csv_file:
     # Include the flag column in the header
-    fieldnames = ["ip", "date", "method", "endpoint","protocol", "status", "size", "flag"]
+    fieldnames = ["ip", "date", "method", "endpoint", "status", "size", "flag"]
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     
     writer.writeheader()
