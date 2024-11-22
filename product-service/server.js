@@ -2,10 +2,10 @@ const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
 const app = express();
 const port = 3000;
-
+const cors = require('cors'); // Importa CORS
 // Conexión a la base de datos en memoria
 const db = new sqlite3.Database(':memory:');
-
+app.use(cors());
 // Crear una tabla y agregar datos de ejemplo
 db.serialize(() => {
   db.run("CREATE TABLE users (id INT, name TEXT)");

@@ -8,8 +8,8 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 const PORT = 3000;
-// const EVENT_API_URL = 'http://event-receiver-service:8082/events'; // URL del receptor de eventos
-const EVENT_API_URL = 'http://localhost:8000/events'; // URL del receptor de eventos
+const EVENT_API_URL = 'http://34.65.255.107:8000/events'; // URL del receptor de eventos
+//const EVENT_API_URL = 'http://localhost:8000/events'; // URL del receptor de eventos
 
 // Servir el archivo index.html directamente desde el directorio actual
 app.get('/', (req, res) => {

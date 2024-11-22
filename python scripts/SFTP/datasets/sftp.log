@@ -1,0 +1,1365 @@
+[/usr/local/bin/create-sftp-user] Parsing user data: "mydigitaltwinuser:sevensectorunir:1001"
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:4rxJuPyBf3OuKilECwXptHGBb5MEQvMLzWnJymsCQf4 root@my-digital-twin-sftp-server-deployment-5f98586588-szq7d
+The key's randomart image is:
++--[ED25519 256]--+
+|+Bo..            |
+|=+Boo            |
+|++*O.            |
+|o+*=.            |
+|.=.E. . S        |
+|. +  = .         |
+|.+  o.=          |
+|o ..o+ +o .      |
+|   .oo*o.=.      |
++----[SHA256]-----+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:uMtsUejOC6r+t6b80ND5zYpIKzRGCvO7Rs5iipX6c5M root@my-digital-twin-sftp-server-deployment-5f98586588-szq7d
+The key's randomart image is:
++---[RSA 4096]----+
+|                 |
+|                 |
+|       .         |
+|o.  . o..        |
+|+o . +..S        |
+|.+o.o +.o        |
+|o+++.=.o o       |
+|o=O.E*=..        |
+|O**X=**o         |
++----[SHA256]-----+
+[/entrypoint] Executing sshd
+Server listening on 0.0.0.0 port 22.
+Server listening on :: port 22.
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 168.167.72.228 port 21260
+Invalid user temp from 168.167.72.228 port 21334
+Could not get shadow information for NOUSER
+Failed password for invalid user temp from 168.167.72.228 port 21334 ssh2
+Connection closed by invalid user temp 168.167.72.228 port 21334 [preauth]
+Invalid user pedro from 168.167.72.228 port 21335
+Could not get shadow information for NOUSER
+Failed password for invalid user pedro from 168.167.72.228 port 21335 ssh2
+Connection closed by invalid user pedro 168.167.72.228 port 21335 [preauth]
+Invalid user stack from 168.167.72.228 port 21338
+Could not get shadow information for NOUSER
+Failed password for invalid user stack from 168.167.72.228 port 21338 ssh2
+Connection closed by invalid user stack 168.167.72.228 port 21338 [preauth]
+Unable to negotiate with 218.92.0.212 port 5706: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user squid from 168.167.72.228 port 21343
+Could not get shadow information for NOUSER
+Failed password for invalid user squid from 168.167.72.228 port 21343 ssh2
+Connection closed by invalid user squid 168.167.72.228 port 21343 [preauth]
+Invalid user kafka from 168.167.72.228 port 21345
+Could not get shadow information for NOUSER
+Failed password for invalid user kafka from 168.167.72.228 port 21345 ssh2
+Connection closed by invalid user kafka 168.167.72.228 port 21345 [preauth]
+Invalid user db from 168.167.72.228 port 21346
+Could not get shadow information for NOUSER
+Failed password for invalid user db from 168.167.72.228 port 21346 ssh2
+Connection closed by invalid user db 168.167.72.228 port 21346 [preauth]
+Failed password for root from 218.92.0.220 port 60124 ssh2
+Failed password for root from 218.92.0.220 port 60124 ssh2
+Failed password for root from 218.92.0.220 port 60124 ssh2
+Received disconnect from 218.92.0.220 port 60124:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.220 port 60124 [preauth]
+Failed password for root from 168.167.72.228 port 21349 ssh2
+Failed password for root from 218.92.0.220 port 35124 ssh2
+Connection closed by authenticating user root 168.167.72.228 port 21349 [preauth]
+Failed password for root from 218.92.0.220 port 35124 ssh2
+Failed password for root from 218.92.0.220 port 35124 ssh2
+Received disconnect from 218.92.0.220 port 35124:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.220 port 35124 [preauth]
+Invalid user telnet from 168.167.72.228 port 21353
+Could not get shadow information for NOUSER
+Failed password for invalid user telnet from 168.167.72.228 port 21353 ssh2
+Connection closed by invalid user telnet 168.167.72.228 port 21353 [preauth]
+Failed password for root from 218.92.0.220 port 35134 ssh2
+Invalid user Alex from 168.167.72.228 port 21356
+Failed password for root from 218.92.0.220 port 35134 ssh2
+Could not get shadow information for NOUSER
+Failed password for invalid user Alex from 168.167.72.228 port 21356 ssh2
+Failed password for root from 218.92.0.220 port 35134 ssh2
+Connection closed by invalid user Alex 168.167.72.228 port 21356 [preauth]
+Received disconnect from 218.92.0.220 port 35134:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.220 port 35134 [preauth]
+Invalid user oracle from 168.167.72.228 port 21361
+Could not get shadow information for NOUSER
+Failed password for invalid user oracle from 168.167.72.228 port 21361 ssh2
+Connection closed by invalid user oracle 168.167.72.228 port 21361 [preauth]
+Failed password for root from 218.92.0.229 port 38854 ssh2
+Failed password for root from 218.92.0.229 port 38854 ssh2
+Failed password for root from 218.92.0.229 port 38854 ssh2
+Received disconnect from 218.92.0.229 port 38854:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.229 port 38854 [preauth]
+Failed password for root from 218.92.0.235 port 31788 ssh2
+Failed password for root from 218.92.0.235 port 31788 ssh2
+Failed password for root from 218.92.0.235 port 31788 ssh2
+Received disconnect from 218.92.0.235 port 31788:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 31788 [preauth]
+Failed password for root from 218.92.0.221 port 22866 ssh2
+Failed password for root from 218.92.0.221 port 22866 ssh2
+Failed password for root from 218.92.0.221 port 22866 ssh2
+Received disconnect from 218.92.0.221 port 22866:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.221 port 22866 [preauth]
+Unable to negotiate with 218.92.0.208 port 37480: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Accepted password for mydigitaltwinuser from 185.209.120.2 port 46849 ssh2
+Failed password for root from 218.92.0.233 port 57030 ssh2
+Failed password for root from 218.92.0.233 port 57030 ssh2
+Failed password for root from 218.92.0.233 port 57030 ssh2
+Received disconnect from 218.92.0.233 port 57030:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.233 port 57030 [preauth]
+Failed password for root from 218.92.0.233 port 36824 ssh2
+Failed password for root from 218.92.0.233 port 36824 ssh2
+Failed password for root from 218.92.0.233 port 36824 ssh2
+Received disconnect from 218.92.0.233 port 36824:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.233 port 36824 [preauth]
+Failed password for root from 218.92.0.233 port 36826 ssh2
+Failed password for root from 218.92.0.233 port 36826 ssh2
+Failed password for root from 218.92.0.233 port 36826 ssh2
+Received disconnect from 218.92.0.233 port 36826:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.233 port 36826 [preauth]
+Failed password for root from 218.92.0.231 port 49626 ssh2
+Failed password for root from 218.92.0.231 port 49626 ssh2
+Failed password for root from 218.92.0.231 port 49626 ssh2
+Received disconnect from 218.92.0.231 port 49626:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.231 port 49626 [preauth]
+Failed password for root from 218.92.0.231 port 49640 ssh2
+Failed password for root from 218.92.0.231 port 49640 ssh2
+Failed password for root from 218.92.0.231 port 49640 ssh2
+Received disconnect from 218.92.0.231 port 49640:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.231 port 49640 [preauth]
+Unable to negotiate with 218.92.0.209 port 24742: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.212 port 52414: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.111 port 16982 ssh2
+Failed password for root from 218.92.0.111 port 16982 ssh2
+Failed password for root from 218.92.0.111 port 16982 ssh2
+Received disconnect from 218.92.0.111 port 16982:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.111 port 16982 [preauth]
+Failed password for root from 218.92.0.111 port 56414 ssh2
+Failed password for root from 218.92.0.111 port 56414 ssh2
+Failed password for root from 218.92.0.111 port 56414 ssh2
+Received disconnect from 218.92.0.111 port 56414:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.111 port 56414 [preauth]
+Failed password for root from 218.92.0.111 port 56422 ssh2
+Failed password for root from 218.92.0.111 port 56422 ssh2
+Failed password for root from 218.92.0.111 port 56422 ssh2
+Received disconnect from 218.92.0.111 port 56422:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.111 port 56422 [preauth]
+Failed password for root from 218.92.0.216 port 54592 ssh2
+Failed password for root from 218.92.0.216 port 54592 ssh2
+Failed password for root from 218.92.0.216 port 54592 ssh2
+Received disconnect from 218.92.0.216 port 54592:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.216 port 54592 [preauth]
+Unable to negotiate with 218.92.0.209 port 48638: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.225 port 38076 ssh2
+Failed password for root from 218.92.0.225 port 38076 ssh2
+Failed password for root from 218.92.0.225 port 38076 ssh2
+Received disconnect from 218.92.0.225 port 38076:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.225 port 38076 [preauth]
+Failed password for root from 218.92.0.225 port 38094 ssh2
+Failed password for root from 218.92.0.225 port 38094 ssh2
+Failed password for root from 218.92.0.225 port 38094 ssh2
+Received disconnect from 218.92.0.225 port 38094:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.225 port 38094 [preauth]
+Failed password for root from 218.92.0.225 port 55376 ssh2
+Failed password for root from 218.92.0.225 port 55376 ssh2
+Failed password for root from 218.92.0.225 port 55376 ssh2
+Received disconnect from 218.92.0.225 port 55376:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.225 port 55376 [preauth]
+Unable to negotiate with 218.92.0.211 port 63596: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.114 port 25432 ssh2
+Failed password for root from 218.92.0.114 port 25432 ssh2
+Failed password for root from 218.92.0.114 port 25432 ssh2
+Received disconnect from 218.92.0.114 port 25432:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.114 port 25432 [preauth]
+Failed password for root from 218.92.0.232 port 26528 ssh2
+Failed password for root from 218.92.0.232 port 26528 ssh2
+Failed password for root from 218.92.0.232 port 26528 ssh2
+Received disconnect from 218.92.0.232 port 26528:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.232 port 26528 [preauth]
+Failed password for root from 218.92.0.232 port 26554 ssh2
+Failed password for root from 218.92.0.232 port 26554 ssh2
+Failed password for root from 218.92.0.232 port 26554 ssh2
+Received disconnect from 218.92.0.232 port 26554:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.232 port 26554 [preauth]
+Failed password for root from 218.92.0.198 port 14602 ssh2
+Failed password for root from 218.92.0.198 port 14602 ssh2
+Failed password for root from 218.92.0.198 port 14602 ssh2
+Received disconnect from 218.92.0.198 port 14602:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.198 port 14602 [preauth]
+Failed password for root from 218.92.0.111 port 32008 ssh2
+Failed password for root from 218.92.0.111 port 32008 ssh2
+Failed password for root from 218.92.0.111 port 32008 ssh2
+Received disconnect from 218.92.0.111 port 32008:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.111 port 32008 [preauth]
+Failed password for root from 218.92.0.222 port 44834 ssh2
+Failed password for root from 218.92.0.222 port 44834 ssh2
+Failed password for root from 218.92.0.222 port 44834 ssh2
+Received disconnect from 218.92.0.222 port 44834:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.222 port 44834 [preauth]
+Failed password for root from 218.92.0.222 port 44840 ssh2
+Failed password for root from 218.92.0.222 port 44840 ssh2
+Failed password for root from 218.92.0.222 port 44840 ssh2
+Received disconnect from 218.92.0.222 port 44840:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.222 port 44840 [preauth]
+Failed password for root from 218.92.0.222 port 19604 ssh2
+Failed password for root from 218.92.0.222 port 19604 ssh2
+Failed password for root from 218.92.0.222 port 19604 ssh2
+Received disconnect from 218.92.0.222 port 19604:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.222 port 19604 [preauth]
+Failed password for root from 218.92.0.216 port 50374 ssh2
+Failed password for root from 218.92.0.216 port 50374 ssh2
+Failed password for root from 218.92.0.216 port 50374 ssh2
+Received disconnect from 218.92.0.216 port 50374:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.216 port 50374 [preauth]
+Unable to negotiate with 218.92.0.206 port 3878: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.235 port 53600 ssh2
+Failed password for root from 218.92.0.235 port 53600 ssh2
+Failed password for root from 218.92.0.235 port 53600 ssh2
+Received disconnect from 218.92.0.235 port 53600:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 53600 [preauth]
+Failed password for root from 218.92.0.235 port 53646 ssh2
+Failed password for root from 218.92.0.235 port 53646 ssh2
+Failed password for root from 218.92.0.235 port 53646 ssh2
+Received disconnect from 218.92.0.235 port 53646:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 53646 [preauth]
+Failed password for root from 218.92.0.235 port 17958 ssh2
+Failed password for root from 218.92.0.235 port 17958 ssh2
+Failed password for root from 218.92.0.235 port 17958 ssh2
+Received disconnect from 218.92.0.235 port 17958:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 17958 [preauth]
+Failed password for root from 218.92.0.237 port 55416 ssh2
+Failed password for root from 218.92.0.237 port 55416 ssh2
+Failed password for root from 218.92.0.237 port 55416 ssh2
+Received disconnect from 218.92.0.237 port 55416:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.237 port 55416 [preauth]
+Failed password for root from 218.92.0.237 port 19532 ssh2
+Failed password for root from 218.92.0.237 port 19532 ssh2
+Failed password for root from 218.92.0.237 port 19532 ssh2
+Received disconnect from 218.92.0.237 port 19532:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.237 port 19532 [preauth]
+Failed password for root from 218.92.0.237 port 64868 ssh2
+Failed password for root from 218.92.0.237 port 64868 ssh2
+Failed password for root from 218.92.0.237 port 64868 ssh2
+Received disconnect from 218.92.0.237 port 64868:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.237 port 64868 [preauth]
+Unable to negotiate with 218.92.0.209 port 51492: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.218 port 34250 ssh2
+Failed password for root from 218.92.0.218 port 34250 ssh2
+Failed password for root from 218.92.0.218 port 34250 ssh2
+Received disconnect from 218.92.0.218 port 34250:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.218 port 34250 [preauth]
+Failed password for root from 218.92.0.218 port 34264 ssh2
+Failed password for root from 218.92.0.218 port 34264 ssh2
+Failed password for root from 218.92.0.218 port 34264 ssh2
+Received disconnect from 218.92.0.218 port 34264:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.218 port 34264 [preauth]
+Failed password for root from 218.92.0.226 port 63180 ssh2
+Failed password for root from 218.92.0.226 port 63180 ssh2
+Failed password for root from 218.92.0.226 port 63180 ssh2
+Received disconnect from 218.92.0.226 port 63180:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.226 port 63180 [preauth]
+Failed password for root from 218.92.0.226 port 47422 ssh2
+Failed password for root from 218.92.0.226 port 47422 ssh2
+Failed password for root from 218.92.0.226 port 47422 ssh2
+Received disconnect from 218.92.0.226 port 47422:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.226 port 47422 [preauth]
+Failed password for root from 218.92.0.226 port 47430 ssh2
+Failed password for root from 218.92.0.226 port 47430 ssh2
+Failed password for root from 218.92.0.226 port 47430 ssh2
+Received disconnect from 218.92.0.226 port 47430:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.226 port 47430 [preauth]
+Failed password for root from 218.92.0.221 port 36888 ssh2
+Failed password for root from 218.92.0.221 port 36888 ssh2
+Failed password for root from 218.92.0.221 port 36888 ssh2
+Received disconnect from 218.92.0.221 port 36888:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.221 port 36888 [preauth]
+Unable to negotiate with 218.92.0.201 port 8912: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.216 port 36382 ssh2
+Failed password for root from 218.92.0.216 port 36382 ssh2
+Failed password for root from 218.92.0.216 port 36382 ssh2
+Received disconnect from 218.92.0.216 port 36382:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.216 port 36382 [preauth]
+Failed password for root from 218.92.0.237 port 62140 ssh2
+Failed password for root from 218.92.0.237 port 62140 ssh2
+Failed password for root from 218.92.0.237 port 62140 ssh2
+Received disconnect from 218.92.0.237 port 62140:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.237 port 62140 [preauth]
+Unable to negotiate with 218.92.0.211 port 16058: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.231 port 44656 ssh2
+Failed password for root from 218.92.0.231 port 44656 ssh2
+Failed password for root from 218.92.0.231 port 44656 ssh2
+Received disconnect from 218.92.0.231 port 44656:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.231 port 44656 [preauth]
+Failed password for root from 218.92.0.231 port 44690 ssh2
+Failed password for root from 218.92.0.231 port 44690 ssh2
+Failed password for root from 218.92.0.231 port 44690 ssh2
+Received disconnect from 218.92.0.231 port 44690:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.231 port 44690 [preauth]
+Failed password for root from 218.92.0.231 port 12890 ssh2
+Failed password for root from 218.92.0.231 port 12890 ssh2
+Failed password for root from 218.92.0.231 port 12890 ssh2
+Received disconnect from 218.92.0.231 port 12890:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.231 port 12890 [preauth]
+Failed password for root from 218.92.0.221 port 48746 ssh2
+Failed password for root from 218.92.0.221 port 48746 ssh2
+Failed password for root from 218.92.0.221 port 48746 ssh2
+Received disconnect from 218.92.0.221 port 48746:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.221 port 48746 [preauth]
+Failed password for root from 218.92.0.221 port 48770 ssh2
+Failed password for root from 218.92.0.221 port 48770 ssh2
+Failed password for root from 218.92.0.221 port 48770 ssh2
+Received disconnect from 218.92.0.221 port 48770:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.221 port 48770 [preauth]
+Failed password for root from 218.92.0.221 port 39702 ssh2
+Failed password for root from 218.92.0.221 port 39702 ssh2
+Failed password for root from 218.92.0.221 port 39702 ssh2
+Received disconnect from 218.92.0.221 port 39702:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.221 port 39702 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 121.40.176.39 port 33690
+Failed password for root from 218.92.0.218 port 35348 ssh2
+Failed password for root from 218.92.0.218 port 35348 ssh2
+Failed password for root from 218.92.0.218 port 35348 ssh2
+Received disconnect from 218.92.0.218 port 35348:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.218 port 35348 [preauth]
+Failed password for root from 218.92.0.218 port 35360 ssh2
+Failed password for root from 218.92.0.218 port 35360 ssh2
+Failed password for root from 218.92.0.218 port 35360 ssh2
+Received disconnect from 218.92.0.218 port 35360:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.218 port 35360 [preauth]
+Failed password for root from 218.92.0.236 port 13834 ssh2
+Failed password for root from 218.92.0.236 port 13834 ssh2
+Failed password for root from 218.92.0.236 port 13834 ssh2
+Received disconnect from 218.92.0.236 port 13834:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.236 port 13834 [preauth]
+Failed password for root from 218.92.0.236 port 22686 ssh2
+Failed password for root from 218.92.0.236 port 22686 ssh2
+Failed password for root from 218.92.0.236 port 22686 ssh2
+Received disconnect from 218.92.0.236 port 22686:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.236 port 22686 [preauth]
+Failed password for root from 218.92.0.236 port 31284 ssh2
+Failed password for root from 218.92.0.236 port 31284 ssh2
+Failed password for root from 218.92.0.236 port 31284 ssh2
+Received disconnect from 218.92.0.236 port 31284:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.236 port 31284 [preauth]
+Failed password for root from 218.92.0.114 port 14836 ssh2
+Failed password for root from 218.92.0.114 port 14836 ssh2
+Failed password for root from 218.92.0.114 port 14836 ssh2
+Received disconnect from 218.92.0.114 port 14836:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.114 port 14836 [preauth]
+Unable to negotiate with 218.92.0.252 port 42908: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.204 port 17506: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.237 port 46270 ssh2
+Failed password for root from 218.92.0.237 port 46270 ssh2
+Failed password for root from 218.92.0.237 port 46270 ssh2
+Received disconnect from 218.92.0.237 port 46270:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.237 port 46270 [preauth]
+Failed password for root from 218.92.0.112 port 45630 ssh2
+Failed password for root from 218.92.0.112 port 45630 ssh2
+Failed password for root from 218.92.0.112 port 45630 ssh2
+Received disconnect from 218.92.0.112 port 45630:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.112 port 45630 [preauth]
+Failed password for root from 218.92.0.235 port 27878 ssh2
+Failed password for root from 218.92.0.235 port 27878 ssh2
+Failed password for root from 218.92.0.235 port 27878 ssh2
+Received disconnect from 218.92.0.235 port 27878:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 27878 [preauth]
+Failed password for root from 218.92.0.235 port 27912 ssh2
+Failed password for root from 218.92.0.235 port 27912 ssh2
+Failed password for root from 218.92.0.235 port 27912 ssh2
+Received disconnect from 218.92.0.235 port 27912:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 27912 [preauth]
+Unable to negotiate with 218.92.0.210 port 18168: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.206 port 26496: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 195.178.110.34 port 36356 ssh2
+Connection closed by authenticating user root 195.178.110.34 port 36356 [preauth]
+Failed password for root from 195.178.110.34 port 38488 ssh2
+Connection closed by authenticating user root 195.178.110.34 port 38488 [preauth]
+Failed password for root from 195.178.110.34 port 48130 ssh2
+Connection closed by authenticating user root 195.178.110.34 port 48130 [preauth]
+Failed password for root from 195.178.110.34 port 40158 ssh2
+Connection closed by authenticating user root 195.178.110.34 port 40158 [preauth]
+Failed password for root from 195.178.110.34 port 34038 ssh2
+Connection closed by authenticating user root 195.178.110.34 port 34038 [preauth]
+Failed password for root from 195.178.110.34 port 34442 ssh2
+Connection closed by authenticating user root 195.178.110.34 port 34442 [preauth]
+Failed password for root from 195.178.110.34 port 40510 ssh2
+Connection closed by authenticating user root 195.178.110.34 port 40510 [preauth]
+Unable to negotiate with 218.92.0.209 port 40186: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.207 port 29200: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 114.242.55.32 port 51310
+Failed password for root from 141.98.10.82 port 45606 ssh2
+Connection closed by authenticating user root 141.98.10.82 port 45606 [preauth]
+Failed password for root from 141.98.10.82 port 45630 ssh2
+Connection closed by authenticating user root 141.98.10.82 port 45630 [preauth]
+Unable to negotiate with 218.92.0.210 port 12080: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.203 port 17076: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 85.31.47.40 port 51824
+Unable to negotiate with 218.92.0.212 port 50194: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.210 port 46344: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.203 port 20812: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.211 port 2088: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 46.101.32.15 port 51304
+Unable to negotiate with 218.92.0.204 port 61382: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.208 port 63040: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.206 port 1932: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 87.236.176.249 port 34921
+Unable to negotiate with 218.92.0.201 port 11552: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 195.178.110.6 port 47322 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47322 [preauth]
+Failed password for root from 195.178.110.6 port 47330 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47330 [preauth]
+Failed password for root from 195.178.110.6 port 47332 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47332 [preauth]
+Failed password for root from 195.178.110.6 port 47370 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47370 [preauth]
+Failed password for root from 195.178.110.6 port 47386 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47386 [preauth]
+Failed password for root from 195.178.110.6 port 47388 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47388 [preauth]
+Failed password for root from 195.178.110.6 port 47414 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47414 [preauth]
+Failed password for root from 195.178.110.6 port 47520 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47520 [preauth]
+Failed password for root from 195.178.110.6 port 47568 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47568 [preauth]
+Failed password for root from 195.178.110.6 port 47594 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47594 [preauth]
+Failed password for root from 195.178.110.6 port 47622 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47622 [preauth]
+Failed password for root from 195.178.110.6 port 47626 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47626 [preauth]
+Failed password for root from 195.178.110.6 port 47704 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47704 [preauth]
+Failed password for root from 195.178.110.6 port 47736 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47736 [preauth]
+Failed password for root from 195.178.110.6 port 47740 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47740 [preauth]
+Failed password for root from 195.178.110.6 port 47746 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47746 [preauth]
+Failed password for root from 195.178.110.6 port 47816 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47816 [preauth]
+Failed password for root from 195.178.110.6 port 47860 ssh2
+Connection closed by authenticating user root 195.178.110.6 port 47860 [preauth]
+Unable to negotiate with 218.92.0.203 port 4620: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.203 port 2016: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.252 port 28272: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.205 port 55696: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: read: Connection reset by peer
+Connection reset by 92.255.85.107 port 2514
+kex_exchange_identification: banner line contains invalid characters
+banner exchange: Connection from 47.22.4.178 port 40987: invalid format
+Invalid user NL5xUDpV2xRa from 47.22.4.178 port 43095
+userauth_pubkey: parse request failed: incomplete message [preauth]
+Unable to negotiate with 218.92.0.211 port 28672: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.201 port 32960: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.201 port 16528: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Connection reset by 218.92.0.209 port 1220 [preauth]
+Unable to negotiate with 218.92.0.201 port 5934: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.211 port 13702: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.204 port 26434: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.212 port 2462: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.211 port 63984: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user admin from 92.255.85.253 port 27768
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.253 port 27768 ssh2
+Connection reset by invalid user admin 92.255.85.253 port 27768 [preauth]
+Unable to negotiate with 218.92.0.210 port 47638: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.204 port 26578: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: banner line contains invalid characters
+banner exchange: Connection from 92.255.85.120 port 62449: invalid format
+Invalid user admin from 92.255.85.107 port 15086
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 15086 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 15086 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 142.93.159.41 port 48942
+Unable to negotiate with 218.92.0.209 port 59880: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: banner line contains invalid characters
+banner exchange: Connection from 102.216.219.50 port 47305: invalid format
+Unable to negotiate with 218.92.0.252 port 45848: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user admin from 92.255.85.107 port 30853
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 30853 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 30853 [preauth]
+Unable to negotiate with 218.92.0.204 port 23090: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.215 port 11282: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.207 port 12764: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user telecomadmin from 92.255.85.253 port 21477
+Could not get shadow information for NOUSER
+Failed password for invalid user telecomadmin from 92.255.85.253 port 21477 ssh2
+Connection reset by invalid user telecomadmin 92.255.85.253 port 21477 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 139.162.182.212 port 8806
+Invalid user admin from 92.255.85.107 port 52508
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 52508 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 52508 [preauth]
+Unable to negotiate with 218.92.0.203 port 33514: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.209 port 55340: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 92.255.85.253 port 31799 ssh2
+Connection reset by authenticating user root 92.255.85.253 port 31799 [preauth]
+Failed password for root from 113.140.18.210 port 49436 ssh2
+Connection closed by authenticating user root 113.140.18.210 port 49436 [preauth]
+Unable to negotiate with 218.92.0.207 port 18776: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 106.12.222.76 port 59462
+Invalid user temp from 106.12.222.76 port 40760
+Could not get shadow information for NOUSER
+Failed password for invalid user temp from 106.12.222.76 port 40760 ssh2
+Connection closed by invalid user temp 106.12.222.76 port 40760 [preauth]
+Invalid user nagios from 106.12.222.76 port 51456
+Connection closed by invalid user nagios 106.12.222.76 port 51456 [preauth]
+Connection closed by 106.12.222.76 port 53198 [preauth]
+Connection closed by 106.12.222.76 port 37924 [preauth]
+Unable to negotiate with 218.92.0.205 port 13074: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user admin from 92.255.85.107 port 16610
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 16610 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 16610 [preauth]
+Unable to negotiate with 218.92.0.207 port 61250: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user admin from 92.255.85.107 port 11809
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 11809 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 11809 [preauth]
+Unable to negotiate with 218.92.0.213 port 30970: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.208 port 33942: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.252 port 34234: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 47.119.150.57 port 40754
+Invalid user admin from 92.255.85.253 port 12348
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.253 port 12348 ssh2
+Connection reset by invalid user admin 92.255.85.253 port 12348 [preauth]
+Unable to negotiate with 218.92.0.207 port 59938: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.205 port 24610: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 8.219.246.0 port 46228
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 185.234.216.122 port 64001
+Unable to negotiate with 218.92.0.206 port 43140: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.212 port 62118: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.209 port 12012: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.220 port 54092 ssh2
+Failed password for root from 218.92.0.220 port 54092 ssh2
+Failed password for root from 218.92.0.220 port 54092 ssh2
+Received disconnect from 218.92.0.220 port 54092:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.220 port 54092 [preauth]
+Failed password for root from 218.92.0.235 port 41324 ssh2
+Failed password for root from 218.92.0.235 port 41324 ssh2
+Failed password for root from 218.92.0.235 port 41324 ssh2
+Received disconnect from 218.92.0.235 port 41324:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 41324 [preauth]
+Failed password for root from 218.92.0.235 port 41342 ssh2
+Failed password for root from 218.92.0.235 port 41342 ssh2
+Failed password for root from 218.92.0.235 port 41342 ssh2
+Received disconnect from 218.92.0.235 port 41342:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 41342 [preauth]
+Failed password for root from 218.92.0.235 port 33084 ssh2
+Failed password for root from 218.92.0.235 port 33084 ssh2
+Failed password for root from 218.92.0.235 port 33084 ssh2
+Received disconnect from 218.92.0.235 port 33084:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 33084 [preauth]
+Failed password for root from 218.92.0.225 port 13232 ssh2
+Failed password for root from 218.92.0.225 port 13232 ssh2
+Failed password for root from 218.92.0.225 port 13232 ssh2
+Received disconnect from 218.92.0.225 port 13232:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.225 port 13232 [preauth]
+Failed password for root from 218.92.0.225 port 18870 ssh2
+Failed password for root from 218.92.0.225 port 18870 ssh2
+Failed password for root from 218.92.0.225 port 18870 ssh2
+Received disconnect from 218.92.0.225 port 18870:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.225 port 18870 [preauth]
+Failed password for root from 218.92.0.198 port 30876 ssh2
+Failed password for root from 218.92.0.198 port 30876 ssh2
+Failed password for root from 218.92.0.198 port 30876 ssh2
+Received disconnect from 218.92.0.198 port 30876:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.198 port 30876 [preauth]
+Failed password for root from 218.92.0.198 port 30896 ssh2
+Failed password for root from 218.92.0.198 port 30896 ssh2
+Failed password for root from 218.92.0.198 port 30896 ssh2
+Received disconnect from 218.92.0.198 port 30896:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.198 port 30896 [preauth]
+Failed password for root from 218.92.0.198 port 52870 ssh2
+Failed password for root from 218.92.0.198 port 52870 ssh2
+Failed password for root from 218.92.0.198 port 52870 ssh2
+Received disconnect from 218.92.0.198 port 52870:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.198 port 52870 [preauth]
+Failed password for root from 218.92.0.231 port 23328 ssh2
+Failed password for root from 218.92.0.231 port 23328 ssh2
+Failed password for root from 218.92.0.231 port 23328 ssh2
+Received disconnect from 218.92.0.231 port 23328:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.231 port 23328 [preauth]
+Failed password for root from 218.92.0.231 port 23368 ssh2
+Failed password for root from 218.92.0.231 port 23368 ssh2
+Failed password for root from 218.92.0.231 port 23368 ssh2
+Received disconnect from 218.92.0.231 port 23368:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.231 port 23368 [preauth]
+Unable to negotiate with 218.92.0.209 port 55988: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user admin from 92.255.85.107 port 3054
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 3054 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 3054 [preauth]
+Failed password for root from 218.92.0.235 port 22432 ssh2
+Failed password for root from 218.92.0.235 port 22432 ssh2
+Failed password for root from 218.92.0.235 port 22432 ssh2
+Received disconnect from 218.92.0.235 port 22432:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 22432 [preauth]
+Failed password for root from 218.92.0.235 port 22442 ssh2
+Failed password for root from 218.92.0.235 port 22442 ssh2
+Failed password for root from 218.92.0.235 port 22442 ssh2
+Received disconnect from 218.92.0.235 port 22442:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 22442 [preauth]
+Failed password for root from 218.92.0.235 port 13550 ssh2
+Failed password for root from 218.92.0.235 port 13550 ssh2
+Failed password for root from 218.92.0.235 port 13550 ssh2
+Received disconnect from 218.92.0.235 port 13550:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 13550 [preauth]
+Failed password for root from 218.92.0.233 port 57128 ssh2
+Failed password for root from 218.92.0.233 port 57128 ssh2
+Failed password for root from 218.92.0.233 port 57128 ssh2
+Received disconnect from 218.92.0.233 port 57128:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.233 port 57128 [preauth]
+Failed password for root from 218.92.0.221 port 52132 ssh2
+Failed password for root from 218.92.0.221 port 52132 ssh2
+Failed password for root from 218.92.0.221 port 52132 ssh2
+Received disconnect from 218.92.0.221 port 52132:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.221 port 52132 [preauth]
+Unable to negotiate with 218.92.0.209 port 13612: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 120.157.211.171 port 56932
+Failed password for root from 218.92.0.220 port 20482 ssh2
+Failed password for root from 218.92.0.220 port 20482 ssh2
+Failed password for root from 218.92.0.220 port 20482 ssh2
+Received disconnect from 218.92.0.220 port 20482:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.220 port 20482 [preauth]
+Unable to negotiate with 218.92.0.201 port 9452: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.217 port 42510 ssh2
+Failed password for root from 218.92.0.217 port 42510 ssh2
+Failed password for root from 218.92.0.217 port 42510 ssh2
+Received disconnect from 218.92.0.217 port 42510:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.217 port 42510 [preauth]
+Failed password for root from 218.92.0.217 port 42530 ssh2
+Failed password for root from 218.92.0.217 port 42530 ssh2
+Failed password for root from 218.92.0.217 port 42530 ssh2
+Received disconnect from 218.92.0.217 port 42530:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.217 port 42530 [preauth]
+Failed password for root from 218.92.0.217 port 29686 ssh2
+Failed password for root from 218.92.0.217 port 29686 ssh2
+Failed password for root from 218.92.0.217 port 29686 ssh2
+Received disconnect from 218.92.0.217 port 29686:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.217 port 29686 [preauth]
+Failed password for root from 218.92.0.228 port 22116 ssh2
+Failed password for root from 218.92.0.228 port 22116 ssh2
+Failed password for root from 218.92.0.228 port 22116 ssh2
+Received disconnect from 218.92.0.228 port 22116:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.228 port 22116 [preauth]
+Failed password for root from 218.92.0.114 port 32184 ssh2
+Failed password for root from 218.92.0.114 port 32184 ssh2
+Failed password for root from 218.92.0.114 port 32184 ssh2
+Received disconnect from 218.92.0.114 port 32184:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.114 port 32184 [preauth]
+Failed password for root from 218.92.0.114 port 32196 ssh2
+Failed password for root from 218.92.0.114 port 32196 ssh2
+Failed password for root from 218.92.0.114 port 32196 ssh2
+Received disconnect from 218.92.0.114 port 32196:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.114 port 32196 [preauth]
+Failed password for root from 218.92.0.114 port 32210 ssh2
+Failed password for root from 218.92.0.114 port 32210 ssh2
+Failed password for root from 218.92.0.114 port 32210 ssh2
+Received disconnect from 218.92.0.114 port 32210:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.114 port 32210 [preauth]
+Failed password for root from 218.92.0.114 port 15618 ssh2
+Failed password for root from 218.92.0.114 port 15618 ssh2
+Failed password for root from 218.92.0.114 port 15618 ssh2
+Received disconnect from 218.92.0.114 port 15618:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.114 port 15618 [preauth]
+Failed password for root from 218.92.0.235 port 24230 ssh2
+Failed password for root from 218.92.0.235 port 24230 ssh2
+Failed password for root from 218.92.0.235 port 24230 ssh2
+Received disconnect from 218.92.0.235 port 24230:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 24230 [preauth]
+Unable to negotiate with 218.92.0.215 port 17658: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.111 port 28066 ssh2
+Failed password for root from 218.92.0.111 port 28066 ssh2
+Failed password for root from 218.92.0.111 port 28066 ssh2
+Received disconnect from 218.92.0.111 port 28066:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.111 port 28066 [preauth]
+Unable to negotiate with 218.92.0.201 port 29022: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.223 port 63070 ssh2
+Failed password for root from 218.92.0.223 port 63070 ssh2
+Failed password for root from 218.92.0.223 port 63070 ssh2
+Received disconnect from 218.92.0.223 port 63070:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.223 port 63070 [preauth]
+Failed password for root from 218.92.0.223 port 47388 ssh2
+Failed password for root from 218.92.0.223 port 47388 ssh2
+Failed password for root from 218.92.0.223 port 47388 ssh2
+Received disconnect from 218.92.0.223 port 47388:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.223 port 47388 [preauth]
+Failed password for root from 218.92.0.223 port 47410 ssh2
+Failed password for root from 218.92.0.223 port 47410 ssh2
+Failed password for root from 218.92.0.223 port 47410 ssh2
+Received disconnect from 218.92.0.223 port 47410:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.223 port 47410 [preauth]
+Failed password for root from 218.92.0.233 port 33888 ssh2
+Failed password for root from 218.92.0.233 port 33888 ssh2
+Failed password for root from 218.92.0.233 port 33888 ssh2
+Received disconnect from 218.92.0.233 port 33888:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.233 port 33888 [preauth]
+Failed password for root from 218.92.0.233 port 33932 ssh2
+Failed password for root from 218.92.0.233 port 33932 ssh2
+Failed password for root from 218.92.0.233 port 33932 ssh2
+Received disconnect from 218.92.0.233 port 33932:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.233 port 33932 [preauth]
+Failed password for root from 218.92.0.198 port 54132 ssh2
+Failed password for root from 218.92.0.198 port 54132 ssh2
+Failed password for root from 218.92.0.198 port 54132 ssh2
+Received disconnect from 218.92.0.198 port 54132:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.198 port 54132 [preauth]
+Failed password for root from 218.92.0.198 port 48444 ssh2
+Failed password for root from 218.92.0.198 port 48444 ssh2
+Failed password for root from 218.92.0.198 port 48444 ssh2
+Received disconnect from 218.92.0.198 port 48444:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.198 port 48444 [preauth]
+Failed password for root from 218.92.0.226 port 64850 ssh2
+Failed password for root from 218.92.0.226 port 64850 ssh2
+Failed password for root from 218.92.0.226 port 64850 ssh2
+Received disconnect from 218.92.0.226 port 64850:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.226 port 64850 [preauth]
+Unable to negotiate with 218.92.0.208 port 38390: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user admin from 92.255.85.107 port 17309
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 17309 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 17309 [preauth]
+Failed password for root from 218.92.0.114 port 45414 ssh2
+Failed password for root from 218.92.0.114 port 45414 ssh2
+Failed password for root from 218.92.0.114 port 45414 ssh2
+Received disconnect from 218.92.0.114 port 45414:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.114 port 45414 [preauth]
+Failed password for root from 218.92.0.227 port 47206 ssh2
+Failed password for root from 218.92.0.227 port 47206 ssh2
+Failed password for root from 218.92.0.227 port 47206 ssh2
+Received disconnect from 218.92.0.227 port 47206:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.227 port 47206 [preauth]
+Failed password for root from 218.92.0.227 port 46796 ssh2
+Failed password for root from 218.92.0.227 port 46796 ssh2
+Failed password for root from 218.92.0.227 port 46796 ssh2
+Received disconnect from 218.92.0.227 port 46796:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.227 port 46796 [preauth]
+Failed password for root from 218.92.0.227 port 46820 ssh2
+Failed password for root from 218.92.0.227 port 46820 ssh2
+Failed password for root from 218.92.0.227 port 46820 ssh2
+Received disconnect from 218.92.0.227 port 46820:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.227 port 46820 [preauth]
+Unable to negotiate with 218.92.0.252 port 37992: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.111 port 43182 ssh2
+Failed password for root from 218.92.0.111 port 43182 ssh2
+Failed password for root from 218.92.0.111 port 43182 ssh2
+Received disconnect from 218.92.0.111 port 43182:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.111 port 43182 [preauth]
+Failed password for root from 218.92.0.111 port 43214 ssh2
+Failed password for root from 218.92.0.111 port 43214 ssh2
+Failed password for root from 218.92.0.111 port 43214 ssh2
+Received disconnect from 218.92.0.111 port 43214:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.111 port 43214 [preauth]
+Failed password for root from 218.92.0.111 port 17974 ssh2
+Failed password for root from 218.92.0.111 port 17974 ssh2
+Failed password for root from 218.92.0.111 port 17974 ssh2
+Received disconnect from 218.92.0.111 port 17974:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.111 port 17974 [preauth]
+Unable to negotiate with 218.92.0.210 port 29002: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.236 port 50926 ssh2
+Failed password for root from 218.92.0.236 port 50926 ssh2
+Failed password for root from 218.92.0.236 port 50926 ssh2
+Received disconnect from 218.92.0.236 port 50926:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.236 port 50926 [preauth]
+Failed password for root from 218.92.0.226 port 38110 ssh2
+Failed password for root from 218.92.0.226 port 38110 ssh2
+Failed password for root from 218.92.0.226 port 38110 ssh2
+Received disconnect from 218.92.0.226 port 38110:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.226 port 38110 [preauth]
+Failed password for root from 218.92.0.226 port 38130 ssh2
+Failed password for root from 218.92.0.226 port 38130 ssh2
+Failed password for root from 218.92.0.226 port 38130 ssh2
+Received disconnect from 218.92.0.226 port 38130:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.226 port 38130 [preauth]
+Failed password for root from 218.92.0.218 port 12854 ssh2
+Failed password for root from 218.92.0.218 port 12854 ssh2
+Failed password for root from 218.92.0.218 port 12854 ssh2
+Received disconnect from 218.92.0.218 port 12854:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.218 port 12854 [preauth]
+Failed password for root from 218.92.0.221 port 45882 ssh2
+Failed password for root from 218.92.0.221 port 45882 ssh2
+Failed password for root from 218.92.0.221 port 45882 ssh2
+Received disconnect from 218.92.0.221 port 45882:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.221 port 45882 [preauth]
+Failed password for root from 218.92.0.228 port 11880 ssh2
+Failed password for root from 218.92.0.228 port 11880 ssh2
+Failed password for root from 218.92.0.228 port 11880 ssh2
+Received disconnect from 218.92.0.228 port 11880:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.228 port 11880 [preauth]
+Failed password for root from 218.92.0.231 port 11690 ssh2
+Failed password for root from 218.92.0.231 port 11690 ssh2
+Failed password for root from 218.92.0.231 port 11690 ssh2
+Received disconnect from 218.92.0.231 port 11690:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.231 port 11690 [preauth]
+Failed password for root from 218.92.0.231 port 11698 ssh2
+Failed password for root from 218.92.0.231 port 11698 ssh2
+Failed password for root from 218.92.0.231 port 11698 ssh2
+Received disconnect from 218.92.0.231 port 11698:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.231 port 11698 [preauth]
+Unable to negotiate with 218.92.0.211 port 18198: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.229 port 24108 ssh2
+Failed password for root from 218.92.0.229 port 24108 ssh2
+Failed password for root from 218.92.0.229 port 24108 ssh2
+Received disconnect from 218.92.0.229 port 24108:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.229 port 24108 [preauth]
+Failed password for root from 218.92.0.229 port 24120 ssh2
+Failed password for root from 218.92.0.229 port 24120 ssh2
+Failed password for root from 218.92.0.229 port 24120 ssh2
+Received disconnect from 218.92.0.229 port 24120:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.229 port 24120 [preauth]
+Failed password for root from 218.92.0.229 port 14880 ssh2
+Failed password for root from 218.92.0.229 port 14880 ssh2
+Failed password for root from 218.92.0.229 port 14880 ssh2
+Received disconnect from 218.92.0.229 port 14880:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.229 port 14880 [preauth]
+Failed password for root from 218.92.0.216 port 22718 ssh2
+Failed password for root from 218.92.0.216 port 22718 ssh2
+Failed password for root from 218.92.0.216 port 22718 ssh2
+Received disconnect from 218.92.0.216 port 22718:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.216 port 22718 [preauth]
+Failed password for root from 218.92.0.235 port 55682 ssh2
+Failed password for root from 218.92.0.235 port 55682 ssh2
+Failed password for root from 218.92.0.235 port 55682 ssh2
+Received disconnect from 218.92.0.235 port 55682:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 55682 [preauth]
+Failed password for root from 218.92.0.228 port 53950 ssh2
+Failed password for root from 218.92.0.228 port 53950 ssh2
+Failed password for root from 218.92.0.228 port 53950 ssh2
+Received disconnect from 218.92.0.228 port 53950:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.228 port 53950 [preauth]
+Failed password for root from 218.92.0.228 port 33738 ssh2
+Failed password for root from 218.92.0.228 port 33738 ssh2
+Failed password for root from 218.92.0.228 port 33738 ssh2
+Received disconnect from 218.92.0.228 port 33738:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.228 port 33738 [preauth]
+Failed password for root from 218.92.0.114 port 63228 ssh2
+Failed password for root from 218.92.0.114 port 63228 ssh2
+Failed password for root from 218.92.0.114 port 63228 ssh2
+Received disconnect from 218.92.0.114 port 63228:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.114 port 63228 [preauth]
+Failed password for root from 218.92.0.222 port 20228 ssh2
+Failed password for root from 218.92.0.222 port 20228 ssh2
+Failed password for root from 218.92.0.222 port 20228 ssh2
+Received disconnect from 218.92.0.222 port 20228:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.222 port 20228 [preauth]
+Unable to negotiate with 218.92.0.203 port 31526: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.225 port 24724 ssh2
+Failed password for root from 218.92.0.225 port 24724 ssh2
+Failed password for root from 218.92.0.225 port 24724 ssh2
+Received disconnect from 218.92.0.225 port 24724:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.225 port 24724 [preauth]
+Failed password for root from 218.92.0.225 port 39878 ssh2
+Failed password for root from 218.92.0.225 port 39878 ssh2
+Failed password for root from 218.92.0.225 port 39878 ssh2
+Received disconnect from 218.92.0.225 port 39878:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.225 port 39878 [preauth]
+Failed password for root from 218.92.0.225 port 39886 ssh2
+Failed password for root from 218.92.0.225 port 39886 ssh2
+Failed password for root from 218.92.0.225 port 39886 ssh2
+Received disconnect from 218.92.0.225 port 39886:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.225 port 39886 [preauth]
+Failed password for root from 218.92.0.235 port 26502 ssh2
+Failed password for root from 218.92.0.235 port 26502 ssh2
+Failed password for root from 218.92.0.235 port 26502 ssh2
+Received disconnect from 218.92.0.235 port 26502:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.235 port 26502 [preauth]
+Unable to negotiate with 218.92.0.208 port 54694: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 178.62.82.176 port 43406
+Failed password for root from 218.92.0.228 port 12510 ssh2
+Failed password for root from 218.92.0.228 port 12510 ssh2
+Failed password for root from 218.92.0.228 port 12510 ssh2
+Received disconnect from 218.92.0.228 port 12510:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.228 port 12510 [preauth]
+Failed password for root from 218.92.0.228 port 10650 ssh2
+Failed password for root from 218.92.0.228 port 10650 ssh2
+Failed password for root from 218.92.0.228 port 10650 ssh2
+Received disconnect from 218.92.0.228 port 10650:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.228 port 10650 [preauth]
+Failed password for root from 218.92.0.228 port 10668 ssh2
+Failed password for root from 218.92.0.228 port 10668 ssh2
+Failed password for root from 218.92.0.228 port 10668 ssh2
+Received disconnect from 218.92.0.228 port 10668:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.228 port 10668 [preauth]
+Failed password for root from 218.92.0.229 port 60466 ssh2
+Failed password for root from 218.92.0.229 port 60466 ssh2
+Failed password for root from 218.92.0.229 port 60466 ssh2
+Received disconnect from 218.92.0.229 port 60466:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.229 port 60466 [preauth]
+Failed password for root from 218.92.0.218 port 24892 ssh2
+Failed password for root from 218.92.0.218 port 24892 ssh2
+Failed password for root from 218.92.0.218 port 24892 ssh2
+Received disconnect from 218.92.0.218 port 24892:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.218 port 24892 [preauth]
+Invalid user admin from 92.255.85.253 port 62089
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.253 port 62089 ssh2
+Connection reset by invalid user admin 92.255.85.253 port 62089 [preauth]
+Unable to negotiate with 218.92.0.204 port 5030: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: read: Connection reset by peer
+Connection reset by 109.248.11.136 port 59444
+Invalid user guest from 109.248.11.136 port 59448
+Could not get shadow information for NOUSER
+Failed password for invalid user guest from 109.248.11.136 port 59448 ssh2
+Connection closed by invalid user guest 109.248.11.136 port 59448 [preauth]
+Invalid user pi from 109.248.11.136 port 59468
+Could not get shadow information for NOUSER
+Failed password for invalid user pi from 109.248.11.136 port 59468 ssh2
+Connection closed by invalid user pi 109.248.11.136 port 59468 [preauth]
+Invalid user ubuntu from 109.248.11.136 port 59494
+Could not get shadow information for NOUSER
+Failed password for invalid user ubuntu from 109.248.11.136 port 59494 ssh2
+Connection closed by invalid user ubuntu 109.248.11.136 port 59494 [preauth]
+Invalid user deploy from 109.248.11.136 port 59526
+Could not get shadow information for NOUSER
+Failed password for invalid user deploy from 109.248.11.136 port 59526 ssh2
+Connection closed by invalid user deploy 109.248.11.136 port 59526 [preauth]
+Failed password for root from 109.248.11.136 port 59566 ssh2
+Connection closed by authenticating user root 109.248.11.136 port 59566 [preauth]
+Invalid user web from 109.248.11.136 port 43420
+Could not get shadow information for NOUSER
+Failed password for invalid user web from 109.248.11.136 port 43420 ssh2
+Connection closed by invalid user web 109.248.11.136 port 43420 [preauth]
+Invalid user postgres from 109.248.11.136 port 43492
+Could not get shadow information for NOUSER
+Failed password for invalid user postgres from 109.248.11.136 port 43492 ssh2
+Connection closed by invalid user postgres 109.248.11.136 port 43492 [preauth]
+Invalid user ubuntu from 109.248.11.136 port 43534
+Could not get shadow information for NOUSER
+Failed password for invalid user ubuntu from 109.248.11.136 port 43534 ssh2
+Connection closed by invalid user ubuntu 109.248.11.136 port 43534 [preauth]
+Invalid user mcserver from 109.248.11.136 port 43592
+Could not get shadow information for NOUSER
+Failed password for invalid user mcserver from 109.248.11.136 port 43592 ssh2
+Connection closed by invalid user mcserver 109.248.11.136 port 43592 [preauth]
+Failed password for root from 218.92.0.198 port 54268 ssh2
+Failed password for root from 218.92.0.198 port 54268 ssh2
+Failed password for root from 218.92.0.198 port 54268 ssh2
+Received disconnect from 218.92.0.198 port 54268:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.198 port 54268 [preauth]
+Failed password for root from 218.92.0.112 port 55472 ssh2
+Failed password for root from 218.92.0.112 port 55472 ssh2
+Failed password for root from 218.92.0.112 port 55472 ssh2
+Received disconnect from 218.92.0.112 port 55472:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.112 port 55472 [preauth]
+Failed password for root from 218.92.0.219 port 43440 ssh2
+Failed password for root from 218.92.0.219 port 43440 ssh2
+Failed password for root from 218.92.0.219 port 43440 ssh2
+Received disconnect from 218.92.0.219 port 43440:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.219 port 43440 [preauth]
+Failed password for root from 218.92.0.219 port 34732 ssh2
+Failed password for root from 218.92.0.219 port 34732 ssh2
+Failed password for root from 218.92.0.219 port 34732 ssh2
+Received disconnect from 218.92.0.219 port 34732:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.219 port 34732 [preauth]
+Failed password for root from 218.92.0.219 port 34760 ssh2
+Failed password for root from 218.92.0.219 port 34760 ssh2
+Failed password for root from 218.92.0.219 port 34760 ssh2
+Received disconnect from 218.92.0.219 port 34760:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.219 port 34760 [preauth]
+Received disconnect from 218.92.0.198 port 52860:11:  [preauth]
+Disconnected from 218.92.0.198 port 52860 [preauth]
+Unable to negotiate with 218.92.0.215 port 62860: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user operator from 92.255.85.253 port 1198
+Could not get shadow information for NOUSER
+Failed password for invalid user operator from 92.255.85.253 port 1198 ssh2
+Connection reset by invalid user operator 92.255.85.253 port 1198 [preauth]
+Unable to negotiate with 218.92.0.209 port 43844: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.216 port 38548 ssh2
+Failed password for root from 218.92.0.216 port 38548 ssh2
+Failed password for root from 218.92.0.216 port 38548 ssh2
+Received disconnect from 218.92.0.216 port 38548:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.216 port 38548 [preauth]
+Failed password for root from 218.92.0.233 port 48642 ssh2
+Failed password for root from 218.92.0.233 port 48642 ssh2
+Failed password for root from 218.92.0.233 port 48642 ssh2
+Received disconnect from 218.92.0.233 port 48642:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.233 port 48642 [preauth]
+Failed password for root from 218.92.0.233 port 36744 ssh2
+Failed password for root from 218.92.0.233 port 36744 ssh2
+Failed password for root from 218.92.0.233 port 36744 ssh2
+Received disconnect from 218.92.0.233 port 36744:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.233 port 36744 [preauth]
+Failed password for root from 218.92.0.233 port 36788 ssh2
+Failed password for root from 218.92.0.233 port 36788 ssh2
+Failed password for root from 218.92.0.233 port 36788 ssh2
+Received disconnect from 218.92.0.233 port 36788:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.233 port 36788 [preauth]
+Failed password for root from 218.92.0.226 port 53066 ssh2
+Failed password for root from 218.92.0.226 port 53066 ssh2
+Failed password for root from 218.92.0.226 port 53066 ssh2
+Received disconnect from 218.92.0.226 port 53066:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.226 port 53066 [preauth]
+Failed password for root from 218.92.0.226 port 53090 ssh2
+Failed password for root from 218.92.0.226 port 53090 ssh2
+Failed password for root from 218.92.0.226 port 53090 ssh2
+Received disconnect from 218.92.0.226 port 53090:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.226 port 53090 [preauth]
+Failed password for root from 218.92.0.226 port 53110 ssh2
+Failed password for root from 218.92.0.226 port 53110 ssh2
+Failed password for root from 218.92.0.226 port 53110 ssh2
+Received disconnect from 218.92.0.226 port 53110:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.226 port 53110 [preauth]
+Invalid user admin from 92.255.85.107 port 47311
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 47311 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 47311 [preauth]
+Failed password for root from 218.92.0.223 port 55056 ssh2
+Failed password for root from 218.92.0.223 port 55056 ssh2
+Failed password for root from 218.92.0.223 port 55056 ssh2
+Received disconnect from 218.92.0.223 port 55056:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.223 port 55056 [preauth]
+Invalid user 1234 from 92.255.85.253 port 31599
+Could not get shadow information for NOUSER
+Failed password for invalid user 1234 from 92.255.85.253 port 31599 ssh2
+Connection reset by invalid user 1234 92.255.85.253 port 31599 [preauth]
+Unable to negotiate with 218.92.0.209 port 9012: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.206 port 61754: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for uucp from 92.255.85.253 port 55130 ssh2
+Connection reset by authenticating user uucp 92.255.85.253 port 55130 [preauth]
+Connection reset by 218.92.0.215 port 33266 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 116.196.121.181 port 47520
+Unable to negotiate with 218.92.0.201 port 9678: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.213 port 35088: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user test from 92.255.85.253 port 50385
+Could not get shadow information for NOUSER
+Failed password for invalid user test from 92.255.85.253 port 50385 ssh2
+Connection reset by invalid user test 92.255.85.253 port 50385 [preauth]
+Unable to negotiate with 218.92.0.252 port 3044: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.201 port 23770: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user admin from 92.255.85.253 port 12926
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.253 port 12926 ssh2
+Connection reset by invalid user admin 92.255.85.253 port 12926 [preauth]
+Unable to negotiate with 218.92.0.206 port 62288: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 195.178.110.67 port 39708
+Connection closed by 172.105.128.13 port 51564 [preauth]
+Unable to negotiate with 218.92.0.206 port 61224: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.206 port 46310: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.212 port 41438: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.213 port 47328: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.206 port 54880: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user cisco from 92.255.85.253 port 18935
+Could not get shadow information for NOUSER
+Failed password for invalid user cisco from 92.255.85.253 port 18935 ssh2
+Connection reset by invalid user cisco 92.255.85.253 port 18935 [preauth]
+Unable to negotiate with 218.92.0.213 port 1870: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.201 port 58126: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.210 port 45374: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.212 port 36570: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user admin from 92.255.85.107 port 23494
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 23494 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 23494 [preauth]
+Unable to negotiate with 218.92.0.204 port 10756: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.201 port 3750: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.203 port 49340: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 159.223.64.63 port 44396
+Unable to negotiate with 218.92.0.215 port 53108: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user pi from 159.223.64.63 port 41990
+Could not get shadow information for NOUSER
+Failed password for invalid user pi from 159.223.64.63 port 41990 ssh2
+Connection closed by invalid user pi 159.223.64.63 port 41990 [preauth]
+Invalid user wang from 159.223.64.63 port 52296
+Could not get shadow information for NOUSER
+Failed password for invalid user wang from 159.223.64.63 port 52296 ssh2
+Connection closed by invalid user wang 159.223.64.63 port 52296 [preauth]
+Invalid user flask from 159.223.64.63 port 60056
+Could not get shadow information for NOUSER
+Failed password for invalid user flask from 159.223.64.63 port 60056 ssh2
+Connection closed by invalid user flask 159.223.64.63 port 60056 [preauth]
+Invalid user oracle from 159.223.64.63 port 37554
+Could not get shadow information for NOUSER
+Failed password for invalid user oracle from 159.223.64.63 port 37554 ssh2
+Connection closed by invalid user oracle 159.223.64.63 port 37554 [preauth]
+Invalid user test from 159.223.64.63 port 57350
+Could not get shadow information for NOUSER
+Failed password for invalid user test from 159.223.64.63 port 57350 ssh2
+Connection closed by invalid user test 159.223.64.63 port 57350 [preauth]
+Invalid user mysql from 159.223.64.63 port 57692
+Could not get shadow information for NOUSER
+Failed password for invalid user mysql from 159.223.64.63 port 57692 ssh2
+Connection closed by invalid user mysql 159.223.64.63 port 57692 [preauth]
+Failed password for root from 159.223.64.63 port 56048 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 56048 [preauth]
+Failed password for root from 159.223.64.63 port 35342 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 35342 [preauth]
+Failed password for root from 159.223.64.63 port 45784 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 45784 [preauth]
+Invalid user dolphinscheduler from 159.223.64.63 port 38040
+Could not get shadow information for NOUSER
+Failed password for invalid user dolphinscheduler from 159.223.64.63 port 38040 ssh2
+Connection closed by invalid user dolphinscheduler 159.223.64.63 port 38040 [preauth]
+Failed password for root from 159.223.64.63 port 48090 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 48090 [preauth]
+Invalid user sonar from 159.223.64.63 port 37744
+Could not get shadow information for NOUSER
+Failed password for invalid user sonar from 159.223.64.63 port 37744 ssh2
+Connection closed by invalid user sonar 159.223.64.63 port 37744 [preauth]
+Invalid user oracle from 159.223.64.63 port 52846
+Could not get shadow information for NOUSER
+Failed password for invalid user oracle from 159.223.64.63 port 52846 ssh2
+Connection closed by invalid user oracle 159.223.64.63 port 52846 [preauth]
+Invalid user oscar from 159.223.64.63 port 33244
+Could not get shadow information for NOUSER
+Failed password for invalid user oscar from 159.223.64.63 port 33244 ssh2
+Connection closed by invalid user oscar 159.223.64.63 port 33244 [preauth]
+Invalid user sonar from 159.223.64.63 port 39978
+Could not get shadow information for NOUSER
+Failed password for invalid user sonar from 159.223.64.63 port 39978 ssh2
+Connection closed by invalid user sonar 159.223.64.63 port 39978 [preauth]
+Invalid user git from 159.223.64.63 port 54026
+Could not get shadow information for NOUSER
+Failed password for invalid user git from 159.223.64.63 port 54026 ssh2
+Connection closed by invalid user git 159.223.64.63 port 54026 [preauth]
+Invalid user tom from 159.223.64.63 port 60372
+Could not get shadow information for NOUSER
+Failed password for invalid user tom from 159.223.64.63 port 60372 ssh2
+Connection closed by invalid user tom 159.223.64.63 port 60372 [preauth]
+Invalid user ubuntu from 159.223.64.63 port 56564
+Could not get shadow information for NOUSER
+Failed password for invalid user ubuntu from 159.223.64.63 port 56564 ssh2
+Connection closed by invalid user ubuntu 159.223.64.63 port 56564 [preauth]
+Invalid user nginx from 159.223.64.63 port 58608
+Could not get shadow information for NOUSER
+Failed password for invalid user nginx from 159.223.64.63 port 58608 ssh2
+Connection closed by invalid user nginx 159.223.64.63 port 58608 [preauth]
+Failed password for root from 159.223.64.63 port 34916 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 34916 [preauth]
+Failed password for root from 159.223.64.63 port 60464 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 60464 [preauth]
+Invalid user plex from 159.223.64.63 port 47972
+Could not get shadow information for NOUSER
+Failed password for invalid user plex from 159.223.64.63 port 47972 ssh2
+Connection closed by invalid user plex 159.223.64.63 port 47972 [preauth]
+Invalid user postgres from 159.223.64.63 port 57004
+Could not get shadow information for NOUSER
+Failed password for invalid user postgres from 159.223.64.63 port 57004 ssh2
+Connection closed by invalid user postgres 159.223.64.63 port 57004 [preauth]
+Invalid user ftpuser from 159.223.64.63 port 40582
+Could not get shadow information for NOUSER
+Failed password for invalid user ftpuser from 159.223.64.63 port 40582 ssh2
+Connection closed by invalid user ftpuser 159.223.64.63 port 40582 [preauth]
+Invalid user gitlab from 159.223.64.63 port 47754
+Could not get shadow information for NOUSER
+Failed password for invalid user gitlab from 159.223.64.63 port 47754 ssh2
+Connection closed by invalid user gitlab 159.223.64.63 port 47754 [preauth]
+Invalid user flask from 159.223.64.63 port 45256
+Could not get shadow information for NOUSER
+Failed password for invalid user flask from 159.223.64.63 port 45256 ssh2
+Connection closed by invalid user flask 159.223.64.63 port 45256 [preauth]
+Invalid user testuser from 159.223.64.63 port 34176
+Could not get shadow information for NOUSER
+Failed password for invalid user testuser from 159.223.64.63 port 34176 ssh2
+Connection closed by invalid user testuser 159.223.64.63 port 34176 [preauth]
+Invalid user admin from 159.223.64.63 port 60408
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 159.223.64.63 port 60408 ssh2
+Connection closed by invalid user admin 159.223.64.63 port 60408 [preauth]
+Unable to negotiate with 218.92.0.252 port 59944: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user steam from 159.223.64.63 port 35142
+Could not get shadow information for NOUSER
+Failed password for invalid user steam from 159.223.64.63 port 35142 ssh2
+Connection closed by invalid user steam 159.223.64.63 port 35142 [preauth]
+Invalid user test from 159.223.64.63 port 35144
+Could not get shadow information for NOUSER
+Failed password for invalid user test from 159.223.64.63 port 35144 ssh2
+Connection closed by invalid user test 159.223.64.63 port 35144 [preauth]
+Failed password for root from 159.223.64.63 port 51218 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 51218 [preauth]
+Failed password for root from 159.223.64.63 port 57020 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 57020 [preauth]
+Invalid user bot from 159.223.64.63 port 51524
+Could not get shadow information for NOUSER
+Failed password for invalid user bot from 159.223.64.63 port 51524 ssh2
+Connection closed by invalid user bot 159.223.64.63 port 51524 [preauth]
+Invalid user ranger from 159.223.64.63 port 55624
+Could not get shadow information for NOUSER
+Failed password for invalid user ranger from 159.223.64.63 port 55624 ssh2
+Connection closed by invalid user ranger 159.223.64.63 port 55624 [preauth]
+Invalid user admin from 159.223.64.63 port 35910
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 159.223.64.63 port 35910 ssh2
+Connection closed by invalid user admin 159.223.64.63 port 35910 [preauth]
+Invalid user tomcat from 159.223.64.63 port 45360
+Could not get shadow information for NOUSER
+Failed password for invalid user tomcat from 159.223.64.63 port 45360 ssh2
+Connection closed by invalid user tomcat 159.223.64.63 port 45360 [preauth]
+Invalid user gitlab from 159.223.64.63 port 52904
+Could not get shadow information for NOUSER
+Failed password for invalid user gitlab from 159.223.64.63 port 52904 ssh2
+Connection closed by invalid user gitlab 159.223.64.63 port 52904 [preauth]
+Invalid user tools from 159.223.64.63 port 39994
+Could not get shadow information for NOUSER
+Failed password for invalid user tools from 159.223.64.63 port 39994 ssh2
+Connection closed by invalid user tools 159.223.64.63 port 39994 [preauth]
+Failed password for root from 159.223.64.63 port 34002 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 34002 [preauth]
+Invalid user ubnt from 159.223.64.63 port 32836
+Could not get shadow information for NOUSER
+Failed password for invalid user ubnt from 159.223.64.63 port 32836 ssh2
+Connection closed by invalid user ubnt 159.223.64.63 port 32836 [preauth]
+Invalid user mongodb from 159.223.64.63 port 51542
+Could not get shadow information for NOUSER
+Failed password for invalid user mongodb from 159.223.64.63 port 51542 ssh2
+Connection closed by invalid user mongodb 159.223.64.63 port 51542 [preauth]
+Failed password for root from 159.223.64.63 port 41196 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 41196 [preauth]
+Invalid user postgres from 159.223.64.63 port 41212
+Could not get shadow information for NOUSER
+Failed password for invalid user postgres from 159.223.64.63 port 41212 ssh2
+Connection closed by invalid user postgres 159.223.64.63 port 41212 [preauth]
+Invalid user dev from 159.223.64.63 port 34908
+Could not get shadow information for NOUSER
+Failed password for invalid user dev from 159.223.64.63 port 34908 ssh2
+Connection closed by invalid user dev 159.223.64.63 port 34908 [preauth]
+Invalid user esuser from 159.223.64.63 port 39572
+Could not get shadow information for NOUSER
+Failed password for invalid user esuser from 159.223.64.63 port 39572 ssh2
+Connection closed by invalid user esuser 159.223.64.63 port 39572 [preauth]
+Failed password for root from 159.223.64.63 port 53566 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 53566 [preauth]
+Invalid user oceanbase from 159.223.64.63 port 56832
+Could not get shadow information for NOUSER
+Failed password for invalid user oceanbase from 159.223.64.63 port 56832 ssh2
+Connection closed by invalid user oceanbase 159.223.64.63 port 56832 [preauth]
+Failed password for root from 159.223.64.63 port 57892 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 57892 [preauth]
+Invalid user ubuntu from 159.223.64.63 port 52492
+Could not get shadow information for NOUSER
+Failed password for invalid user ubuntu from 159.223.64.63 port 52492 ssh2
+Connection closed by invalid user ubuntu 159.223.64.63 port 52492 [preauth]
+Failed password for root from 159.223.64.63 port 52944 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 52944 [preauth]
+Invalid user esadmin from 159.223.64.63 port 50248
+Could not get shadow information for NOUSER
+Failed password for invalid user esadmin from 159.223.64.63 port 50248 ssh2
+Connection closed by invalid user esadmin 159.223.64.63 port 50248 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 8.134.216.120 port 42826
+Failed password for root from 159.223.64.63 port 46532 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 46532 [preauth]
+Unable to negotiate with 218.92.0.205 port 43840: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user oracle from 159.223.64.63 port 55454
+Could not get shadow information for NOUSER
+Failed password for invalid user oracle from 159.223.64.63 port 55454 ssh2
+Connection closed by invalid user oracle 159.223.64.63 port 55454 [preauth]
+Invalid user rabbitmq from 159.223.64.63 port 49196
+Could not get shadow information for NOUSER
+Failed password for invalid user rabbitmq from 159.223.64.63 port 49196 ssh2
+Connection closed by invalid user rabbitmq 159.223.64.63 port 49196 [preauth]
+Invalid user dolphinscheduler from 159.223.64.63 port 42208
+Could not get shadow information for NOUSER
+Failed password for invalid user dolphinscheduler from 159.223.64.63 port 42208 ssh2
+Connection closed by invalid user dolphinscheduler 159.223.64.63 port 42208 [preauth]
+Invalid user wang from 159.223.64.63 port 39356
+Could not get shadow information for NOUSER
+Failed password for invalid user wang from 159.223.64.63 port 39356 ssh2
+Connection closed by invalid user wang 159.223.64.63 port 39356 [preauth]
+Invalid user nexus from 159.223.64.63 port 41150
+Could not get shadow information for NOUSER
+Failed password for invalid user nexus from 159.223.64.63 port 41150 ssh2
+Connection closed by invalid user nexus 159.223.64.63 port 41150 [preauth]
+Failed password for root from 159.223.64.63 port 50202 ssh2
+Connection closed by authenticating user root 159.223.64.63 port 50202 [preauth]
+Invalid user es from 159.223.64.63 port 47186
+Could not get shadow information for NOUSER
+Failed password for invalid user es from 159.223.64.63 port 47186 ssh2
+Connection closed by invalid user es 159.223.64.63 port 47186 [preauth]
+Invalid user admin from 92.255.85.107 port 1738
+Could not get shadow information for NOUSER
+Failed password for invalid user admin from 92.255.85.107 port 1738 ssh2
+Connection reset by invalid user admin 92.255.85.107 port 1738 [preauth]
+Unable to negotiate with 218.92.0.201 port 51368: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: banner line contains invalid characters
+banner exchange: Connection from 18.170.99.225 port 21731: invalid format
+Unable to negotiate with 218.92.0.205 port 50934: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Connection closed by 18.170.99.225 port 41626 [preauth]
+Unable to negotiate with 218.92.0.205 port 18682: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: read: Connection reset by peer
+Connection reset by 92.255.85.253 port 8543
+Unable to negotiate with 218.92.0.209 port 36992: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.204 port 30112: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.209 port 41420: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.207 port 63218: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 217.144.191.15 port 44501
+Unable to negotiate with 218.92.0.207 port 36848: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Failed password for root from 218.92.0.189 port 21546 ssh2
+Failed password for root from 218.92.0.189 port 21546 ssh2
+Failed password for root from 218.92.0.189 port 21546 ssh2
+Received disconnect from 218.92.0.189 port 21546:11:  [preauth]
+Disconnected from authenticating user root 218.92.0.189 port 21546 [preauth]
+Unable to negotiate with 218.92.0.209 port 22726: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.212 port 2876: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.207 port 45216: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.209 port 33142: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.205 port 1556: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.209 port 13470: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Unable to negotiate with 218.92.0.211 port 9186: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 43.135.155.251 port 38816
+Invalid user moxa from 43.135.155.251 port 38834
+Could not get shadow information for NOUSER
+Failed password for invalid user moxa from 43.135.155.251 port 38834 ssh2
+Connection closed by invalid user moxa 43.135.155.251 port 38834 [preauth]
+Invalid user postgres from 43.135.155.251 port 38844
+Could not get shadow information for NOUSER
+Failed password for invalid user postgres from 43.135.155.251 port 38844 ssh2
+Connection closed by invalid user postgres 43.135.155.251 port 38844 [preauth]
+Invalid user debian from 43.135.155.251 port 38854
+Could not get shadow information for NOUSER
+Failed password for invalid user debian from 43.135.155.251 port 38854 ssh2
+Connection closed by invalid user debian 43.135.155.251 port 38854 [preauth]
+Connection closed by 167.94.138.123 port 35850 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 154.92.14.68 port 38708
+Invalid user hive from 154.92.14.68 port 45954
+Could not get shadow information for NOUSER
+Failed password for invalid user hive from 154.92.14.68 port 45954 ssh2
+Connection closed by invalid user hive 154.92.14.68 port 45954 [preauth]
+Unable to negotiate with 218.92.0.212 port 19674: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 178.128.229.153 port 58886
+Unable to negotiate with 218.92.0.204 port 62854: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Invalid user pi from 183.101.18.237 port 61517
+Could not get shadow information for NOUSER
+Failed password for invalid user pi from 183.101.18.237 port 61517 ssh2
+Failed password for invalid user pi from 183.101.18.237 port 61517 ssh2
+Failed password for invalid user pi from 183.101.18.237 port 61517 ssh2
+Failed password for invalid user pi from 183.101.18.237 port 61517 ssh2
+Connection reset by invalid user pi 183.101.18.237 port 61517 [preauth]
+Invalid user support from 92.255.85.253 port 42146
+Could not get shadow information for NOUSER
+Failed password for invalid user support from 92.255.85.253 port 42146 ssh2
+Connection reset by invalid user support 92.255.85.253 port 42146 [preauth]
+Unable to negotiate with 218.92.0.213 port 45922: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Accepted password for mydigitaltwinuser from 185.209.120.3 port 43101 ssh2
+Accepted password for mydigitaltwinuser from 185.209.120.3 port 43077 ssh2
+Accepted password for mydigitaltwinuser from 185.209.120.3 port 43221 ssh2

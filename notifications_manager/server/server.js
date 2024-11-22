@@ -36,6 +36,12 @@ app.get('/events', (req, res) => {
     res.status(200).json(events);
 });
 
+app.delete('/events', (req, res) => {
+    events = []; // Vaciar el arreglo de logs
+    console.log('Todos los logs han sido eliminados.');
+    res.status(200).json({ status: 'success', message: 'Todos los logs han sido eliminados.' });
+});
+
 // Iniciar el servidor
 app.listen(PORT, () => {
     console.log(`Servidor ejecutándose en http://localhost:${PORT}`);

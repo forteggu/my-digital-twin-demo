@@ -7,6 +7,7 @@ WORKDIR /app
 # Instala las dependencias dentro del contenedor
 RUN npm install sqlite3
 RUN npm install express
+RUN npm install cors
 
 # Copia el resto del código de la aplicación
 COPY server.js .
