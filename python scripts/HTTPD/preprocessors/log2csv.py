@@ -27,7 +27,7 @@ except Exception as e:
 
 # Regular expression to parse log entries
 log_pattern = re.compile(
-    r'(?P<ip>[\d\.]+) - - \[(?P<date>[\w:/]+)\s[+\-]\d+\] "(?P<method>\w+)\s(?P<endpoint>[\S]+)\sHTTP/1.1" (?P<status>\d+) (?P<size>[\d\-]+)'
+    r'(?P<ip>[\d\.]+) - - \[(?P<date>[\w:/]+\s[+\-]\d+)\] "(?P<method>\w+)\s(?P<endpoint>\S+)\s(?P<protocol>HTTP/[\d\.]+)" (?P<status>\d+) (?P<size>[\d\-]+)'
 )
 
 # List to hold parsed logs
@@ -48,6 +48,7 @@ for line in log_data:
     match = log_pattern.match(line)
     if match:
         log_entry = match.groupdict()
+        log_entry.pop("protocol", None)
         # Convert size to integer where applicable
         log_entry["size"] = int(log_entry["size"]) if log_entry["size"].isdigit() else None
         # Add the flag value to the log entry if provided
@@ -74,8 +75,10 @@ if not parsed_logs:
 output_dir = "../datasets/parsed/"
 os.makedirs(output_dir, exist_ok=True)
 
-# Output file name
-output_file = os.path.join(output_dir, os.path.basename(input_file) + "_parsed.csv")
+filename = os.path.basename(input_file)
+
+# Define the output file path
+output_file = os.path.join(output_dir, f"parsed_{filename}")
 
 # Write to CSV
 with open(output_file, mode="w", newline="") as csv_file:
