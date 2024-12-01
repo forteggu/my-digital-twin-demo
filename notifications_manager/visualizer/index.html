@@ -32,6 +32,12 @@
 </head>
 <body>
     <h1>Visualizador de Logs</h1>
+    <label for="logSource">Seleccionar fuente:</label>
+    <select id="logSource">
+        <option value="httpd">HTTPD Logs</option>
+        <option value="msLogs">MS Logs</option>
+        <option value="sftpd">SFTPD</option>
+    </select>
     <table>
         <thead>
             <tr>
@@ -48,14 +54,25 @@
     <script>
         const socket = io();
         const logsContainer = document.getElementById('logs');
+        const logSourceSelector = document.getElementById('logSource');
 
+        document.addEventListener('DOMContentLoaded', () => {
+            const defaultSource = logSourceSelector.value; // Get the default value from the dropdown
+            console.log("triggered");
+            socket.emit('changeSource', defaultSource);
+        })
+        // Cambiar la fuente seleccionada
+        logSourceSelector.addEventListener('change', (event) => {
+            const selectedSource = event.target.value;
+            socket.emit('changeSource', selectedSource);
+        });
+        // Trigger changeSource to the default value when the document is ready
         // Escuchar eventos y actualizar la tabla
         socket.on('events', (events) => {
             logsContainer.innerHTML = ''; // Limpiar logs anteriores
             events.forEach(event => {
                 const logRow = document.createElement('tr');
-                logRow.className = event.predicted_label === 'anomaly' ? 'anomaly' : '';
-
+                logRow.className = event.predicted_label === 'anomaly' || event.predicted_label === 'SQL Injection' ? 'anomaly' : '';
                 logRow.innerHTML = `
                     <td>${event.timestamp}</td>
                     <td>${event.raw_log}</td>

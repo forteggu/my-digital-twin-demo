@@ -1,179 +1,206 @@
-import numpy as np
-import pandas as pd
-from tensorflow.keras.models import load_model
-from kubernetes import client, config, watch
-from kubernetes.client.rest import ApiException
-from sklearn.preprocessing import LabelEncoder
-import redis
-import re
-import requests
 import argparse
+import pandas as pd
+import numpy as np
+from kubernetes import client, config, watch
+import joblib
+import pickle
+import requests
+import re
+import redis
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from datetime import datetime
 
-#EVENT_RECEIVER_URL = "http://localhost:8000/log-event/"
-EVENT_RECEIVER_URL = "http://34.65.255.107:8000/log-event/"
-
-# Inicializar entorno y variables
-redis_db = redis.Redis(host='localhost', port=6379, decode_responses=True)
-
-# Limpiar Redis al inicio
+# Global variables
+EVENT_RECEIVER_URL = "http://34.65.255.107:8000/log-httpd-event"
+model_path = "models/random_forest_model.pkl"  # Path to the saved model
+tokenizer_path = "models/tokenizer.pkl"  # Path to tokenizer
+redis_client = redis.Redis(host='localhost', port=6379, db=0)  # Redis client
 print("Vaciando la base de datos Redis...")
-redis_db.flushdb()
+redis_client.flushdb()
 print("Base de datos Redis vaciada.")
 
-# Patrones de log
-patterns = {
-    "failed_password_log": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Failed password for (?:invalid )?(?:user )?(?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
-    "invalid_user_log": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Invalid user (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
-    "accepted_password": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Accepted password for (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
-    "generic_connection_log": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) (?P<log_head>[\w\s]+) (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
-    "general_log": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) (?P<log_head>[\w\s]+)",
-}
+# Load the trained model
+print(f"Loading model from {model_path}...")
+model = joblib.load(model_path)
 
-# Cargar el modelo
-model_path = 'models/sftp_anomaly_detector.h5'
-model = load_model(model_path)
+# Load the tokenizer
+print(f"Loading tokenizer from {tokenizer_path}...")
+with open(tokenizer_path, 'rb') as handle:
+    tokenizer = pickle.load(handle)
 
-# Características necesarias para el modelo
-features = ["failed_password_attempt_count", "ip_attempt_count", "log_type_encoded"]
-
-
-def send_event(row):
-    raw_log = row["raw_log"]
-    timestamp = row["timestamp"]
-    predicted_label = row["predicted_label"]
-    log_type = row["log_type"]
-    user = row["user"]
-    ip = row["ip"]
-    
-    if isinstance(raw_log, str) and isinstance(timestamp, str) and raw_log.startswith(timestamp):
-        raw_log = raw_log[len(timestamp):].strip()  # Quitar el timestamp del inicio del raw_log
-
-
-    """Enviar un evento al receptor"""
-    event = {
-        "timestamp": timestamp,
-        "raw_log": raw_log,
-        "predicted_label": predicted_label
-    }
-    try:
-        response = requests.post(EVENT_RECEIVER_URL, json=event)
-        if response.status_code == 200:
-            print(f"Evento enviado: {event}")
-        else:
-            print(f"Error al enviar el evento: {response.status_code}, {response.text}")
-    except Exception as e:
-        print(f"Error al conectar con el receptor: {e}")
-
-
-
-# Función para estructurar una línea de log
-def structure_line(line):
+# Function to parse each log line
+def parseLine(line):
+    # Remove any surrounding quotes from the line
+    log_pattern = re.compile(
+        r'(?P<ip>[\d\.]+) - - \[(?P<date>[\w:/]+\s[+\-]\d+)\] "(?P<method>[^\s"]+)\s(?P<endpoint>[^\s"]+)\s(?P<protocol>HTTP/[\d\.]+)?" (?P<status>\d+) (?P<size>[\d\-]+)'
+    )
     line = line.strip()
-    structured = {"log_type": None, "timestamp": None, "log_head": None, "user": None, "ip": None, "port": None, "log_tail": None, "raw_log": line}
-    for log_type, pattern in patterns.items():
-        match = re.match(pattern, line)
-        if match:
-            structured.update(match.groupdict())
-            structured["log_type"] = log_type
-            break
-    return pd.DataFrame([structured])
+    if line.startswith('"') and line.endswith('"'):
+        line = line[1:-1]  # Remove the outermost quotes
+        line = line.replace('""', '"')
 
-# Función para procesar DataFrame de logs
-def process_line_dataframe(line_df):
-    # Inicializar las columnas requeridas
-    line_df['failed_password_attempt_count'] = 0
-    line_df['ip_attempt_count'] = 0
+    match = log_pattern.match(line)
+    if match:
+        log_entry = match.groupdict()
+        log_entry.pop("protocol", None)
+        # Convert size to integer where applicable
+        log_entry["size"] = int(log_entry["size"]) if log_entry["size"].isdigit() else None
+        # Add the flag value to the log entry if provided
+        return log_entry
+    else:
+        return False
 
-    # Procesar cada línea
-    for index, row in line_df.iterrows():
-        ip = row.get("ip", "unknown")
-        user = row.get("user", "unknown")
-        log_type = row.get("log_type", "general_log")
+# Function to preprocess logs
+def preprocess_logs(logs):
+    endpoint_sequences = tokenizer.texts_to_sequences(logs)
+    return pad_sequences(endpoint_sequences, maxlen=50, padding='post')
 
-        if log_type in ["invalid_user_log", "failed_password_log"]:
-            redis_db.hincrby(f"{ip}", "count_ip", 1)
-            ip_count = int(redis_db.hget(f"{ip}", "count_ip") or 0)
-            line_df.at[index, 'ip_attempt_count'] = ip_count
-
-        if log_type == "failed_password_log":
-            redis_db.hincrby(f"{ip}:{user}", "count_user_password", 1)
-            password_count = int(redis_db.hget(f"{ip}:{user}", "count_user_password") or 0)
-            line_df.at[index, 'failed_password_attempt_count'] = password_count
-
-        elif log_type == "accepted_password":
-            redis_db.hdel(f"{ip}:{user}", "count_user_password")
-
-    # Generar log_type_encoded
-    if "log_type_encoded" not in line_df.columns:
-        label_encoder = LabelEncoder()
-        line_df['log_type_encoded'] = label_encoder.fit_transform(line_df['log_type'].astype(str))
-
-    # Rellenar valores NaN si los hay
-    line_df = line_df.fillna(0)
-
-    return line_df[features]
-
-# Función para predecir con el modelo
-def predict_with_model(features_df):
-    predictions = model.predict(features_df)
-    predictions = (predictions.flatten() > 0.5).astype(int)
+# Function to predict with the model
+def predict_with_model(logs, requests_per_minute):
+    endpoint_padded = preprocess_logs(logs)
+    X_real = pd.DataFrame({
+        'requests_per_minute': requests_per_minute,
+    })
+    X_real = np.hstack((X_real.values, endpoint_padded))
+    predictions = model.predict(X_real)
     return predictions
 
-# Función para manejar logs en streaming
-def stream_pod_logs(namespace, pod_name, container_name=None,only_live=False):
+# Function to calculate requests per minute from Redis
+def calculate_requests_per_minute(ip, current_timestamp):
+    # Store the current timestamp in Redis
+    key = f"requests:{ip}"
+    redis_client.zadd(key, {current_timestamp: current_timestamp})
+    # Remove timestamps older than 1 minute
+    one_minute_ago = current_timestamp - 60
+    redis_client.zremrangebyscore(key, '-inf', one_minute_ago)
+    # Get the number of requests in the last minute
+    requests_count = redis_client.zcard(key)
+    return requests_count
+
+def calculate_requests_per_second(ip, current_timestamp):
+    # Store the current timestamp in Redis
+    key = f"requests:{ip}:second"
+    redis_client.zadd(key, {current_timestamp: current_timestamp})
+    # Remove timestamps older than 1 second
+    one_second_ago = current_timestamp - 1
+    redis_client.zremrangebyscore(key, '-inf', one_second_ago)
+    # Get the number of requests in the last second
+    requests_count = redis_client.zcard(key)
+    return requests_count
+
+# Function to process and predict logs
+def process_and_predict_log(raw_log):
+    # Parse the log line
+    parsed_log = parseLine(raw_log)
+    
+    if not parsed_log:
+        print(f"[!] Skipping log: {raw_log}")
+        return None
+
+    ip = parsed_log.get('ip')
+    timestamp_str = parsed_log.get('date')
+    endpoint = parsed_log.get('endpoint')
+
+    # Parse the timestamp manually
     try:
-        # Cargar configuración de Kubernetes
+        timestamp = datetime.strptime(timestamp_str, "%d/%b/%Y:%H:%M:%S %z")
+        timestamp_unix = timestamp.timestamp()
+    except ValueError as e:
+        print(f"[!] Skipping log due to timestamp parsing error: {raw_log} - {e}")
+        return None
+
+    # Calculate requests per minute
+    #requests_per_minute = calculate_requests_per_minute(ip, timestamp_unix)
+    requests_per_second = calculate_requests_per_second(ip, timestamp_unix)
+    print(f"[?] Requests per second per ip (${ip}): ${requests_per_second}")
+
+    # Preprocess and predict
+    prediction = predict_with_model([endpoint], [requests_per_second])
+    label = 'anomaly' if prediction[0] == 1 else 'normal'
+    
+    # Structure the result
+    return {
+        "timestamp": timestamp_str,
+        "raw_log": raw_log,
+        "predicted_label": label
+    }
+# Prepare the event object for sending
+def prepare_event_object(row):
+    # Prepare the event payload
+    event = {
+        "timestamp": row["timestamp"],
+        "raw_log": row["raw_log"],
+        "predicted_label": row["predicted_label"]
+    }
+    
+    # Debugging: Check the event before sending
+    print(f"Prepared Event: {event}")
+    return event
+
+# Function to send events to a receiver
+def send_event(row):
+    preparedEventObject = prepare_event_object(row)
+    print(preparedEventObject)
+    try:
+        response = requests.post(EVENT_RECEIVER_URL, json=preparedEventObject)
+        if response.status_code == 200:
+            print(f"Event sent successfully: {preparedEventObject}")
+        else:
+            print(f"Failed to send event: {response.status_code} {response.text}")
+    except Exception as e:
+        print(f"Error sending event: {e}")
+
+# Function to stream logs from a Kubernetes pod
+def stream_pod_logs(namespace, pod_name, container_name=None, only_live=False):
+    counter=0
+    try:
+        # Load Kubernetes config
         config.load_kube_config()
 
-        # Crear cliente de CoreV1Api
+        # Create Kubernetes CoreV1 API client
         v1 = client.CoreV1Api()
 
-        # Inicializar watch para logs en vivo
+        # Initialize log stream
         w = watch.Watch()
-        print(f"Streaming logs en tiempo real del pod {pod_name} en el namespace {namespace}...")
+        print(f"Streaming logs in real-time from pod {pod_name} in namespace {namespace}...")
 
         for line in w.stream(
             v1.read_namespaced_pod_log,
             name=pod_name,
             namespace=namespace,
             container=container_name,
-            follow=True,
+            follow=not only_live,
             since_seconds=1 if only_live else None,
-            timestamps=True  # Incluye timestamps en los logs
+            timestamps=False
         ):
-            # Estructurar y procesar la línea
-            structured_df = structure_line(line)
-            features_df = process_line_dataframe(structured_df)
+            counter+=1
+            if counter<20:
+                if line:
+                    # Process the raw log
+                    prediction_result = process_and_predict_log(line)
+                    if prediction_result:
+                        send_event(prediction_result)
+                else:
+                    exit(1)
+            else:
+                exit(1)
+            
 
-            # Hacer predicción
-            predictions = predict_with_model(features_df)
-            structured_df['predicted_label'] = predictions
-            structured_df['predicted_label'] = structured_df['predicted_label'].map({0: 'normal', 1: 'anomaly'})
+    except client.exceptions.ApiException as e:
+        print(f"Error streaming logs: {e}")
 
-            # Mostrar resultados
-            print(structured_df[['raw_log', 'predicted_label']])
-            # Enviar el evento al receptor si es anomalia
-            for _, row in structured_df.iterrows():
-#               if row['predicted_label'] == 'anomaly':
-                send_event(row)
-
-
-    except ApiException as e:
-        print(f"Error al obtener logs en streaming: {e}")
-
-# Main
+# Main function
 if __name__ == "__main__":
-
-        # Configurar argumentos del script
-    parser = argparse.ArgumentParser(description="Stream de logs de un pod en Kubernetes")
-    parser.add_argument("--only-live", action="store_true", help="Si se establece, solo obtiene logs en vivo")
-
+    # Configure script arguments
+    parser = argparse.ArgumentParser(description="Stream logs from a Kubernetes pod")
+    parser.add_argument("--only-live", action="store_true", help="If set, only fetch live logs")
     args = parser.parse_args()
 
-
+    # Kubernetes configuration
     namespace = "default"
-    pod_name = "my-digital-twin-sftp-server-deployment-5f98586588-szq7d"
+    pod_name = "my-digital-twin-httpd-server-deployment-85b7bb64f6-f8qxd"
     container_name = None
 
-    # Habilitar streaming en vivo de logs
+    # Start streaming logs
     stream_pod_logs(namespace, pod_name, container_name, only_live=args.only_live)
+    exit(1)

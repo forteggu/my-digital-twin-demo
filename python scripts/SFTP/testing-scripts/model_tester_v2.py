@@ -13,7 +13,7 @@ print(result.stdout)
 print(result.stderr)  # Para errores
 
 # Cargar el modelo
-model_path = '../models/sftp_anomaly_detector_v2.h5'
+model_path = '../models/sftp_anomaly_detector_v3.h5'
 model = load_model(model_path)
 
 # Cargar el nuevo conjunto de datos (sin la columna 'label')

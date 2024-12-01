@@ -15,14 +15,14 @@ spec:
     spec:
       containers:
       - name: my-digital-twin-httpd-container
-        image: gcr.io/helical-ion-441012-v0/httpd:1.0
+        image: gcr.io/helical-ion-441012-v0/httpd:latest
         ports:
         - containerPort: 80
         resources:
           requests:
-            cpu: "100m"
+            cpu: "200m"
             memory: "64Mi"
           limits:
-            cpu: "200m"
+            cpu: "250m"
             memory: "128Mi"
 

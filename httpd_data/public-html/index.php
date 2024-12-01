@@ -55,10 +55,10 @@
             <div class="container">
                 <h2>Users</h2>
                 <form id="userForm" class="form">
-                    <label for="userId">User ID:</label>
-                    <input type="text" id="userId" name="userId" class="input" placeholder="Enter user ID">
+                    <label for="userName">User Name:</label>
+                    <input type="text" id="userName" name="userName" class="input" placeholder="Enter user Name">
                     <br>
-                    <button type="button" id="fetchUser" class="btn">Fetch User</button>
+                    <button type="submit" id="fetchUser" class="btn">Fetch User</button>
                 </form>
                 <div id="userResult" class="result">
                     <!-- Results from the microservice will appear here -->
@@ -75,18 +75,22 @@
 
     <script>
         // Fetch user data from the microservice
-        document.getElementById("fetchUser").addEventListener("click", () => {
-            const userId = document.getElementById("userId").value;
+        document.getElementById("userForm").addEventListener("submit", (event) => {
+            
+            event.preventDefault();
+            const userName = document.getElementById("userName").value;
             const userResult = document.getElementById("userResult");
-
-            fetch(`http://localhost:3000/user?id=${userId}`)
+            // const url = `http://localhost:3000/user?name=${userName}`; //localhost
+            //const url = `http://loadbalancer-service:3000/user?name=${userName}`; //deployment For some reason it fails a lot
+            const url = `http://http://34.65.84.23/:3000/user?name=${userName}`; //deployment
+            fetch(`http://localhost:3000/user?name=${userName}`)
                 .then((response) => response.json())
                 .then((data) => {
                     console.log(data);
                     if (data.length > 0) {
                         userResult.innerHTML = `<p>User found: ${JSON.stringify(data)}</p>`;
                     } else {
-                        userResult.innerHTML = `<p>No user found with ID ${userId}.</p>`;
+                        userResult.innerHTML = `<p>No user found with name ${userName}.</p>`;
                     }
                 })
                 .catch((error) => {

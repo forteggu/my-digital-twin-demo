@@ -19,6 +19,8 @@ with open('../datasets/sftpd_timestamps.log', 'r') as f:
 
 # Patrones de log
 patterns = {
+    "max_auth_requests": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) maximum authentication attempts exceeded for ?(?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
+    "too_many_failures": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Disconnecting authenticating user ?(?P<user>\w+) (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
     "failed_password_log": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Failed password for (?:invalid )?(?:user )?(?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
     "invalid_user_log": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Invalid user (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
     "accepted_password": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Accepted password for (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
@@ -97,7 +99,13 @@ for index, row in df_logs.iterrows():
     user = row.get("user", "unknown")
     log_type = row.get("log_type", "general_log")
 
-    if log_type in ["ftp_brute"]:
+    if log_type in ["max_auth_requests"]:
+        df_logs.at[index, 'label'] = 'anomaly'
+
+    elif log_type in ["too_many_failures"]:
+        df_logs.at[index, 'label'] = 'anomaly'
+
+    elif log_type in ["ftp_brute"]:
         # Incrementar conteos en Redis
         redis_db.hincrby(f"{ip}", "count_ip", 1)
         ip_count = int(redis_db.hget(f"{ip}", "count_ip") or 0)

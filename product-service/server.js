@@ -9,21 +9,24 @@ app.use(cors());
 // Crear una tabla y agregar datos de ejemplo
 db.serialize(() => {
   db.run("CREATE TABLE users (id INT, name TEXT)");
-  db.run("INSERT INTO users (id, name) VALUES (1, 'Alice')");
-  db.run("INSERT INTO users (id, name) VALUES (2, 'Bob')");
+  db.run("INSERT INTO users (id, name) VALUES (1, 'admin')");
+  db.run("INSERT INTO users (id, name) VALUES (2, 'Alice')");
+  db.run("INSERT INTO users (id, name) VALUES (3, 'Bob')");
+  db.run("INSERT INTO users (id, name) VALUES (4, 'Bobber')");
+  db.run("INSERT INTO users (id, name) VALUES (5, 'Kurwa')");
+  db.run("INSERT INTO users (id, name) VALUES (6, 'BobberKurwa')");
 });
 
 // Endpoint vulnerable a inyección SQL
 app.get('/user', (req, res) => {
-  const userId = req.query.id;
-
+  const userName = req.query.name;
+  
   // Consulta vulnerable a inyección SQL
-  const query = `SELECT * FROM users WHERE id = ${userId}`;
+  const query = `SELECT * FROM users WHERE name = '${userName}'`;
   console.log(`Ejecutando consulta: ${query}`);
-
   db.all(query, (err, rows) => {
     if (err) {
-      res.status(500).send("Error en la consulta");
+      res.status(500).send({error:"Error en la consulta"});
       return;
     }
     res.json(rows);

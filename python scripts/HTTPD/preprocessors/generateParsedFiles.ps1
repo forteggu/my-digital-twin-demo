@@ -10,8 +10,12 @@ Write-Host "[*] Generating ffuf-small ..."
 python .\log2csv.py "..\datasets\originals\ffuf-small.csv"
 python .\appendFlag2CSV.py "..\datasets\parsed\parsed_ffuf-small.csv" "..\datasets\parsed\parsed_ffuf-small.csv" flag anomaly
 
+Write-Host "[*] Generating XSS .."
+python .\dataAugmenter.py ..\datasets\parsed\parsed_xss_exploit_logs.csv ..\datasets\parsed\parsed_xss_exploit_logs_augmented.csv flag anomaly --n_copies 7
+
 Write-Host "[*] Generating httpd_logs_with_behavior ..."
 python .\httpd_logs_with_behavior_parser.py
+python .\dataAugmenter.py ../datasets/parsed/httpd_logs_with_behavior_parsed.csv ../datasets/parsed/augmented_httpd_logs_with_behavior_parsed.csv flag anomaly --n_copies 5
 
 Write-Host "[*] Generating search_benign ..."
 python .\appendFlag2CSV.py "..\datasets\originals\search_benign.csv" "..\datasets\parsed\parsed_search_benign.csv" flag normal

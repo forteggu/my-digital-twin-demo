@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-digital-twin-vulnerable-microservice-container
-        image: gcr.io/helical-ion-441012-v0/vulnerable-service:latest
+        image: gcr.io/helical-ion-441012-v0/ms-vulnerable:latest
         ports:
         - containerPort: 3000
         env:
@@ -23,8 +23,8 @@ spec:
           value: development
         resources:
           requests:
-            cpu: "100m"
+            cpu: "200m"
             memory: "64Mi"
           limits:
-            cpu: "200m"
+            cpu: "250m"
             memory: "128Mi"

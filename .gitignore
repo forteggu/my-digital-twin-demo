@@ -4,3 +4,4 @@ python scripts/datasets
 python scripts/processed_datasets
 notifications_manager/server/node_modules/
 notifications_manager/visualizer/node_modules/
+python scripts/MYSQLI/sqli_attacks_tester/node_modules

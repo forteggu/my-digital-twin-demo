@@ -130,17 +130,13 @@ def stream_pod_logs(namespace, pod_name, container_name=None, only_live=False):
             namespace=namespace,
             container=container_name,
             follow=not only_live,
-            #since_seconds=1 if only_live else None,
+            since_seconds=1 if only_live else None,
             timestamps=True
         ):
             if(line):
                 # Process the raw log
                 prediction_result = process_and_predict_log(line)
                 send_event(prediction_result)
-                if(count<=5):
-                    count+=1
-                else:
-                    w.close()
             else:
                 exit(1)
 

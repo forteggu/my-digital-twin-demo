@@ -13,12 +13,16 @@ redis_db.flushdb()
 print("Base de datos Redis vaciada.")
 
 # Leer logs desde el archivo
-with open('./datasets/sftpd_timestamps.log', 'r') as f:
+with open('../datasets/sftpd2_timestamps.log', 'r') as f:
     log_lines = f.readlines()
     print(f"Total de líneas en el archivo: {len(log_lines)}")
 
+#maximum authentication attempts exceeded for mydigitaltwinuser from 185.209.120.11 port 41489 ssh2 [preauth]
+#Disconnecting authenticating user mydigitaltwinuser 185.209.120.11 port 41489: Too many authentication failures [preauth]
 # Patrones de log
 patterns = {
+    "max_auth_requests": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) maximum authentication attempts exceeded for ?(?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
+    "too_many_failures": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Disconnecting authenticating user ?(?P<user>\w+) (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
     "failed_password_log": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Failed password for (?:invalid )?(?:user )?(?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
     "invalid_user_log": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Invalid user (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
     "accepted_password": r"^(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z) Accepted password for (?P<user>\w+) from (?P<ip>\d+\.\d+\.\d+\.\d+) port (?P<port>\d+)(?: (?P<log_tail>.*))?",
@@ -46,7 +50,7 @@ df_logs = pd.DataFrame(structured_logs)
 
 
 # Ruta del nuevo CSV
-ftpBruteDataset = './datasets/10.csv'
+ftpBruteDataset = '../datasets/10.csv'
 
 # Carga el nuevo CSV
 ftpBrute_dataset = pd.read_csv(ftpBruteDataset, dtype=str)
@@ -98,7 +102,13 @@ for index, row in df_logs.iterrows():
     user = row.get("user", "unknown")
     log_type = row.get("log_type", "general_log")
 
-    if log_type in ["ftp_brute"]:
+    if log_type in ["max_auth_requests"]:
+        df_logs.at[index, 'label'] = 'anomaly'
+
+    elif log_type in ["too_many_failures"]:
+        df_logs.at[index, 'label'] = 'anomaly'
+
+    elif log_type in ["ftp_brute"]:
         # Incrementar conteos en Redis
         redis_db.hincrby(f"{ip}", "count_ip", 1)
         ip_count = int(redis_db.hget(f"{ip}", "count_ip") or 0)
@@ -146,4 +156,4 @@ print(f"Tiempo: {time.time() - start_time} segundos")
 print(df_logs)
 
 # Guardar en CSV
-df_logs.to_csv('processed_datasets/structured_sftp_logs_with_counts_timestamps.csv', index=False)
+df_logs.to_csv('../processed_datasets/structured_sftp_logs_with_counts_timestamps2.csv', index=False)

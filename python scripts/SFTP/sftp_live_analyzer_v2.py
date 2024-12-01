@@ -8,9 +8,13 @@ import redis
 import re
 import requests
 import argparse
+import time
+
+timeout = 30  # seconds
+last_log_time = time.time()
 
 #EVENT_RECEIVER_URL = "http://localhost:8000/log-event/"
-EVENT_RECEIVER_URL = "http://34.65.255.107:8000/log-event/"
+EVENT_RECEIVER_URL = "http://34.65.255.107:8000/log-sftpd-event"
 
 # Inicializar entorno y variables
 redis_db = redis.Redis(host='localhost', port=6379, decode_responses=True)
@@ -30,7 +34,7 @@ patterns = {
 }
 
 # Cargar el modelo
-model_path = 'models/sftp_anomaly_detector.h5'
+model_path = 'models/sftp_anomaly_detector_v3.h5'
 model = load_model(model_path)
 
 # Características necesarias para el modelo
@@ -49,7 +53,7 @@ def send_event(row):
         raw_log = raw_log[len(timestamp):].strip()  # Quitar el timestamp del inicio del raw_log
 
 
-    """Enviar un evento al receptor"""
+    # """Enviar un evento al receptor"""
     event = {
         "timestamp": timestamp,
         "raw_log": raw_log,
@@ -141,22 +145,30 @@ def stream_pod_logs(namespace, pod_name, container_name=None,only_live=False):
             since_seconds=1 if only_live else None,
             timestamps=True  # Incluye timestamps en los logs
         ):
-            # Estructurar y procesar la línea
-            structured_df = structure_line(line)
-            features_df = process_line_dataframe(structured_df)
+            last_log_time = time.time()  # Reset the timeout
+            try:
+                # Estructurar y procesar la línea
+                structured_df = structure_line(line)
+                features_df = process_line_dataframe(structured_df)
 
-            # Hacer predicción
-            predictions = predict_with_model(features_df)
-            structured_df['predicted_label'] = predictions
-            structured_df['predicted_label'] = structured_df['predicted_label'].map({0: 'normal', 1: 'anomaly'})
+                # Hacer predicción
+                predictions = predict_with_model(features_df)
+                structured_df['predicted_label'] = predictions
+                structured_df['predicted_label'] = structured_df['predicted_label'].map({0: 'normal', 1: 'anomaly'})
 
-            # Mostrar resultados
-            print(structured_df[['raw_log', 'predicted_label']])
-            # Enviar el evento al receptor si es anomalia
-            for _, row in structured_df.iterrows():
-#               if row['predicted_label'] == 'anomaly':
-                send_event(row)
+                # Mostrar resultados
+                print(structured_df[['raw_log', 'predicted_label']])
+                # Enviar el evento al receptor si es anomalia
+                for _, row in structured_df.iterrows():
+    #               if row['predicted_label'] == 'anomaly':
+                    send_event(row)
+            except Exception as e:
+                print(f"Error procesando línea de log: {e}")
 
+            # Exit if the timeout is reached
+            if time.time() - last_log_time > timeout:
+                print("Timeout alcanzado. Saliendo del streaming.")
+                break
 
     except ApiException as e:
         print(f"Error al obtener logs en streaming: {e}")

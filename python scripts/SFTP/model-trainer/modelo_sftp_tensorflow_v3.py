@@ -8,9 +8,9 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 # Configuración inicial
-data_path = './processed_datasets/structured_sftp_logs_with_counts_timestamps.csv'
-model_save_path = 'models/sftp_anomaly_detector_v2.h5'
-csv_output = 'model_outputs/sftp_model_training_results_timestamps.csv'
+data_path = '../processed_datasets/structured_sftp_logs_with_counts_timestamps2.csv'
+model_save_path = '../models/sftp_anomaly_detector_v3.h5'
+csv_output = '../model_outputs/sftp_model_training_results_timestamps.csv'
 # 1. Cargar y Preprocesar Datos
 print("Cargando datos...")
 data = pd.read_csv(data_path)
@@ -41,10 +41,10 @@ X = X.fillna(0)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Guardar conjuntos preprocesados para reutilizar
-X_train.to_csv('./processed_datasets/X_train.csv', index=False)
-X_test.to_csv('./processed_datasets/X_test.csv', index=False)
-y_train.to_csv('./processed_datasets/y_train.csv', index=False)
-y_test.to_csv('./processed_datasets/y_test.csv', index=False)
+X_train.to_csv('../processed_datasets/X_train.csv', index=False)
+X_test.to_csv('../processed_datasets/X_test.csv', index=False)
+y_train.to_csv('../processed_datasets/y_train.csv', index=False)
+y_test.to_csv('../processed_datasets/y_test.csv', index=False)
 
 print("Datos preprocesados y guardados.")
 

@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: event-receiver
-        image: gcr.io/helical-ion-441012-v0/event-receiver:3.0
+        image: gcr.io/helical-ion-441012-v0/event-receiver:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
         resources:
