@@ -173,17 +173,17 @@ def stream_pod_logs(namespace, pod_name, container_name=None, only_live=False):
             since_seconds=1 if only_live else None,
             timestamps=False
         ):
-            counter+=1
-            if counter<20:
-                if line:
-                    # Process the raw log
-                    prediction_result = process_and_predict_log(line)
-                    if prediction_result:
-                        send_event(prediction_result)
-                else:
-                    exit(1)
+            # counter+=1
+            # if counter<20:
+            if line:
+                # Process the raw log
+                prediction_result = process_and_predict_log(line)
+                if prediction_result:
+                    send_event(prediction_result)
             else:
                 exit(1)
+            # else:
+            #     exit(1)
             
 
     except client.exceptions.ApiException as e:
